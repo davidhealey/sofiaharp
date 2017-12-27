@@ -5,11 +5,8 @@ namespace articulationEditor
 		reg keyswitches = []; //User customisable values (unused ones will be set to -1 by script)
 		const var programs = [1, 40, 9, 17, 10]; //UACC and Program Change numbers for articulations
 		
-		const var cmbKs = [];
-		const var sliArtVol = [];
-		const var sliAtk = [];
-		const var sliRel = [];
-		const var containers = []; //Containers whose IDs match articulation names
+		const var envelopeIds = Synth.getIdList("Simple Envelope");
+		reg containers = []; //Containers whose IDs match articulation names
 		reg muters = [];
 		reg envelopes = {};
 	
@@ -23,6 +20,11 @@ namespace articulationEditor
 		}
 		
 		//GUI
+		const var cmbKs = [];
+		const var sliArtVol = [];
+		const var sliAtk = [];
+		const var sliRel = [];
+		
 		const var cmbArt = Content.getComponent("cmbArt");
 		ui.comboBoxPanel("cmbArt", paintRoutines.comboBox, instrumentData.articulationDisplayNames, "Articulation");
 	
@@ -60,14 +62,13 @@ namespace articulationEditor
 			//Find envelopes for each articulation - ignore those with Release or Without envelope in the ID
 			for (e in envelopeIds)
 			{
-				if (e.indexOf(instrumentData.articulations[i]) || e.indexOf("Release") == -1 || e.indexOf("Envelope"))
+				if (e.indexOf(instrumentData.articulations[i]) != -1 && e.indexOf("nvelope") != -1 && e.indexOf("Release") == -1)
 				{
 					if (envelopes[i] == undefined) envelopes[i] = []; //An articulation may have more than one envelope
 					envelopes[i].push(Synth.getModulator(e));
-					break; //Exit inner loop
 				}
 			}
-		}		
+		}
 	}
 	
 	inline function onNoteCB()
@@ -115,10 +116,18 @@ namespace articulationEditor
 			}
 			else if (number == sliAtk[i])
 			{
+				for (e in envelopes[i]) //Each envelope for the articulation (i)
+				{
+					e.setAttribute(e.Attack, value);
+				}
 				break;
 			}
 			else if (number == sliRel[i])
 			{
+				for (e in envelopes[i]) //Each envelope for the articulation (i)
+				{
+					e.setAttribute(e.Release, value);
+				}
 				break;
 			}
 		}
