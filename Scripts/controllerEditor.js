@@ -25,6 +25,26 @@ namespace controllerEditor
 		}
 	}
 	
+	inline function onControllerCB()
+	{
+		local n = Message.getControllerNumber();
+		local v = Message.getControllerValue();
+		
+		if (userCc.contains(n)) //User defined CC triggered the callback
+		{
+			Message.ignoreEvent(true); //I'll take it from here
+			
+			for (i = 0; i < parameters.length; i++) //Each parameter
+			{
+				if (n == cmbCc[i].getValue()) //CC has been assigned to this parameter
+				{
+					//Scale and forward value to real CC
+					Synth.sendController(realCc[i], parseInt(127 * tblCc[i].getTableValue(v)));
+				}
+			}
+		}		
+	}
+	
 	inline function onControlCB(number, value)
 	{
 		if (number == cmbParam)
