@@ -66,7 +66,7 @@ namespace articulationEditor
 		if (idx != -1) //Keyswitch triggered the callback
 		{
 			changeArticulation(idx);			
-			cmbArt.setValue(idx); //Change displayed selected articulation
+			cmbArt.setValue(idx+1); //Change displayed selected articulation
 			cmbArt.repaint(); //Async repaint
 			showArticulationControls(idx); //Change displayed articulation controls
 			
@@ -77,8 +77,8 @@ namespace articulationEditor
 	{
 		if (number == cmbArt)
 		{
-			showArticulationControls(value-1);
 			changeArticulation(value-1);
+			showArticulationControls(value-1);
 		}
 
 		for (i = 0; i < instrumentData.articulations.length; i++)
