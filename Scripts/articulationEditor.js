@@ -9,9 +9,20 @@ namespace articulationEditor
 		const var sliArtVol = [];
 		const var sliAtk = [];
 		const var sliRel = [];
+		const var containers = []; //Containers whose IDs match articulation names
 		reg muters = [];
 		reg envelopes = {};
 	
+		//Get articulation containers
+		for (c in containerIds) //containerIDs is in main script
+		{
+			if (instrumentData.articulations.indexOf(c) != -1)
+			{
+				containers.push(Synth.getChildSynth(c));
+			}
+		}
+		
+		//GUI
 		const var cmbArt = Content.getComponent("cmbArt");
 		ui.comboBoxPanel("cmbArt", paintRoutines.comboBox, instrumentData.articulationDisplayNames, "Articulation");
 	
@@ -68,8 +79,7 @@ namespace articulationEditor
 			changeArticulation(idx);			
 			cmbArt.setValue(idx+1); //Change displayed selected articulation
 			cmbArt.repaint(); //Async repaint
-			showArticulationControls(idx); //Change displayed articulation controls
-			
+			showArticulationControls(idx); //Change displayed articulation controls	
 		}
 	}
 	
@@ -90,13 +100,25 @@ namespace articulationEditor
 					Engine.setKeyColour(keyswitches[i], Colours.withAlpha(Colours.white, 0.0)); //Reset current KS colour
 					keyswitches[i] = value-1; //Update KS
 					Engine.setKeyColour(keyswitches[i], Colours.withAlpha(Colours.red, 0.3)); //Update KS colour			
-					Console.print(value);
 				}
 				else 
 				{
 					cmbKs[i].setValue(keyswitches[i]+1); //Revert to previous KS
 					cmbKs[i].repaintImmediately();
 				}
+				break;
+			}
+			else if (number == sliArtVol[i]) //Articulation volume
+			{
+				containers[i].setAttribute(0, Engine.getGainFactorForDecibels(value));
+				break;
+			}
+			else if (number == sliAtk[i])
+			{
+				break;
+			}
+			else if (number == sliRel[i])
+			{
 				break;
 			}
 		}
