@@ -59,6 +59,20 @@ namespace articulationEditor
 		}		
 	}
 	
+	inline function onNoteCB()
+	{
+		local idx = keyswitches.indexOf(Message.getNoteNumber()); //Check for index in keyswitches array
+		
+		if (idx != -1) //Keyswitch triggered the callback
+		{
+			changeArticulation(idx);			
+			cmbArt.setValue(idx); //Change displayed selected articulation
+			cmbArt.repaint(); //Async repaint
+			showArticulationControls(idx); //Change displayed articulation controls
+			
+		}
+	}
+	
 	inline function onControlCB(number, value)
 	{
 		if (number == cmbArt)
@@ -69,7 +83,7 @@ namespace articulationEditor
 
 		for (i = 0; i < instrumentData.articulations.length; i++)
 		{
-			if (number == cmbKs[i])
+			if (number == cmbKs[i]) //Key switch
 			{
 				if (value <= instrumentData.range[0] || value >= instrumentData.range[1]) //Outside playable range
 				{
