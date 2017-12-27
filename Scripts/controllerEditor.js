@@ -25,6 +25,15 @@ namespace controllerEditor
 	
 	inline function onControlCB(number, value)
 	{
-		
+		if (number == cmbParam)
+		{
+			for (i = 0; i < parameters.length; i++)
+			{
+				cmbCc[i].set("visible", false);
+				tblCc[i].set("visible", false);
+			}
+			cmbCc[value-1].set("visible", true);
+			tblCc[value-1].set("visible", true);
+		}
 	}	
 }
