@@ -37,8 +37,8 @@ namespace paintRoutines
 		g.fillRect([0, this.get("height")/2, this.get("width"), this.get("height")/3]);
 
 		//X position of slider based on its current normalized value
-		var xPos = (this.get("width")-(this.get("width")/6)) * ui.getNormalizedValue(this);
-		
+		//reg xPos = (this.get("width")-(this.get("width")/6)) * ui.getNormalizedValue(this.get("id"));
+		reg xPos = (this.get("width")-(this.get("width")/6)) * (this.getValue() * 10);
 		g.setColour(Theme.SLIDER.fg);
 		g.fillRect([xPos, this.get("height")/2, this.get("width")/6, this.get("height")/3]);
 	};
@@ -79,7 +79,7 @@ namespace paintRoutines
 		g.fillPath(svgPaths.releaseIcon, [0, 0, this.get("width"), this.get("height")]);
 	}
 		
-	const var dropDown = function(g)
+	const var comboBox = function(g)
 	{
 		g.setColour(Theme.COMBO.bg);
 		g.fillRoundedRectangle([0, 0, this.get("width"), this.get("height")], 2);
@@ -93,7 +93,7 @@ namespace paintRoutines
 		reg text;
 		this.getValue()-1 == -1 ? text = this.data.text : text = this.data.items[this.getValue()-1];
 		
-		g.drawAlignedText(text, [10, 0, 80, 25], "left");
+		g.drawAlignedText(text, [10, 0, 80, 20], "left");
 	}
 }
 
