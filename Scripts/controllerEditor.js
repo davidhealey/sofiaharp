@@ -41,6 +41,8 @@ namespace controllerEditor
 			
 			for (i = 0; i < parameters.length; i++) //Each parameter
 			{
+				if (realCC[i] < 0) continue; //Ignore internal modulators
+				
 				if (n == cmbCc[i].getValue()) //CC has been assigned to this parameter
 				{
 					//Scale and forward value to real CC
