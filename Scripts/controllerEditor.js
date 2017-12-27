@@ -47,7 +47,11 @@ namespace controllerEditor
 					Synth.sendController(realCc[i], 127 * tblCc[i].getTableValue(v));
 				}
 			}
-		}		
+		}
+		else if (realCc.contains(n)) //Real CCs should only ever be controlled via User CCs
+		{
+			Message.ignoreEvent(true);
+		}
 	}
 	
 	inline function onControlCB(number, value)
