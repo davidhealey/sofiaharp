@@ -87,9 +87,21 @@ namespace articulationEditor
 	inline function onControllerCB()
 	{
 		local v; //For converting the CC value (0-127) to the correct slider value
-		
+				
 		switch (Message.getControllerNumber())
 		{		
+			case 32: //UACC
+				local idx = programs.indexOf(Message.getControllerValue()); //Lookup program number
+				
+				if (idx != -1) //Assigned program number triggered callback
+				{
+					changeArticulation(idx);			
+					cmbArt.setValue(idx+1); //Change displayed selected articulation
+					cmbArt.repaint(); //Async repaint
+					showArticulationControls(idx); //Change displayed articulation controls	
+				}
+			break;
+			
 			case 73: //MIDI attack CC
 				v = (Message.getControllerValue() * 20000) / 127;			
 				sliAtk[cmbArt.getValue()-1].setValue(v);
