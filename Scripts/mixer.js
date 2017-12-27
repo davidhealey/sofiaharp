@@ -2,6 +2,8 @@ namespace mixer
 {
 	inline function onInitCB()
 	{
+		const var genericMixer = Synth.getMidiProcessor("genericMixer");
+		
 		const var micNames = ["C", "D", "H"]; //Close, decca, hall
 		const var pan = [];
 		const var vol = [];

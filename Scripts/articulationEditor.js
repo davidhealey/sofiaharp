@@ -102,14 +102,14 @@ namespace articulationEditor
 				}
 			break;
 			
-			case 73: //MIDI attack CC
-				v = (Message.getControllerValue() * 20000) / 127;			
+			case 1: //MIDI attack CC
+				v = (Message.getControllerValue() * 20000) / 127;
 				sliAtk[cmbArt.getValue()-1].setValue(v);
 				setEnvelopeAttack(cmbArt.getValue()-1, v);
 			break;
 			
 			case 72: //MIDI release CC
-				v = (Message.getControllerValue() * 20000) / 127;			
+				v = (Message.getControllerValue() * 20000) / 127;
 				sliRel[cmbArt.getValue()-1].setValue(v);
 				setEnvelopeRelease(cmbArt.getValue()-1, v);
 			break;
