@@ -84,6 +84,26 @@ namespace articulationEditor
 		}
 	}
 	
+	inline function onControllerCB()
+	{
+		local v; //For converting the CC value (0-127) to the correct slider value
+		
+		switch (Message.getControllerNumber())
+		{		
+			case 73: //MIDI attack CC
+				v = (Message.getControllerValue() * 20000) / 127;			
+				sliAtk[cmbArt.getValue()-1].setValue(v);
+				setEnvelopeAttack(cmbArt.getValue()-1, v);
+			break;
+			
+			case 72: //MIDI release CC
+				v = (Message.getControllerValue() * 20000) / 127;			
+				sliRel[cmbArt.getValue()-1].setValue(v);
+				setEnvelopeRelease(cmbArt.getValue()-1, v);
+			break;
+		}
+	}
+	
 	inline function onControlCB(number, value)
 	{
 		if (number == cmbArt)
@@ -116,20 +136,30 @@ namespace articulationEditor
 			}
 			else if (number == sliAtk[i])
 			{
-				for (e in envelopes[i]) //Each envelope for the articulation (i)
-				{
-					e.setAttribute(e.Attack, value);
-				}
+				setEnvelopeAttack(i, value);
 				break;
 			}
 			else if (number == sliRel[i])
 			{
-				for (e in envelopes[i]) //Each envelope for the articulation (i)
-				{
-					e.setAttribute(e.Release, value);
-				}
+				setEnvelopeRelease(i, value);
 				break;
 			}
+		}
+	}
+	
+	inline function setEnvelopeAttack(idx, value)
+	{
+		for (e in envelopes[idx]) //Each envelope for the articulation (i)
+		{
+			e.setAttribute(e.Attack, value);
+		}
+	}
+	
+	inline function setEnvelopeRelease(idx, value)
+	{
+		for (e in envelopes[idx]) //Each envelope for the articulation (i)
+		{
+			e.setAttribute(e.Release, value);
 		}
 	}
 	
