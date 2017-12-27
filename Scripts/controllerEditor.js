@@ -25,6 +25,11 @@ namespace controllerEditor
 		}
 	}
 	
+	inline function onNoteCB()
+	{
+		Message.setVelocity(127 * tblCc[0].getTableValue(Message.getVelocity())); //Scale velocity according to table
+	}
+	
 	inline function onControllerCB()
 	{
 		local n = Message.getControllerNumber();
@@ -39,7 +44,7 @@ namespace controllerEditor
 				if (n == cmbCc[i].getValue()) //CC has been assigned to this parameter
 				{
 					//Scale and forward value to real CC
-					Synth.sendController(realCc[i], parseInt(127 * tblCc[i].getTableValue(v)));
+					Synth.sendController(realCc[i], 127 * tblCc[i].getTableValue(v));
 				}
 			}
 		}		

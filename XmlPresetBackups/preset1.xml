@@ -2,20 +2,14 @@
 
 <Processor Type="SynthChain" ID="Preset1" Bypassed="0" Gain="1" Balance="0"
            VoiceLimit="64" KillFadeTime="20" IconColour="0" packageName=""
-           views="32.rk1bzA.....B.........LDZg4lakwF..7VbAA....." currentView="-1"
+           views="32.rk1bzA.....B.........LDZg4lakwF...FvCA....." currentView="-1"
            BuildVersion="650">
   <ChildProcessors>
     <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
       <ChildProcessors/>
     </Processor>
     <Processor Type="ModulatorChain" ID="GainModulation" Bypassed="0" Intensity="1">
-      <ChildProcessors>
-        <Processor Type="MidiController" ID="expressionCC" Bypassed="0" Intensity="1"
-                   UseTable="0" Inverted="0" ControllerNumber="11" SmoothTime="200"
-                   DefaultValue="127">
-          <ChildProcessors/>
-        </Processor>
-      </ChildProcessors>
+      <ChildProcessors/>
     </Processor>
     <Processor Type="ModulatorChain" ID="PitchModulation" Bypassed="1" Intensity="0">
       <ChildProcessors/>
@@ -108,7 +102,7 @@
       <ChildProcessors>
         <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
           <ChildProcessors>
-            <Processor Type="ScriptProcessor" ID="mainInterface" Bypassed="0" Script="include(&quot;HISE-Scripting-Framework/libraries/asyncUpdater.js&quot;);&#10;include(&quot;HISE-Scripting-Framework/libraries/helpers.js&quot;);&#10;include(&quot;HISE-Scripting-Framework/libraries/tab.js&quot;);&#10;include(&quot;HISE-Scripting-Framework/libraries/uiFactory.js&quot;);&#13;&#10;&#13;&#10;include(&quot;instrumentData.js&quot;);&#13;&#10;include(&quot;paintRoutines.js&quot;);&#13;&#10;include(&quot;theme.js&quot;);&#13;&#10;include(&quot;articulationEditor.js&quot;);&#13;&#10;include(&quot;mixer.js&quot;);&#13;&#10;include(&quot;controllerEditor.js&quot;);&#13;&#10;&#13;&#10;Content.makeFrontInterface(650, 372);&#13;&#10;&#13;&#10;Engine.loadFontAs(&quot;{PROJECT_FOLDER}Fonts/OpenSans-Regular.ttf&quot;, &quot;Open Sans&quot;);&#13;&#10;&#13;&#10;const var noteNames = [];&#13;&#10;const var ccNums = [];&#13;&#10;&#13;&#10;const var samplerIds = Synth.getIdList(&quot;Sampler&quot;);&#10;const var containerIds = Synth.getIdList(&quot;Container&quot;);&#10;const var scriptIds = Synth.getIdList(&quot;Script Processor&quot;);&#13;&#10;const var muterIds = Synth.getIdList(&quot;MidiMuter&quot;);&#13;&#10;&#13;&#10;//Populate note names and CC numbers arrays&#13;&#10;for (i = 0; i &lt; 127; i++)&#13;&#10;{&#13;&#10;&#9;noteNames[i] = Engine.getMidiNoteName(i);&#13;&#10;&#9;ccNums[i] = i+1;&#10;}&#13;&#10;&#13;&#10;const var pnlLogo = Content.getComponent(&quot;pnlLogo&quot;);&#13;&#10;pnlLogo.setPaintRoutine(paintRoutines.logo);&#13;&#10;&#13;&#10;const var pnlBg = Content.getComponent(&quot;pnlBg&quot;);&#13;&#10;pnlBg.setPaintRoutine(paintRoutines.mainBg);&#13;&#10;&#13;&#10;const var fltKeyboard = Content.getComponent(&quot;fltKeyboard&quot;);&#13;&#10;fltKeyboard.setContentData({&quot;Type&quot;:&quot;Keyboard&quot;, &quot;LowKey&quot;:24});&#13;&#10;&#13;&#10;const var pnlTitleBg = Content.getComponent(&quot;pnlTitleBg&quot;);&#13;&#10;pnlTitleBg.setPaintRoutine(paintRoutines.titleBG);&#13;&#10;&#13;&#10;//Page tabs&#13;&#10;const var tabs = [];&#13;&#10;tabs[0] = Content.getComponent(&quot;pnlMain&quot;);&#13;&#10;&#13;&#10;//Main page zones&#13;&#10;const var zones = [];&#13;&#10;zones[0] = Content.getComponent(&quot;pnlLeftZone&quot;);&#13;&#10;zones[1] = Content.getComponent(&quot;pnlMidZone&quot;);&#13;&#10;zones[2] = Content.getComponent(&quot;pnlRightZone&quot;);&#13;&#10;&#13;&#10;for (i = 0; i &lt; zones.length; i++)&#13;&#10;{&#13;&#10;&#9;zones[i].setPaintRoutine(paintRoutines.zone);&#10;}&#13;&#10;&#13;&#10;//Zone titles&#13;&#10;const var lblArtTitle = Content.getComponent(&quot;lblArtTitle&quot;);&#13;&#10;const var lblMixer = Content.getComponent(&quot;lblMixer&quot;);&#13;&#10;const var lblControllers = Content.getComponent(&quot;lblControllers&quot;);&#13;&#10;Content.setPropertiesFromJSON(&quot;lblArtTitle&quot;, {textColour:Theme.H1.colour, fontSize:Theme.H1.fontSize});&#13;&#10;Content.setPropertiesFromJSON(&quot;lblMixer&quot;, {textColour:Theme.H1.colour, fontSize:Theme.H1.fontSize});&#13;&#10;Content.setPropertiesFromJSON(&quot;lblControllers&quot;, {textColour:Theme.H1.colour, fontSize:Theme.H1.fontSize});&#13;&#10;&#13;&#10;instrumentData.colourPlayableKeys(); //DELETE THIS&#13;&#10;&#13;&#10;//Includes initialisation&#13;&#10;articulationEditor.onInitCB();&#13;&#10;mixer.onInitCB();&#13;&#10;controllerEditor.onInitCB();function onNoteOn()&#10;{&#10;&#9;articulationEditor.onNoteCB();&#10;}&#10;function onNoteOff()&#10;{&#10;&#9;&#10;}&#10;function onController()&#10;{&#13;&#10;&#9;articulationEditor.onControllerCB();&#9;&#10;}&#10;function onTimer()&#10;{&#10;&#9;&#10;}&#10;function onControl(number, value)&#10;{&#10;&#9;articulationEditor.onControlCB(number, value);&#10;}&#10;">
+            <Processor Type="ScriptProcessor" ID="mainInterface" Bypassed="0" Script="include(&quot;HISE-Scripting-Framework/libraries/asyncUpdater.js&quot;);&#10;include(&quot;HISE-Scripting-Framework/libraries/helpers.js&quot;);&#10;include(&quot;HISE-Scripting-Framework/libraries/tab.js&quot;);&#10;include(&quot;HISE-Scripting-Framework/libraries/uiFactory.js&quot;);&#13;&#10;&#13;&#10;include(&quot;instrumentData.js&quot;);&#13;&#10;include(&quot;paintRoutines.js&quot;);&#13;&#10;include(&quot;theme.js&quot;);&#13;&#10;include(&quot;articulationEditor.js&quot;);&#13;&#10;include(&quot;mixer.js&quot;);&#13;&#10;include(&quot;controllerEditor.js&quot;);&#13;&#10;&#13;&#10;Content.makeFrontInterface(650, 372);&#13;&#10;&#13;&#10;Engine.loadFontAs(&quot;{PROJECT_FOLDER}Fonts/OpenSans-Regular.ttf&quot;, &quot;Open Sans&quot;);&#13;&#10;&#13;&#10;const var noteNames = [];&#13;&#10;const var ccNums = [];&#13;&#10;&#13;&#10;const var samplerIds = Synth.getIdList(&quot;Sampler&quot;);&#10;const var containerIds = Synth.getIdList(&quot;Container&quot;);&#10;const var scriptIds = Synth.getIdList(&quot;Script Processor&quot;);&#13;&#10;const var muterIds = Synth.getIdList(&quot;MidiMuter&quot;);&#13;&#10;&#13;&#10;//Populate note names and CC numbers arrays&#13;&#10;for (i = 0; i &lt; 127; i++)&#13;&#10;{&#13;&#10;&#9;noteNames[i] = Engine.getMidiNoteName(i);&#13;&#10;&#9;ccNums[i] = i+1;&#10;}&#13;&#10;&#13;&#10;const var pnlLogo = Content.getComponent(&quot;pnlLogo&quot;);&#13;&#10;pnlLogo.setPaintRoutine(paintRoutines.logo);&#13;&#10;&#13;&#10;const var pnlBg = Content.getComponent(&quot;pnlBg&quot;);&#13;&#10;pnlBg.setPaintRoutine(paintRoutines.mainBg);&#13;&#10;&#13;&#10;const var fltKeyboard = Content.getComponent(&quot;fltKeyboard&quot;);&#13;&#10;fltKeyboard.setContentData({&quot;Type&quot;:&quot;Keyboard&quot;, &quot;LowKey&quot;:24});&#13;&#10;&#13;&#10;const var pnlTitleBg = Content.getComponent(&quot;pnlTitleBg&quot;);&#13;&#10;pnlTitleBg.setPaintRoutine(paintRoutines.titleBG);&#13;&#10;&#13;&#10;//Page tabs&#13;&#10;const var tabs = [];&#13;&#10;tabs[0] = Content.getComponent(&quot;pnlMain&quot;);&#13;&#10;&#13;&#10;//Main page zones&#13;&#10;const var zones = [];&#13;&#10;zones[0] = Content.getComponent(&quot;pnlLeftZone&quot;);&#13;&#10;zones[1] = Content.getComponent(&quot;pnlMidZone&quot;);&#13;&#10;zones[2] = Content.getComponent(&quot;pnlRightZone&quot;);&#13;&#10;&#13;&#10;for (i = 0; i &lt; zones.length; i++)&#13;&#10;{&#13;&#10;&#9;zones[i].setPaintRoutine(paintRoutines.zone);&#10;}&#13;&#10;&#13;&#10;//Zone titles&#13;&#10;const var lblArtTitle = Content.getComponent(&quot;lblArtTitle&quot;);&#13;&#10;const var lblMixer = Content.getComponent(&quot;lblMixer&quot;);&#13;&#10;const var lblControllers = Content.getComponent(&quot;lblControllers&quot;);&#13;&#10;Content.setPropertiesFromJSON(&quot;lblArtTitle&quot;, {textColour:Theme.H1.colour, fontSize:Theme.H1.fontSize});&#13;&#10;Content.setPropertiesFromJSON(&quot;lblMixer&quot;, {textColour:Theme.H1.colour, fontSize:Theme.H1.fontSize});&#13;&#10;Content.setPropertiesFromJSON(&quot;lblControllers&quot;, {textColour:Theme.H1.colour, fontSize:Theme.H1.fontSize});&#13;&#10;&#13;&#10;instrumentData.colourPlayableKeys(); //DELETE THIS&#13;&#10;&#13;&#10;//Includes initialisation&#13;&#10;articulationEditor.onInitCB();&#13;&#10;mixer.onInitCB();&#13;&#10;controllerEditor.onInitCB();function onNoteOn()&#10;{&#10;&#9;articulationEditor.onNoteCB();&#13;&#10;&#9;controllerEditor.onNoteCB();&#10;}&#10;function onNoteOff()&#10;{&#10;&#9;&#10;}&#10;function onController()&#10;{&#13;&#10;&#9;articulationEditor.onControllerCB();&#9;&#13;&#10;&#9;controllerEditor.onControllerCB();&#10;}&#10;function onTimer()&#10;{&#10;&#9;&#10;}&#10;function onControl(number, value)&#10;{&#10;&#9;articulationEditor.onControlCB(number, value);&#13;&#10;&#9;controllerEditor.onControlCB(number, value);&#10;}&#10;">
               <ChildProcessors/>
               <Content>
                 <Control type="ScriptLabel" id="lblTitle" value="Libre Harp"/>
@@ -144,13 +138,13 @@
                 <Control type="ScriptSlider" id="sliArtVol3" value="0"/>
                 <Control type="ScriptSlider" id="sliArtVol4" value="0"/>
                 <Control type="ScriptLabel" id="lblAtk" value="Attack"/>
-                <Control type="ScriptSlider" id="sliAtk0" value="0"/>
+                <Control type="ScriptSlider" id="sliAtk0" value="5"/>
                 <Control type="ScriptSlider" id="sliAtk1" value="0"/>
                 <Control type="ScriptSlider" id="sliAtk2" value="5"/>
                 <Control type="ScriptSlider" id="sliAtk3" value="5"/>
                 <Control type="ScriptSlider" id="sliAtk4" value="5"/>
                 <Control type="ScriptLabel" id="lblRel" value="Release"/>
-                <Control type="ScriptSlider" id="sliRel0" value="11338.583"/>
+                <Control type="ScriptSlider" id="sliRel0" value="2500"/>
                 <Control type="ScriptSlider" id="sliRel1" value="2073"/>
                 <Control type="ScriptSlider" id="sliRel2" value="2500"/>
                 <Control type="ScriptSlider" id="sliRel3" value="2500"/>
@@ -160,9 +154,9 @@
                 <Control type="ScriptPanel" id="cmbParam" value="1"/>
                 <Control type="ScriptLabel" id="lblController" value="Controller"/>
                 <Control type="ScriptPanel" id="cmbCc0" value="0"/>
-                <Control type="ScriptPanel" id="cmbCc1" value="0"/>
-                <Control type="ScriptTable" id="tblCc0" value="0" data="24...............vO...f+....9C...vO"/>
-                <Control type="ScriptTable" id="tblCc1" value="0" data="24...............vO...f+....9C...vO"/>
+                <Control type="ScriptPanel" id="cmbCc1" value="1"/>
+                <Control type="ScriptTable" id="tblCc0" value="43" data="24...............vO...f+....9C...vO"/>
+                <Control type="ScriptTable" id="tblCc1" value="127" data="24...............vO...f+....9C...vO"/>
               </Content>
               <UIData>
                 <ContentProperties DeviceType="Desktop">
@@ -399,11 +393,12 @@
                                  enabled="0" text="Velocity"/>
                       <Component type="ScriptPanel" id="cmbCc1" x="90" y="76" width="100" height="25"
                                  parentComponent="pnlRightZone" allowCallbacks="Context Menu"
-                                 popupOnRightClick="0" popupMenuAlign="1" saveInPreset="1" popupMenuItems="1&#10;2&#10;3&#10;4&#10;5&#10;6&#10;7&#10;8&#10;9&#10;10&#10;11&#10;12&#10;13&#10;14&#10;15&#10;16&#10;17&#10;18&#10;19&#10;20&#10;21&#10;22&#10;23&#10;24&#10;25&#10;26&#10;27&#10;28&#10;29&#10;30&#10;31&#10;32&#10;33&#10;34&#10;35&#10;36&#10;37&#10;38&#10;39&#10;40&#10;41&#10;42&#10;43&#10;44&#10;45&#10;46&#10;47&#10;48&#10;49&#10;50&#10;51&#10;52&#10;53&#10;54&#10;55&#10;56&#10;57&#10;58&#10;59&#10;60&#10;61&#10;62&#10;63&#10;64&#10;65&#10;66&#10;67&#10;68&#10;69&#10;70&#10;71&#10;72&#10;73&#10;74&#10;75&#10;76&#10;77&#10;78&#10;79&#10;80&#10;81&#10;82&#10;83&#10;84&#10;85&#10;86&#10;87&#10;88&#10;89&#10;90&#10;91&#10;92&#10;93&#10;94&#10;95&#10;96&#10;97&#10;98&#10;99&#10;100&#10;101&#10;102&#10;103&#10;104&#10;105&#10;106&#10;107&#10;108&#10;109&#10;110&#10;111&#10;112&#10;113&#10;114&#10;115&#10;116&#10;117&#10;118&#10;119&#10;120&#10;121&#10;122&#10;123&#10;124&#10;125&#10;126&#10;127"/>
+                                 popupOnRightClick="0" popupMenuAlign="1" saveInPreset="1" popupMenuItems="1&#10;2&#10;3&#10;4&#10;5&#10;6&#10;7&#10;8&#10;9&#10;10&#10;11&#10;12&#10;13&#10;14&#10;15&#10;16&#10;17&#10;18&#10;19&#10;20&#10;21&#10;22&#10;23&#10;24&#10;25&#10;26&#10;27&#10;28&#10;29&#10;30&#10;31&#10;32&#10;33&#10;34&#10;35&#10;36&#10;37&#10;38&#10;39&#10;40&#10;41&#10;42&#10;43&#10;44&#10;45&#10;46&#10;47&#10;48&#10;49&#10;50&#10;51&#10;52&#10;53&#10;54&#10;55&#10;56&#10;57&#10;58&#10;59&#10;60&#10;61&#10;62&#10;63&#10;64&#10;65&#10;66&#10;67&#10;68&#10;69&#10;70&#10;71&#10;72&#10;73&#10;74&#10;75&#10;76&#10;77&#10;78&#10;79&#10;80&#10;81&#10;82&#10;83&#10;84&#10;85&#10;86&#10;87&#10;88&#10;89&#10;90&#10;91&#10;92&#10;93&#10;94&#10;95&#10;96&#10;97&#10;98&#10;99&#10;100&#10;101&#10;102&#10;103&#10;104&#10;105&#10;106&#10;107&#10;108&#10;109&#10;110&#10;111&#10;112&#10;113&#10;114&#10;115&#10;116&#10;117&#10;118&#10;119&#10;120&#10;121&#10;122&#10;123&#10;124&#10;125&#10;126&#10;127"
+                                 visible="0"/>
                       <Component type="ScriptTable" id="tblCc0" x="10" y="111" width="180" height="100"
                                  parentComponent="pnlRightZone"/>
                       <Component type="ScriptTable" id="tblCc1" x="10" y="111" width="180" height="100"
-                                 parentComponent="pnlRightZone"/>
+                                 parentComponent="pnlRightZone" visible="0"/>
                     </Component>
                   </Component>
                 </ContentProperties>
@@ -412,7 +407,13 @@
           </ChildProcessors>
         </Processor>
         <Processor Type="ModulatorChain" ID="GainModulation" Bypassed="0" Intensity="1">
-          <ChildProcessors/>
+          <ChildProcessors>
+            <Processor Type="MidiController" ID="expressionCC" Bypassed="0" Intensity="1"
+                       UseTable="0" Inverted="0" ControllerNumber="11" SmoothTime="200"
+                       DefaultValue="127">
+              <ChildProcessors/>
+            </Processor>
+          </ChildProcessors>
         </Processor>
         <Processor Type="ModulatorChain" ID="PitchModulation" Bypassed="1" Intensity="0">
           <ChildProcessors/>
@@ -459,7 +460,7 @@
                 <Processor Type="ModulatorChain" ID="GainModulation" Bypassed="0" Intensity="1">
                   <ChildProcessors>
                     <Processor Type="SimpleEnvelope" ID="normal0Envelope" Bypassed="0" Monophonic="0"
-                               Retrigger="0" Intensity="1" Attack="0" Release="11338.583" LinearMode="1">
+                               Retrigger="0" Intensity="1" Attack="5" Release="2500" LinearMode="1">
                       <ChildProcessors>
                         <Processor Type="ModulatorChain" ID="Attack Time Modulation" Bypassed="0"
                                    Intensity="1">
