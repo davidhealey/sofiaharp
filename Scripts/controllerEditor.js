@@ -3,6 +3,8 @@ namespace controllerEditor
 	inline function onInitCB()
 	{
 		const var parameters = ["Velocity", "Expression"];
+		const var userCc = [-1, 11]; //User assigned controllers
+		const var realCc = [-1, 11]; //Real CCs forwarded internally. -1 = velocity
 
 		const var cmbParam = Content.getComponent("cmbParam");
 		ui.comboBoxPanel("cmbParam", paintRoutines.comboBox, parameters, "Parameter");
@@ -35,5 +37,19 @@ namespace controllerEditor
 			cmbCc[value-1].set("visible", true);
 			tblCc[value-1].set("visible", true);
 		}
-	}	
+		else 
+		{
+			for (i = 0; i < parameters.length; i++)
+			{
+				if (number == cmbCc[i])
+				{
+					if (realCc[i] != -1) //Velocity (ui control should be disabled anyway)
+					{
+						userCc[i] = value;
+					}
+					break; //Exit loop
+				}
+			}
+		}
+	}
 }
