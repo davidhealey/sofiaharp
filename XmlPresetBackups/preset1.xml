@@ -2,22 +2,22 @@
 
 <Processor Type="SynthChain" ID="Preset1" Bypassed="0" Gain="1" Balance="0"
            VoiceLimit="64" KillFadeTime="20" IconColour="0" packageName=""
-           views="32.rk1bzA.....Xcb0O..........fAEDd.FTfwA.A.A.." currentView="-1"
+           views="32.rk1bzA.....B.........LDZg4lakwF..PWY.7FY..." currentView="-1"
            BuildVersion="650">
   <ChildProcessors>
     <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
       <ChildProcessors>
-        <Processor Type="ScriptProcessor" ID="mainInterface" Bypassed="0" Script="include(&quot;HISE-Scripting-Framework/libraries/asyncUpdater.js&quot;);&#10;include(&quot;HISE-Scripting-Framework/libraries/helpers.js&quot;);&#10;include(&quot;HISE-Scripting-Framework/libraries/tab.js&quot;);&#10;include(&quot;HISE-Scripting-Framework/libraries/uiFactory.js&quot;);&#13;&#10;&#13;&#10;include(&quot;instrumentData.js&quot;);&#13;&#10;include(&quot;paintRoutines.js&quot;);&#13;&#10;include(&quot;theme.js&quot;);&#13;&#10;include(&quot;articulationEditor.js&quot;);&#13;&#10;include(&quot;mixer.js&quot;);&#13;&#10;include(&quot;controllerEditor.js&quot;);&#13;&#10;&#13;&#10;Content.makeFrontInterface(650, 372);&#13;&#10;&#13;&#10;Engine.loadFontAs(&quot;{PROJECT_FOLDER}Fonts/OpenSans-Regular.ttf&quot;, &quot;Open Sans&quot;);&#13;&#10;&#13;&#10;const var noteNames = [];&#13;&#10;const var ccNums = [];&#13;&#10;&#13;&#10;const var samplerIds = Synth.getIdList(&quot;Sampler&quot;);&#10;const var containerIds = Synth.getIdList(&quot;Container&quot;);&#10;const var scriptIds = Synth.getIdList(&quot;Script Processor&quot;);&#13;&#10;const var muterIds = Synth.getIdList(&quot;MidiMuter&quot;);&#13;&#10;&#13;&#10;//Populate note names and CC numbers arrays&#13;&#10;for (i = 0; i &lt; 127; i++)&#13;&#10;{&#13;&#10;&#9;noteNames[i] = Engine.getMidiNoteName(i);&#13;&#10;&#9;ccNums[i] = i+1;&#10;}&#13;&#10;&#13;&#10;const var pnlLogo = Content.getComponent(&quot;pnlLogo&quot;);&#13;&#10;pnlLogo.setPaintRoutine(paintRoutines.logo);&#13;&#10;&#13;&#10;const var pnlBg = Content.getComponent(&quot;pnlBg&quot;);&#13;&#10;pnlBg.setPaintRoutine(paintRoutines.mainBg);&#13;&#10;&#13;&#10;const var fltKeyboard = Content.getComponent(&quot;fltKeyboard&quot;);&#13;&#10;fltKeyboard.setContentData({&quot;Type&quot;:&quot;Keyboard&quot;, &quot;LowKey&quot;:24});&#13;&#10;&#13;&#10;const var pnlTitleBg = Content.getComponent(&quot;pnlTitleBg&quot;);&#13;&#10;pnlTitleBg.setPaintRoutine(paintRoutines.titleBG);&#13;&#10;&#13;&#10;//Page tabs&#13;&#10;const var tabs = [];&#13;&#10;tabs[0] = Content.getComponent(&quot;pnlMain&quot;);&#13;&#10;&#13;&#10;//Main page zones&#13;&#10;const var zones = [];&#13;&#10;zones[0] = Content.getComponent(&quot;pnlLeftZone&quot;);&#13;&#10;zones[1] = Content.getComponent(&quot;pnlMidZone&quot;);&#13;&#10;zones[2] = Content.getComponent(&quot;pnlRightZone&quot;);&#13;&#10;&#13;&#10;for (i = 0; i &lt; zones.length; i++)&#13;&#10;{&#13;&#10;&#9;zones[i].setPaintRoutine(paintRoutines.zone);&#10;}&#13;&#10;&#13;&#10;//Zone titles&#13;&#10;const var lblArtTitle = Content.getComponent(&quot;lblArtTitle&quot;);&#13;&#10;const var lblMixer = Content.getComponent(&quot;lblMixer&quot;);&#13;&#10;const var lblControllers = Content.getComponent(&quot;lblControllers&quot;);&#13;&#10;Content.setPropertiesFromJSON(&quot;lblArtTitle&quot;, {textColour:Theme.H1.colour, fontSize:Theme.H1.fontSize});&#13;&#10;Content.setPropertiesFromJSON(&quot;lblMixer&quot;, {textColour:Theme.H1.colour, fontSize:Theme.H1.fontSize});&#13;&#10;Content.setPropertiesFromJSON(&quot;lblControllers&quot;, {textColour:Theme.H1.colour, fontSize:Theme.H1.fontSize});&#13;&#10;&#13;&#10;instrumentData.colourPlayableKeys(); //DELETE THIS&#13;&#10;&#13;&#10;//Includes initialisation&#13;&#10;articulationEditor.onInitCB();&#13;&#10;mixer.onInitCB();&#13;&#10;controllerEditor.onInitCB();function onNoteOn()&#10;{&#10;&#9;articulationEditor.onNoteCB();&#13;&#10;&#9;controllerEditor.onNoteCB();&#10;}&#10;function onNoteOff()&#10;{&#10;&#9;&#10;}&#10;function onController()&#10;{&#13;&#10;&#9;articulationEditor.onControllerCB();&#9;&#13;&#10;&#9;controllerEditor.onControllerCB();&#10;}&#10;function onTimer()&#10;{&#10;&#9;&#10;}&#10;function onControl(number, value)&#10;{&#10;&#9;articulationEditor.onControlCB(number, value);&#13;&#10;&#9;controllerEditor.onControlCB(number, value);&#10;}&#10;">
+        <Processor Type="ScriptProcessor" ID="mainInterface" Bypassed="0" Script="include(&quot;HISE-Scripting-Framework/libraries/asyncUpdater.js&quot;);&#10;include(&quot;HISE-Scripting-Framework/libraries/helpers.js&quot;);&#10;include(&quot;HISE-Scripting-Framework/libraries/tab.js&quot;);&#10;include(&quot;HISE-Scripting-Framework/libraries/uiFactory.js&quot;);&#13;&#10;&#13;&#10;include(&quot;instrumentData.js&quot;);&#13;&#10;include(&quot;paintRoutines.js&quot;);&#13;&#10;include(&quot;theme.js&quot;);&#13;&#10;include(&quot;articulationEditor.js&quot;);&#13;&#10;include(&quot;mixer.js&quot;);&#13;&#10;include(&quot;controllerEditor.js&quot;);&#13;&#10;&#13;&#10;Content.makeFrontInterface(650, 372);&#13;&#10;&#13;&#10;Engine.loadFontAs(&quot;{PROJECT_FOLDER}Fonts/OpenSans-Regular.ttf&quot;, &quot;Open Sans&quot;);&#13;&#10;&#13;&#10;const var noteNames = [];&#13;&#10;const var ccNums = [];&#13;&#10;&#13;&#10;const var samplerIds = Synth.getIdList(&quot;Sampler&quot;);&#10;const var containerIds = Synth.getIdList(&quot;Container&quot;);&#10;const var scriptIds = Synth.getIdList(&quot;Script Processor&quot;);&#13;&#10;const var muterIds = Synth.getIdList(&quot;MidiMuter&quot;);&#13;&#10;&#13;&#10;//Populate note names and CC numbers arrays&#13;&#10;for (i = 0; i &lt; 127; i++)&#13;&#10;{&#13;&#10;&#9;noteNames[i] = Engine.getMidiNoteName(i);&#13;&#10;&#9;ccNums[i] = i+1;&#10;}&#13;&#10;&#13;&#10;const var pnlLogo = Content.getComponent(&quot;pnlLogo&quot;);&#13;&#10;pnlLogo.setPaintRoutine(paintRoutines.logo);&#13;&#10;&#13;&#10;const var pnlBg = Content.getComponent(&quot;pnlBg&quot;);&#13;&#10;pnlBg.setPaintRoutine(paintRoutines.mainBg);&#13;&#10;&#13;&#10;const var fltKeyboard = Content.getComponent(&quot;fltKeyboard&quot;);&#13;&#10;fltKeyboard.setContentData({&quot;Type&quot;:&quot;Keyboard&quot;, &quot;LowKey&quot;:24});&#13;&#10;&#13;&#10;const var pnlTitleBg = Content.getComponent(&quot;pnlTitleBg&quot;);&#13;&#10;pnlTitleBg.setPaintRoutine(paintRoutines.titleBG);&#13;&#10;&#13;&#10;//Page tabs&#13;&#10;const var tabs = [];&#13;&#10;tabs[0] = Content.getComponent(&quot;pnlMain&quot;);&#13;&#10;&#13;&#10;//Main page zones&#13;&#10;const var zones = [];&#13;&#10;zones[0] = Content.getComponent(&quot;pnlLeftZone&quot;);&#13;&#10;zones[1] = Content.getComponent(&quot;pnlMidZone&quot;);&#13;&#10;zones[2] = Content.getComponent(&quot;pnlRightZone&quot;);&#13;&#10;&#13;&#10;for (i = 0; i &lt; zones.length; i++)&#13;&#10;{&#13;&#10;&#9;zones[i].setPaintRoutine(paintRoutines.zone);&#10;}&#13;&#10;&#13;&#10;//Zone titles&#13;&#10;const var lblArtTitle = Content.getComponent(&quot;lblArtTitle&quot;);&#13;&#10;const var lblMixer = Content.getComponent(&quot;lblMixer&quot;);&#13;&#10;const var lblControllers = Content.getComponent(&quot;lblControllers&quot;);&#13;&#10;Content.setPropertiesFromJSON(&quot;lblArtTitle&quot;, {textColour:Theme.H1.colour, fontSize:Theme.H1.fontSize});&#13;&#10;Content.setPropertiesFromJSON(&quot;lblMixer&quot;, {textColour:Theme.H1.colour, fontSize:Theme.H1.fontSize});&#13;&#10;Content.setPropertiesFromJSON(&quot;lblControllers&quot;, {textColour:Theme.H1.colour, fontSize:Theme.H1.fontSize});&#13;&#10;&#13;&#10;instrumentData.colourPlayableKeys(); //DELETE THIS&#13;&#10;&#13;&#10;//Includes initialisation&#13;&#10;articulationEditor.onInitCB();&#13;&#10;mixer.onInitCB();&#13;&#10;controllerEditor.onInitCB();function onNoteOn()&#10;{&#10;&#9;articulationEditor.onNoteCB();&#13;&#10;&#9;controllerEditor.onNoteCB();&#10;}&#10;function onNoteOff()&#10;{&#10;&#9;&#10;}&#10;function onController()&#10;{&#13;&#10;&#9;articulationEditor.onControllerCB();&#9;&#13;&#10;&#9;controllerEditor.onControllerCB();&#10;}&#10;function onTimer()&#10;{&#10;&#9;&#10;}&#10;function onControl(number, value)&#10;{&#10;&#9;articulationEditor.onControlCB(number, value);&#13;&#10;&#9;mixer.onControlCB(number, value);&#13;&#10;&#9;controllerEditor.onControlCB(number, value);&#10;}&#10;">
           <ChildProcessors/>
           <Content>
             <Control type="ScriptLabel" id="lblTitle" value="Libre Harp"/>
             <Control type="ScriptLabel" id="lblMixer" value="Mixer"/>
-            <Control type="ScriptPanel" id="sliPan0" value="-1"/>
+            <Control type="ScriptPanel" id="sliPan0" value="1"/>
             <Control type="ScriptPanel" id="sliPan1" value="1"/>
             <Control type="ScriptPanel" id="sliPan2" value="-1"/>
             <Control type="ScriptSlider" id="sliVol0" value="-12"/>
-            <Control type="ScriptSlider" id="sliVol1" value="-12"/>
-            <Control type="ScriptSlider" id="sliVol2" value="-12"/>
+            <Control type="ScriptSlider" id="sliVol1" value="-15.3"/>
+            <Control type="ScriptSlider" id="sliVol2" value="-6.0999999"/>
             <Control type="ScriptSlider" id="sliDelay0" value="0"/>
             <Control type="ScriptSlider" id="sliDelay1" value="0"/>
             <Control type="ScriptSlider" id="sliDelay2" value="0"/>
@@ -101,41 +101,41 @@
                              stepSize="0.01" min="-1"/>
                   <Component type="ScriptSlider" id="sliVol0" x="43" y="70" width="19" height="100"
                              style="Vertical" middlePosition="-18" mode="Decibel" min="-100"
-                             max="0" stepSize="0.1" suffix=" dB" parentComponent="pnlMidZone"
+                             max="3" stepSize="0.1" suffix=" dB" parentComponent="pnlMidZone"
                              bgColour="4280427042" itemColour="4289759532" itemColour2="1118481"
                              defaultValue="-12" showValuePopup="Below"/>
                   <Component type="ScriptSlider" id="sliVol1" x="98" y="70" width="19" height="100"
                              style="Vertical" middlePosition="-18" mode="Decibel" min="-100"
-                             max="0" stepSize="0.1" suffix=" dB" parentComponent="pnlMidZone"
+                             max="3" stepSize="0.1" suffix=" dB" parentComponent="pnlMidZone"
                              bgColour="4280427042" itemColour="4289759532" itemColour2="1118481"
                              defaultValue="-12" showValuePopup="Below"/>
                   <Component type="ScriptSlider" id="sliVol2" x="153" y="70" width="19" height="100"
                              style="Vertical" middlePosition="-18" mode="Decibel" min="-100"
-                             max="0" stepSize="0.1" suffix=" dB" parentComponent="pnlMidZone"
+                             max="3" stepSize="0.1" suffix=" dB" parentComponent="pnlMidZone"
                              bgColour="4280427042" itemColour="4289759532" itemColour2="1118481"
                              defaultValue="-12" showValuePopup="Below"/>
                   <Component type="ScriptSlider" id="sliDelay0" x="28" y="125" width="10"
-                             height="45" text="" style="Vertical" middlePosition="0.5" textColour="16777215"
+                             height="45" text="" style="Vertical" middlePosition="100" textColour="16777215"
                              parentComponent="pnlMidZone" bgColour="4280427042" itemColour="4289759532"
-                             max="500" itemColour2="1118481"/>
+                             itemColour2="1118481" max="500"/>
                   <Component type="ScriptSlider" id="sliDelay1" x="83" y="125" width="10"
-                             height="45" text="" style="Vertical" middlePosition="0.5" textColour="16777215"
+                             height="45" text="" style="Vertical" middlePosition="100" textColour="16777215"
                              parentComponent="pnlMidZone" bgColour="4280427042" itemColour="4289759532"
                              max="500" itemColour2="1118481"/>
                   <Component type="ScriptSlider" id="sliDelay2" x="138" y="125" width="10"
-                             height="45" text="" style="Vertical" middlePosition="0.5" textColour="16777215"
+                             height="45" text="" style="Vertical" middlePosition="100" textColour="16777215"
                              parentComponent="pnlMidZone" bgColour="4280427042" itemColour="4289759532"
                              max="500" itemColour2="1118481"/>
                   <Component type="ScriptSlider" id="sliWidth0" x="28" y="70" width="10" height="45"
-                             text="" style="Vertical" middlePosition="0.5" textColour="16777215"
+                             text="" style="Vertical" middlePosition="100" textColour="16777215"
                              parentComponent="pnlMidZone" bgColour="4280427042" itemColour="4289759532"
                              max="200" itemColour2="1118481"/>
                   <Component type="ScriptSlider" id="sliWidth1" x="83" y="70" width="10" height="45"
-                             text="" style="Vertical" middlePosition="0.5" textColour="16777215"
+                             text="" style="Vertical" middlePosition="100" textColour="16777215"
                              parentComponent="pnlMidZone" bgColour="4280427042" itemColour="4289759532"
                              max="200" itemColour2="1118481"/>
                   <Component type="ScriptSlider" id="sliWidth2" x="138" y="70" width="10"
-                             height="45" text="" style="Vertical" middlePosition="0.5" textColour="16777215"
+                             height="45" text="" style="Vertical" middlePosition="100" textColour="16777215"
                              parentComponent="pnlMidZone" bgColour="4280427042" itemColour="4289759532"
                              max="200" itemColour2="1118481"/>
                   <Component type="ScriptPanel" id="btnPurge0" x="28" y="182" width="34" height="25"
@@ -311,24 +311,24 @@
         <Processor Type="ScriptProcessor" ID="genericMixer" Bypassed="0" Script="{EXTERNAL_SCRIPT}{PROJECT_FOLDER}HISE-Scripting-Framework/modules/genericMicMixer.js">
           <ChildProcessors/>
           <Content>
-            <Control type="ScriptSlider" id="vol0" value="5.5511151e-15"/>
+            <Control type="ScriptSlider" id="vol0" value="-12"/>
             <Control type="ScriptSlider" id="delay0" value="0"/>
             <Control type="ScriptSlider" id="width0" value="0"/>
-            <Control type="ScriptSlider" id="pan0" value="2.0816682e-15"/>
+            <Control type="ScriptSlider" id="pan0" value="1"/>
             <Control type="ScriptButton" id="mute0" value="0"/>
             <Control type="ScriptButton" id="solo0" value="0"/>
             <Control type="ScriptButton" id="purge0" value="0"/>
-            <Control type="ScriptSlider" id="vol1" value="5.5511151e-15"/>
+            <Control type="ScriptSlider" id="vol1" value="-15.3"/>
             <Control type="ScriptSlider" id="delay1" value="0"/>
             <Control type="ScriptSlider" id="width1" value="0"/>
-            <Control type="ScriptSlider" id="pan1" value="0"/>
+            <Control type="ScriptSlider" id="pan1" value="1"/>
             <Control type="ScriptButton" id="mute1" value="0"/>
             <Control type="ScriptButton" id="solo1" value="0"/>
             <Control type="ScriptButton" id="purge1" value="0"/>
-            <Control type="ScriptSlider" id="vol2" value="5.5511151e-15"/>
+            <Control type="ScriptSlider" id="vol2" value="-6.0999999"/>
             <Control type="ScriptSlider" id="delay2" value="0"/>
             <Control type="ScriptSlider" id="width2" value="0"/>
-            <Control type="ScriptSlider" id="pan2" value="0"/>
+            <Control type="ScriptSlider" id="pan2" value="-1"/>
             <Control type="ScriptButton" id="mute2" value="0"/>
             <Control type="ScriptButton" id="solo2" value="0"/>
             <Control type="ScriptButton" id="purge2" value="0"/>
@@ -384,8 +384,8 @@
     </Processor>
     <Processor Type="EffectChain" ID="FX" Bypassed="0">
       <ChildProcessors>
-        <Processor Type="SimpleGain" ID="micClose" Bypassed="0" Gain="0" Delay="0"
-                   Width="0" Balance="2.0816682e-15">
+        <Processor Type="SimpleGain" ID="micClose" Bypassed="0" Gain="-12" Delay="0"
+                   Width="0" Balance="1">
           <ChildProcessors>
             <Processor Type="ModulatorChain" ID="Gain Modulation" Bypassed="0" Intensity="1">
               <ChildProcessors/>
@@ -404,8 +404,8 @@
                          Channel2="-1" Send2="-1" Channel3="-1" Send3="-1" Channel4="-1"
                          Send4="-1" Channel5="-1" Send5="-1"/>
         </Processor>
-        <Processor Type="SimpleGain" ID="micDecca" Bypassed="0" Gain="0" Delay="0"
-                   Width="0" Balance="0">
+        <Processor Type="SimpleGain" ID="micDecca" Bypassed="0" Gain="-15.300001"
+                   Delay="0" Width="0" Balance="1">
           <ChildProcessors>
             <Processor Type="ModulatorChain" ID="Gain Modulation" Bypassed="0" Intensity="1">
               <ChildProcessors/>
@@ -424,8 +424,8 @@
                          Send1="-1" Channel2="2" Send2="-1" Channel3="3" Send3="-1" Channel4="-1"
                          Send4="-1" Channel5="-1" Send5="-1"/>
         </Processor>
-        <Processor Type="SimpleGain" ID="micFar" Bypassed="0" Gain="0" Delay="0"
-                   Width="0" Balance="0">
+        <Processor Type="SimpleGain" ID="micFar" Bypassed="0" Gain="-6.1000004"
+                   Delay="0" Width="0" Balance="-1">
           <ChildProcessors>
             <Processor Type="ModulatorChain" ID="Gain Modulation" Bypassed="0" Intensity="1">
               <ChildProcessors/>
