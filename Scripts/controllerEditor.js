@@ -23,6 +23,10 @@ namespace controllerEditor
 			tblCc[i] = Content.addTable("tblCc"+i, 10, 115);
 			Content.setPropertiesFromJSON("tblCc"+i, {width:180, height:95, parentComponent:"pnlRightZone"});
 		}
+		
+		const var pnlTblBg = Content.getComponent("pnlTblBg"); //Table background colour panel
+		pnlTblBg.setPaintRoutine(function(g){g.fillAll(Theme.TABLE.bg);});
+		
 	}
 	
 	inline function onNoteCB()
