@@ -87,7 +87,9 @@ namespace articulationEditor
 	inline function onControllerCB()
 	{
 		local v; //For converting the CC value (0-127) to the correct slider value
-				
+		local skewFactor = 5.0; //values > 1 will yield more resolution at the lower end
+		local normalised = Message.getControllerValue() / 127.0;
+		
 		switch (Message.getControllerNumber())
 		{		
 			case 32: //UACC
@@ -102,14 +104,14 @@ namespace articulationEditor
 				}
 			break;
 			
-			case 1: //MIDI attack CC
-				v = (Message.getControllerValue() * 20000) / 127;
+			case 73: //MIDI attack CC
+				v = (Math.pow(normalised, skewFactor)) * 20000.0;
 				sliAtk[cmbArt.getValue()-1].setValue(v);
 				setEnvelopeAttack(cmbArt.getValue()-1, v);
 			break;
 			
 			case 72: //MIDI release CC
-				v = (Message.getControllerValue() * 20000) / 127;
+				v = (Math.pow(normalised, skewFactor)) * 20000.0;
 				sliRel[cmbArt.getValue()-1].setValue(v);
 				setEnvelopeRelease(cmbArt.getValue()-1, v);
 			break;
