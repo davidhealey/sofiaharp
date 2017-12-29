@@ -21,11 +21,11 @@ namespace mixer
 			width[i] = Content.getComponent("sliWidth"+i);
 			purge[i] = Content.getComponent("btnPurge"+i);
 	
-			Content.setPropertiesFromJSON("sliPan"+i, {x:28+(i*55), stepSize:0.01});
-			Content.setPropertiesFromJSON("sliVol"+i, {x:43+(i*55), type:"Decibel", max:3, bgColour:Theme.SLIDER.bg, itemColour:Theme.SLIDER.fg});
-			Content.setPropertiesFromJSON("sliDelay"+i, {x:28+(i*55), bgColour:Theme.SLIDER.bg, itemColour:Theme.SLIDER.fg});
-			Content.setPropertiesFromJSON("sliWidth"+i, {x:28+(i*55), bgColour:Theme.SLIDER.bg, itemColour:Theme.SLIDER.fg});
-			Content.setPropertiesFromJSON("btnPurge"+i, {x:28+(i*55), text:micNames[i]});
+			Content.setPropertiesFromJSON("sliPan"+i, {x:20+(i*60), stepSize:0.01});
+			Content.setPropertiesFromJSON("sliVol"+i, {x:35+(i*60), type:"Decibel", max:3, bgColour:Theme.SLIDER.bg, itemColour:Theme.SLIDER.fg});
+			Content.setPropertiesFromJSON("sliDelay"+i, {x:20+(i*60), bgColour:Theme.SLIDER.bg, itemColour:Theme.SLIDER.fg});
+			Content.setPropertiesFromJSON("sliWidth"+i, {x:20+(i*60), bgColour:Theme.SLIDER.bg, itemColour:Theme.SLIDER.fg});
+			Content.setPropertiesFromJSON("btnPurge"+i, {x:20+(i*60), text:micNames[i]});
 	
 			ui.sliderPanel("sliPan"+i, paintRoutines.biDirectionalSlider, 0, 0.5); //Set up callbacks for pan slider
 			ui.buttonPanel("btnPurge"+i, paintRoutines.textButton); //Set up callbacks for purge button
