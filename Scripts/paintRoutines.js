@@ -90,7 +90,7 @@ namespace paintRoutines
 		this.get("enabled") == true ? g.setColour(Theme.COMBO.text) : g.setColour(Theme.COMBO.textAlt);
 	
 		reg text;
-		this.getValue()-1 == -1 ? text = this.data.text : text = this.data.items[this.getValue()-1];
+		this.getValue()-1 == -1 ? text = this.get("text") : text = this.data.items[this.getValue()-1];
 		
 		g.drawAlignedText(text, [10, 0, this.get("width"), this.get("height")], "left");
 	}
