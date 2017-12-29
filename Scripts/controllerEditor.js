@@ -7,7 +7,7 @@ namespace controllerEditor
 		const var realCc = [-1, 11]; //Real CCs forwarded internally. -1 = velocity
 
 		const var cmbParam = Content.getComponent("cmbParam");
-		ui.comboBoxPanel("cmbParam", paintRoutines.comboBox, parameters, "Parameter");
+		ui.comboBoxPanel("cmbParam", paintRoutines.comboBox, parameters);
 
 		const var cmbCc = []; //Controller number selection combo boxes
 		const var tblCc = []; //Controller value tables
@@ -17,7 +17,7 @@ namespace controllerEditor
 			//Controller selection
 			cmbCc[i] = Content.addPanel("cmbCc"+i, 90, 80);
 			Content.setPropertiesFromJSON("cmbCc"+i, {width:100, height:25, parentComponent:"pnlRightZone"});
-			ui.comboBoxPanel("cmbCc"+i, paintRoutines.comboBox, ccNums, "Controller");
+			ui.comboBoxPanel("cmbCc"+i, paintRoutines.comboBox, ccNums);
 	
 			//Response table
 			tblCc[i] = Content.addTable("tblCc"+i, 10, 115);

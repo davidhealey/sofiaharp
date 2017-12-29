@@ -26,7 +26,7 @@ namespace articulationEditor
 		const var sliRel = [];
 		
 		const var cmbArt = Content.getComponent("cmbArt");
-		ui.comboBoxPanel("cmbArt", paintRoutines.comboBox, instrumentData.articulationDisplayNames, "Articulation");
+		ui.comboBoxPanel("cmbArt", paintRoutines.comboBox, instrumentData.articulationDisplayNames);
 	
 		Content.setPropertiesFromJSON("lblArt", {fontName:Theme.H2.fontName, fontSize:Theme.H2.fontSize});
 		Content.setPropertiesFromJSON("lblKs", {fontName:Theme.H2.fontName, fontSize:Theme.H2.fontSize});
@@ -37,7 +37,7 @@ namespace articulationEditor
 		for (i = 0; i < instrumentData.articulations.length; i++)
 		{
 			cmbKs.push(Content.getComponent("cmbKs"+i));
-			ui.comboBoxPanel("cmbKs"+i, paintRoutines.comboBox, noteNames, "Key Switch");
+			ui.comboBoxPanel("cmbKs"+i, paintRoutines.comboBox, noteNames);
 			Content.setPropertiesFromJSON("cmbKs"+i, {x:90});
 	
 			sliAtk.push(Content.getComponent("sliAtk"+i));
