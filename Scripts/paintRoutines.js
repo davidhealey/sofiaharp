@@ -46,7 +46,7 @@ namespace paintRoutines
 	{							
 		this.getValue() == 0 ? g.setColour(Theme.BUTTON.bg) : g.setColour(Theme.BUTTON.fg);
 
-		g.setFont(Theme.BUTTON.font, Theme.BUTTON.fontSize);
+		g.setFont(Theme.BUTTON.fontName, Theme.BUTTON.fontSize);
 		g.drawAlignedText(this.get("text"), [0, 0, this.get("width"), this.get("height")], "centred");		
 	};
 	
@@ -86,13 +86,13 @@ namespace paintRoutines
 		this.get("enabled") == true ? g.setColour(Theme.COMBO.arrow) : g.setColour(Theme.CONTROL_FG_DISABLED);
 		g.fillTriangle([this.get("width")-18, this.get("height")/2-2, 10, 5], Math.toRadians(900));
 		
-		g.setFont(Theme.COMBO.font, Theme.COMBO.fontSize);
+		g.setFont(Theme.COMBO.fontName, Theme.COMBO.fontSize);
 		this.get("enabled") == true ? g.setColour(Theme.COMBO.text) : g.setColour(Theme.COMBO.textAlt);
 	
 		reg text;
 		this.getValue()-1 == -1 ? text = this.data.text : text = this.data.items[this.getValue()-1];
 		
-		g.drawAlignedText(text, [10, 0, 80, 20], "left");
+		g.drawAlignedText(text, [10, 0, this.get("width"), this.get("height")], "left");
 	}
 }
 
