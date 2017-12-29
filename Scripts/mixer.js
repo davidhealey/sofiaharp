@@ -20,7 +20,7 @@ namespace mixer
 			delay[i] = Content.getComponent("sliDelay"+i);
 			width[i] = Content.getComponent("sliWidth"+i);
 			purge[i] = Content.getComponent("btnPurge"+i);
-	
+
 			Content.setPropertiesFromJSON("sliPan"+i, {x:20+(i*60), stepSize:0.01});
 			Content.setPropertiesFromJSON("sliVol"+i, {x:35+(i*60), type:"Decibel", max:3, bgColour:Theme.SLIDER.bg, itemColour:Theme.SLIDER.fg});
 			Content.setPropertiesFromJSON("sliDelay"+i, {x:20+(i*60), bgColour:Theme.SLIDER.bg, itemColour:Theme.SLIDER.fg});

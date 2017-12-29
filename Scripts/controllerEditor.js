@@ -15,13 +15,13 @@ namespace controllerEditor
 		for (i = 0; i < parameters.length; i++)
 		{
 			//Controller selection
-			cmbCc[i] = Content.addPanel("cmbCc"+i, 90, 76);
+			cmbCc[i] = Content.addPanel("cmbCc"+i, 90, 80);
 			Content.setPropertiesFromJSON("cmbCc"+i, {width:100, height:25, parentComponent:"pnlRightZone"});
 			ui.comboBoxPanel("cmbCc"+i, paintRoutines.comboBox, ccNums, "Controller");
 	
 			//Response table
-			tblCc[i] = Content.addTable("tblCc"+i, 10, 111);
-			Content.setPropertiesFromJSON("tblCc"+i, {width:180, height:100, parentComponent:"pnlRightZone"});
+			tblCc[i] = Content.addTable("tblCc"+i, 10, 115);
+			Content.setPropertiesFromJSON("tblCc"+i, {width:180, height:95, parentComponent:"pnlRightZone"});
 		}
 	}
 	
