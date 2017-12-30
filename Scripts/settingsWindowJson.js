@@ -12,17 +12,17 @@ namespace SettingsJson
     const var settings = {
     "Type": "Tabs",
     "Font": "Open Sans",
-    "FontSize": 18,
+    "FontSize": 20,
     "Dynamic": false,
     "ColourData":
         {
-            "bgColour": Theme.PRESET_BROWSER.bg,
-            "itemColour1": Theme.PRESET_BROWSER.bg
+            "bgColour": Theme.BG,
+            "itemColour1": Theme.ZONE
         },
     "Content": [
         {
         "Type": "CustomSettings",
-        "Title": "Settings",
+        "Title": "Engine",
         "StyleData": {
         },
         "ColourData":
@@ -101,4 +101,20 @@ namespace SettingsJson
             "bgColour": Theme.ZONE
         }
     });
+    
+    /*settings["Content"].push({
+    
+        "Type": "ScriptPanel",
+        "id": "instrumentSettings",
+        "Title": "Instrument",
+        "Font": "Open Sans",
+        "FontSize": 18,
+        "ColourData":
+        {
+            "textColour": "0x00",
+            "itemColour2": Theme.ZONE,
+            "itemColour1": Theme.ZONE,
+            "bgColour": Theme.ZONE
+        }
+    });*/
 };
