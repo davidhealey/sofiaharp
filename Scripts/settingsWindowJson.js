@@ -76,7 +76,7 @@ namespace SettingsJson
     
     settings["Content"].push({
         "Type": "MidiChannelList",
-        "Title": "MIDI Channel Filter",
+        "Title": "MIDI Channel",
         "StyleData": {
         },
         "Font": "Open Sans",
@@ -101,20 +101,4 @@ namespace SettingsJson
             "bgColour": Theme.ZONE
         }
     });
-    
-    /*settings["Content"].push({
-    
-        "Type": "ScriptPanel",
-        "id": "instrumentSettings",
-        "Title": "Instrument",
-        "Font": "Open Sans",
-        "FontSize": 18,
-        "ColourData":
-        {
-            "textColour": "0x00",
-            "itemColour2": Theme.ZONE,
-            "itemColour1": Theme.ZONE,
-            "bgColour": Theme.ZONE
-        }
-    });*/
 };
