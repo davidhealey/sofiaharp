@@ -1,22 +1,20 @@
 namespace instrumentData
 {	
-	const var articulations = ["normal", "staccato", "fingernail", "table", "harmonics"];
-	const var articulationDisplayNames = ["Normal", "Staccato", "Fingernail", "Prés de la table", "Harmonics"];
+	const var allArticulations = ["normal", "staccato", "fingernail", "table", "harmonics"];
 	const var range = [26, 96]; //The range of the currently loaded instruemtn
 
 	//Instrument database
 	const var database = {
 		harp:
 		{
-			articulations:["normal", "staccato", "fingernail", "table", "harmonics"],
-			range:[26, 96],
-			articulationData:
+			range:[26, 96], //Maximum range of instrument
+			articulations:
 			{
 				normal:{range:[26, 96]},
 				staccato:{range:[26, 96]},
 				fingernal:{range:[26, 96]},
 				table:{range:[26, 96]},
-				harmonics:{range:[40, 88]}		
+				harmonics:{range:[40, 88]}
 			}
 		}
 	};
@@ -57,7 +55,7 @@ namespace instrumentData
 	
 	inline function hideUnusedControls(entry)
 	{
-		for (i = 0; i < articulations.length; i++) //Each articulation
+		/*for (i = 0; i < articulations.length; i++) //Each articulation
 		{
 			//entry does not use the articulation
 			if (entry.articulations.indexOf(articulations[i]) == -1)
@@ -68,9 +66,10 @@ namespace instrumentData
 				sliAtk[i].set("x", 1000);
 				sliRel[i].set("x", 1000);
 			}
-		}
+		}*/
 	}
 	
+	//Returns the data entry for the given instrument
 	inline function getData(name)
 	{
 		local entry = database[name]; //Get instrument entry from the database
@@ -80,15 +79,7 @@ namespace instrumentData
 		return entry;
 	}
 	
-	inline function getArticulationName(name, idx)
-	{
-		local entry = database[name]; //Get instrument entry from the database
-		
-		Console.assertIsObjectOrArray(entry); //Error if entry not found		
-		
-		return entry.articulations[idx];
-	}
-	
+	//Returns the full range of the instrument (maximum range of all articulations)
 	inline function getRange(name)
 	{
 		local entry = database[name]; //Get instrument entry from the database
@@ -98,18 +89,17 @@ namespace instrumentData
 		return entry.range;
 	}
 	
+	//Returns the range of the specified articulation
 	inline function getArticulationRange(name, articulation)
 	{
 		local entry = database[name]; //Get instrument entry from the database
 		
 		Console.assertIsObjectOrArray(entry); //Error if entry not found
 		
-		if (entry.articulations.contains(articulation))
-		{
-			return entry.articulationData[articulation].range;
-		}		
+		return entry.articulations[articulation].range;
 	}
 	
+	//Returns the number of articulations the insturment uses
 	inline function getNumArticulations(name)
 	{
 		local entry = database[name]; //Get instrument entry from the database
@@ -118,7 +108,7 @@ namespace instrumentData
 		
 		local i = 0;
 		
-		for (k in entry.articulationData)
+		for (k in entry.articulations)
 		{
 			i++;
 		}
@@ -126,6 +116,7 @@ namespace instrumentData
 		return i;
 	}
 	
+	//Returns an array containing the names of all of the insturment's articulations
 	inline function getArticulationNames(name)
 	{
 		local entry = database[name]; //Get instrument entry from the database
@@ -134,11 +125,29 @@ namespace instrumentData
 		
 		local n = [];
 		
-		for (k in entry.articulationData)
+		for (k in entry.articulations)
 		{
 			n.push(k);
 		}
 		
 		return n;
+	}
+	
+	//Returns the name of the articulation specified by the given index - as if the articulations object is an array
+	inline function getArticulationNameByIndex(name, idx)
+	{
+		local entry = database[name]; //Get instrument entry from the database
+				
+		Console.assertIsObjectOrArray(entry); //Error if entry not found		
+		
+		//Build array of articulaiton names using the keys of the entry's articulations object
+		local n = [];
+		
+		for (k in entry.articulations)
+		{
+			n.push(k);
+		}
+		
+		return n[idx];
 	}
 }

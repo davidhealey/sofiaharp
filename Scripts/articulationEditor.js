@@ -3,9 +3,12 @@ namespace articulationEditor
 	inline function onInitCB()
 	{
 		reg keyswitches = []; //User customisable values (unused ones will be set to -1 by script)
-		const var programs = [1, 40, 9, 17, 10]; //UACC and Program Change numbers for articulations
+		reg programs = [1, 40, 9, 17, 10]; //UACC and Program Change numbers for articulations
+		const var articulationNames = instrumentData.getArticulationNames(instrumentName); //Instrument's articulations
 		
 		const var envelopeIds = Synth.getIdList("Simple Envelope");
+		const var muterIds = Synth.getIdList("MidiMuter");
+		
 		reg containers = []; //Containers whose IDs match articulation names
 		reg muters = [];
 		reg envelopes = {};
@@ -13,7 +16,7 @@ namespace articulationEditor
 		//Get articulation containers
 		for (c in containerIds) //containerIDs is in main script
 		{
-			if (instrumentData.articulations.indexOf(c) != -1)
+			if (instrumentData.allArticulations.indexOf(c) != -1)
 			{
 				containers.push(Synth.getChildSynth(c));
 			}
@@ -24,9 +27,9 @@ namespace articulationEditor
 		const var sliArtVol = [];
 		const var sliAtk = [];
 		const var sliRel = [];
-		
+				
 		const var cmbArt = Content.getComponent("cmbArt");
-		ui.comboBoxPanel("cmbArt", paintRoutines.comboBox, instrumentData.articulationDisplayNames);
+		ui.comboBoxPanel("cmbArt", paintRoutines.comboBox, articulationNames);
 	
 		Content.setPropertiesFromJSON("lblArt", {fontName:Theme.H2.fontName, fontSize:Theme.H2.fontSize});
 		Content.setPropertiesFromJSON("lblKs", {fontName:Theme.H2.fontName, fontSize:Theme.H2.fontSize});
@@ -34,7 +37,7 @@ namespace articulationEditor
 		Content.setPropertiesFromJSON("lblAtk", {fontName:Theme.H2.fontName, fontSize:Theme.H2.fontSize});
 		Content.setPropertiesFromJSON("lblRel", {fontName:Theme.H2.fontName, fontSize:Theme.H2.fontSize});
 		
-		for (i = 0; i < instrumentData.articulations.length; i++)
+		for (i = 0; i < instrumentData.allArticulations.length; i++)
 		{
 			cmbKs.push(Content.getComponent("cmbKs"+i));
 			ui.comboBoxPanel("cmbKs"+i, paintRoutines.comboBox, noteNames);
@@ -52,7 +55,7 @@ namespace articulationEditor
 			//Get MIDI muter for each articulation
 			for (m in muterIds) //Each MIDI muter ID
 			{
-				if (m.indexOf(instrumentData.articulations[i]) != -1) //MIDI muter ID contains articulation name
+				if (m.indexOf(instrumentData.allArticulations[i]) != -1) //MIDI muter ID contains articulation name
 				{
 					muters[i] = Synth.getMidiProcessor(m); //Get muter for articulation
 					break; //Exit inner loop
@@ -62,7 +65,7 @@ namespace articulationEditor
 			//Find envelopes for each articulation - ignore those with Release or Without envelope in the ID
 			for (e in envelopeIds)
 			{
-				if (e.indexOf(instrumentData.articulations[i]) != -1 && e.indexOf("nvelope") != -1 && e.indexOf("Release") == -1)
+				if (e.indexOf(instrumentData.allArticulations[i]) != -1 && e.indexOf("nvelope") != -1 && e.indexOf("Release") == -1)
 				{
 					if (envelopes[i] == undefined) envelopes[i] = []; //An articulation may have more than one envelope
 					envelopes[i].push(Synth.getModulator(e));
@@ -127,11 +130,13 @@ namespace articulationEditor
 			showArticulationControls(value-1);
 		}
 
-		for (i = 0; i < instrumentData.articulations.length; i++)
+		for (i = 0; i < instrumentData.allArticulations.length; i++)
 		{
 			if (number == cmbKs[i]) //Key switch
 			{
-				if (value <= instrumentData.range[0] || value >= instrumentData.range[1]) //Outside playable range
+				local r = instrumentData.getRange(instrumentName); //Full playable range of instrument
+				
+				if (value <= r[0] || value >= r[1]) //Outside playable range
 				{
 					Engine.setKeyColour(keyswitches[i], Colours.withAlpha(Colours.white, 0.0)); //Reset current KS colour
 					keyswitches[i] = value-1; //Update KS
@@ -180,7 +185,7 @@ namespace articulationEditor
 	
 	inline function showArticulationControls(a)
 	{
-		for (i = 0; i < instrumentData.articulations.length; i++)
+		for (i = 0; i < instrumentData.allArticulations.length; i++)
 		{
 			//Hide all articulations controls
 			cmbKs[i].set("visible", false);
@@ -213,11 +218,10 @@ namespace articulationEditor
 	inline function colourPlayableKeys()
 	{
 		local instRange = instrumentData.getRange(instrumentName); //Full playable range of instrument
-		
-		local a = instrumentData.getArticulationName(instrumentName, cmbArt.getValue()-1); //Current articulation name
+		local a = articulationNames[cmbArt.getValue()-1]; //Current articulation name
 		local r = instrumentData.getArticulationRange(instrumentName, a); //Range of current articulation
 
-		for (i = instRange[0]; i < instRange[1]; i++)
+		for (i = instRange[0]; i < instRange[1]; i++) //Each potentially playable key
 		{
 			Engine.setKeyColour(i, Colours.withAlpha(Colours.white, 0.0)); //Reset key colour
 			
