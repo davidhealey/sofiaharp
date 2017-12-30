@@ -10,7 +10,8 @@ namespace instrumentData
 		{
 			articulations:["normal", "staccato", "fingernail", "table", "harmonics"],
 			range:[26, 96],
-			articulationData:{
+			articulationData:
+			{
 				normal:{range:[26, 96]},
 				staccato:{range:[26, 96]},
 				fingernal:{range:[26, 96]},
@@ -70,13 +71,31 @@ namespace instrumentData
 		}
 	}
 	
-	inline function getInstrumentData(name)
+	inline function getData(name)
 	{
 		local entry = database[name]; //Get instrument entry from the database
 		
 		Console.assertIsObjectOrArray(entry); //Error if entry not found
 		
 		return entry;
+	}
+	
+	inline function getArticulationName(name, idx)
+	{
+		local entry = database[name]; //Get instrument entry from the database
+		
+		Console.assertIsObjectOrArray(entry); //Error if entry not found		
+		
+		return entry.articulations[idx];
+	}
+	
+	inline function getRange(name)
+	{
+		local entry = database[name]; //Get instrument entry from the database
+		
+		Console.assertIsObjectOrArray(entry); //Error if entry not found
+		
+		return entry.range;
 	}
 	
 	inline function getArticulationRange(name, articulation)
@@ -89,5 +108,37 @@ namespace instrumentData
 		{
 			return entry.articulationData[articulation].range;
 		}		
+	}
+	
+	inline function getNumArticulations(name)
+	{
+		local entry = database[name]; //Get instrument entry from the database
+		
+		Console.assertIsObjectOrArray(entry); //Error if entry not found
+		
+		local i = 0;
+		
+		for (k in entry.articulationData)
+		{
+			i++;
+		}
+		
+		return i;
+	}
+	
+	inline function getArticulationNames(name)
+	{
+		local entry = database[name]; //Get instrument entry from the database
+		
+		Console.assertIsObjectOrArray(entry); //Error if entry not found
+		
+		local n = [];
+		
+		for (k in entry.articulationData)
+		{
+			n.push(k);
+		}
+		
+		return n;
 	}
 }
