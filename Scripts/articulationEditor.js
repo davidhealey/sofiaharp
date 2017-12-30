@@ -81,11 +81,16 @@ namespace articulationEditor
 		if (idx != -1) //Keyswitch triggered the callback
 		{
 			changeArticulation(idx);
-			colourPlayableKeys();
+			asyncUpdater.setFunctionAndUpdate(showArticulationControlsAndColourKeys, idx);
 			cmbArt.setValue(idx+1); //Change displayed selected articulation
-			cmbArt.repaint(); //Async repaint
-			showArticulationControls(idx); //Change displayed articulation controls	
+			cmbArt.repaint(); //Async repaint			
 		}
+	}
+	
+	inline function showArticulationControlsAndColourKeys(idx)
+	{
+		colourPlayableKeys();
+		showArticulationControls(idx); //Change displayed articulation controls
 	}
 	
 	inline function onControllerCB()
