@@ -9,7 +9,14 @@ namespace instrumentData
 		harp:
 		{
 			articulations:["normal", "staccato", "fingernail", "table", "harmonics"],
-			range:[26, 96]
+			range:[26, 96],
+			articulationData:{
+				normal:{range:[26, 96]},
+				staccato:{range:[26, 96]},
+				fingernal:{range:[26, 96]},
+				table:{range:[26, 96]},
+				harmonics:{range:[40, 88]}		
+			}
 		}
 	};
 
@@ -21,9 +28,7 @@ namespace instrumentData
 		
 		Console.assertIsObjectOrArray(entry); //Error if entry not found
 		
-		range = entry.range;		
 		loadSampleMaps(name, entry);
-		colourPlayableKeys();
 	}
 	
 	inline function loadSampleMaps(name, entry)
@@ -49,21 +54,6 @@ namespace instrumentData
 		}
 	}
 	
-	inline function colourPlayableKeys()
-	{
-		for (i = 0; i < 127; i++)
-		{			
-			if (i >= range[0] && i <= range[1])
-			{
-				Engine.setKeyColour(i, Colours.withAlpha(Colours.blue, 0.3));	
-			}
-			else 
-			{
-				Engine.setKeyColour(i, Colours.withAlpha(Colours.white, 0.0));
-			}				
-		}
-	}
-	
 	inline function hideUnusedControls(entry)
 	{
 		for (i = 0; i < articulations.length; i++) //Each articulation
@@ -78,5 +68,26 @@ namespace instrumentData
 				sliRel[i].set("x", 1000);
 			}
 		}
+	}
+	
+	inline function getInstrumentData(name)
+	{
+		local entry = database[name]; //Get instrument entry from the database
+		
+		Console.assertIsObjectOrArray(entry); //Error if entry not found
+		
+		return entry;
+	}
+	
+	inline function getArticulationRange(name, articulation)
+	{
+		local entry = database[name]; //Get instrument entry from the database
+		
+		Console.assertIsObjectOrArray(entry); //Error if entry not found
+		
+		if (entry.articulations.contains(articulation))
+		{
+			return entry.articulationData[articulation].range;
+		}		
 	}
 }
