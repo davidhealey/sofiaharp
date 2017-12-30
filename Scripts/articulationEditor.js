@@ -212,14 +212,16 @@ namespace articulationEditor
 	
 	inline function colourPlayableKeys()
 	{
-		local a = instrumentData.database[instrumentName].articulations[cmbArt.getValue()-1]; //Current articulation name
-		local r = instrumentData.database[instrumentName].articulationData[a].range; //Range of current articulation
-Console.print(instrumentData.database[instrumentName].range[1]);
-		for (i = instrumentData.database[instrumentName].range[0]; i < instrumentData.database[instrumentName].range[1]; i++)
+		local instRange = instrumentData.getRange(instrumentName); //Full playable range of instrument
+		
+		local a = instrumentData.getArticulationName(instrumentName, cmbArt.getValue()-1); //Current articulation name
+		local r = instrumentData.getArticulationRange(instrumentName, a); //Range of current articulation
+
+		for (i = instRange[0]; i < instRange[1]; i++)
 		{
 			Engine.setKeyColour(i, Colours.withAlpha(Colours.white, 0.0)); //Reset key colour
 			
-			if (i >= r[0] || i <= r[1]) //i is in articulation's range
+			if (i >= r[0] && i <= r[1]) //i is in articulation's range
 			{
 				Engine.setKeyColour(i, Colours.withAlpha(Colours.blue, 0.3)); //Update KS colour	
 			}
