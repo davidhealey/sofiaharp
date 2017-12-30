@@ -80,7 +80,8 @@ namespace articulationEditor
 		
 		if (idx != -1) //Keyswitch triggered the callback
 		{
-			changeArticulation(idx);			
+			changeArticulation(idx);
+			colourPlayableKeys();
 			cmbArt.setValue(idx+1); //Change displayed selected articulation
 			cmbArt.repaint(); //Async repaint
 			showArticulationControls(idx); //Change displayed articulation controls	
@@ -100,7 +101,8 @@ namespace articulationEditor
 				
 				if (idx != -1) //Assigned program number triggered callback
 				{
-					changeArticulation(idx);			
+					changeArticulation(idx);
+					colourPlayableKeys();
 					cmbArt.setValue(idx+1); //Change displayed selected articulation
 					cmbArt.repaint(); //Async repaint
 					showArticulationControls(idx); //Change displayed articulation controls	
