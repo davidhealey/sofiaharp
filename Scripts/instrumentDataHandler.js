@@ -1,7 +1,10 @@
+include("instrumentData.js");
+
 namespace idh
 {	
 	const var allArticulations = ["normal", "staccato", "fingernail", "table", "harmonics"];
-	const var articulationDisplayNames = ["Normal", "Staccato", "Fingernail", " Prés de la table", "Harmonics"];
+	const var articulationDisplayNames = ["Normal", "Staccato", "Fingernail", "Prés de la table", "Harmonics"];
+	const var samplerIds = Synth.getIdList("Sampler");
 	reg keyswitches = []; //User customisable values (unused ones will be set to -1 by script)
 	reg programs = [1, 40, 9, 17, 10]; //UACC and Program Change numbers for articulations
 	reg articulationIndexes = []; //Instrument's articulations indexed against allArticulations
@@ -36,10 +39,32 @@ namespace idh
 		}
 		
 		articulationIndexes = indexArticulations(name);
-		//loadSampleMaps(name, entry);
-		disableUnusedKeyswitches();
+		loadSampleMaps(name, entry);
 	}
-	
+			
+	inline function loadSampleMaps(name, entry)
+	{	
+		for (i = 0; i < samplerIds.length; i++) //Each sampler ID
+		{
+			local s = Synth.getChildSynth(samplerIds[i]); //Get the sampler
+		
+			for (a in entry.articulations) //Each of the entry's articulations
+			{
+				if (samplerIds[i].indexOf(a) != -1) //Sample ID contains articulation name
+				{
+					s.setBypassed(false);
+					//s.loadSampleMap(name + "_" + id); //Load sample map for this instrument
+					break; //Exit inner loop
+				}
+				else 
+				{
+					s.setBypassed(true); //Bypass unused sampler
+					//s.loadSampleMap("empty"); //Load empty sample map
+				}
+			}
+		}
+	}
+		
 	inline function disableUnusedKeyswitches()
 	{
 		for (i = 0; i < allArticulations.length; i++)
@@ -51,29 +76,6 @@ namespace idh
 		}
 	}
 	
-	inline function loadSampleMaps(name, entry)
-	{
-		for (id in samplerIds) //Each sampler ID
-		{
-			local s = Synth.getSampler(id); //Get the sampler
-		
-			for (a in entry.articulations) //Each of the entry's articulations
-			{
-				if (id.indexOf(a) != -1) //Sample ID contains articulation name
-				{
-					s.setBypassed(false);
-					s.loadSampleMap(name + "_" + id); //Load sample map for this instrument
-					break; //Exit inner loop
-				}
-				else 
-				{
-					s.setBypassed(true); //Bypass unused sampler
-					s.loadSampleMap("empty"); //Load empty sample map
-				}
-			}
-		}
-	}
-		
 	//Returns the data entry for the given instrument
 	inline function getData(name)
 	{
