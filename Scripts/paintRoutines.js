@@ -91,7 +91,7 @@ namespace paintRoutines
 	
 		reg text;
 		this.getValue()-1 == -1 ? text = this.get("text") : text = this.data.items[this.getValue()-1];
-		g.drawAlignedText(text, [10, 0, this.get("width"), this.get("height")], "left");
+		g.drawAlignedText(text, [7, 0, this.get("width"), this.get("height")], "left");
 	}
 }
 
