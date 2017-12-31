@@ -1,6 +1,9 @@
 namespace instData
 {	
-	//Instrument database
+	const var allArticulations = ["normal", "staccato", "fingernail", "table", "harmonics"];
+	const var articulationDisplayNames = ["Normal", "Staccato", "Fingernail", "Prés de la table", "Harmonics"];
+	reg programs = [1, 40, 9, 17, 10]; //UACC and Program Change numbers for articulations
+
 	const var database = {
 		harp:
 		{

@@ -2,12 +2,9 @@ include("instrumentData.js");
 
 namespace idh
 {	
-	const var allArticulations = ["normal", "staccato", "fingernail", "table", "harmonics"];
-	const var articulationDisplayNames = ["Normal", "Staccato", "Fingernail", "Prés de la table", "Harmonics"];
 	const var samplerIds = Synth.getIdList("Sampler");
-	reg keyswitches = []; //User customisable values (unused ones will be set to -1 by script)
-	reg programs = [1, 40, 9, 17, 10]; //UACC and Program Change numbers for articulations
 	reg articulationIndexes = []; //Instrument's articulations indexed against allArticulations
+	reg keyswitches = []; //User customisable values (unused ones will be set to -1 by script)
 
 	//Instrument loading functions
 	inline function loadInstrument(name)
@@ -51,7 +48,7 @@ namespace idh
 		
 	inline function disableUnusedKeyswitches()
 	{
-		for (i = 0; i < allArticulations.length; i++)
+		for (i = 0; i < instData.allArticulations.length; i++)
 		{
 			if (articulationIndexes.indexOf(i) == -1) //This articulation is not used by the insturment
 			{
@@ -103,97 +100,126 @@ namespace idh
 
 		for (k in entry.articulations)
 		{
-			if (allArticulations.contains(k))
+			if (instData.allArticulations.contains(k))
 			{
-				index.push(allArticulations.indexOf(k));
+				index.push(instData.allArticulations.indexOf(k));
 			}
 		}
 		
 		return index;
 	}
 	
-	//Returns the number of articulations the insturment uses
+	//Returns the number of articulations either for the specified insturment or from allArticulations
 	inline function getNumArticulations(name)
 	{
-		local entry = instData.database[name]; //Get instrument entry from the instData.database
-		
-		Console.assertIsObjectOrArray(entry); //Error if entry not found
-		
-		local i = 0;
-		
-		for (k in entry.articulations)
+		if (name != null) //Return num of articulations used by specified instrument
 		{
-			i++;
-		}
+			local entry = instData.database[name]; //Get instrument entry from the instData.database
 		
-		return i;
+			Console.assertIsObjectOrArray(entry); //Error if entry not found
+		
+			local i = 0;
+		
+			for (k in entry.articulations)
+			{
+				i++;
+			}
+		
+			return i;			
+		}
+		else 
+		{
+			return instData.allArticulations.length; //Return total available articulations
+		}
 	}
 	
 	//Returns an array containing the names of all of the insturment's articulations
 	inline function getArticulationNames(name)
 	{
-		local entry = instData.database[name]; //Get instrument entry from the instData.database
-		
-		Console.assertIsObjectOrArray(entry); //Error if entry not found
-		
-		local n = [];
-		
-		for (k in entry.articulations)
+		if (name != null)
 		{
-			n.push(k);
-		}
+			local entry = instData.database[name]; //Get instrument entry from the instData.database
 		
-		return n;
+			Console.assertIsObjectOrArray(entry); //Error if entry not found
+		
+			local n = [];
+		
+			for (k in entry.articulations)
+			{
+				n.push(k);
+			}
+		
+			return n;
+		}
+		else 
+		{
+			return instData.allArticulations;
+		}
+
 	}
 	
 	//Returns an array containing the names of all of the insturment's articulations display names
 	inline function getArticulationDisplayNames(name)
 	{
-		local entry = instData.database[name]; //Get instrument entry from the instData.database
-		
-		Console.assertIsObjectOrArray(entry); //Error if entry not found
-		
-		local n = [];
-		
-		for (k in entry.articulations) //Each of the insturment's articulations
+		if (name != null)
 		{
-			n.push(articulationDisplayNames[allArticulations.indexOf(k)]);
-		}
+			local entry = instData.database[name]; //Get instrument entry from the instData.database
 		
-		return n;
+			Console.assertIsObjectOrArray(entry); //Error if entry not found
+		
+			local n = [];
+		
+			for (k in entry.articulations) //Each of the insturment's articulations
+			{
+				n.push(instData.articulationDisplayNames[instData.allArticulations.indexOf(k)]);
+			}
+		
+			return n;
+		}
+		else 
+		{
+			return instData.articulationDisplayNames;
+		}
+
 	}
 	
 	//Returns the name of the articulation specified by the given index
 	inline function getArticulationNameByIndex(idx)
 	{
-		return allArticulations[articulationIndexes[idx]];
+		return instData.allArticulations[articulationIndexes[idx]];
 	}
 	
+	//Given an index in the allArticulations array, returns the corrosponding index for the instrument's articulations
 	inline function allArticulationIndexToInstrumentArticulationIndex(idx)
 	{
 		return articulationIndexes[idx];
 	}
 	
+	//Given an index in the instrument's articulations array, returns the corrosponding index in allArticulations
 	inline function instrumentArticulationIndexToAllArticulationIndex(idx)
 	{
 		return articulationIndexes.indexOf(idx);
 	}
-	
+		
+	//Returns the note number for the given index in the keyswitches array
 	inline function getKeyswitch(idx)
 	{
 		return keyswitches[idx];
 	}
 	
+	//Returns the index of the given note number from the keyswitches array
 	inline function getKeyswitchIndex(noteNum)
 	{
 		return keyswitches.indexOf(noteNum);
 	}
 	
+	//For the given program number returns the index in the instData.programs array
 	inline function getProgramIndex(progNum)
 	{
-		return programs.indexOf(progNum);
+		return instData.programs.indexOf(progNum);
 	}
 	
+	//Set the index in the keyswitches array to the given note number
 	inline function setKeyswitch(idx, noteNum)
 	{
 		keyswitches[idx] = noteNum;

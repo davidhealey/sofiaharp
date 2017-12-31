@@ -14,7 +14,7 @@ namespace articulationEditor
 		//Get articulation containers
 		for (c in containerIds) //containerIDs is in main script
 		{
-			if (idh.allArticulations.indexOf(c) != -1)
+			if (idh.getArticulationNames(null).indexOf(c) != -1)
 			{
 				containers.push(Synth.getChildSynth(c));
 			}
@@ -35,7 +35,7 @@ namespace articulationEditor
 		Content.setPropertiesFromJSON("lblAtk", {fontName:Theme.H2.fontName, fontSize:Theme.H2.fontSize});
 		Content.setPropertiesFromJSON("lblRel", {fontName:Theme.H2.fontName, fontSize:Theme.H2.fontSize});
 		
-		for (i = 0; i < idh.allArticulations.length; i++)
+		for (i = 0; i < idh.getNumArticulations(null); i++)
 		{
 			cmbKs.push(Content.getComponent("cmbKs"+i));
 			ui.comboBoxPanel("cmbKs"+i, paintRoutines.comboBox, noteNames);
@@ -53,7 +53,7 @@ namespace articulationEditor
 			//Get MIDI muter for each articulation
 			for (m in muterIds) //Each MIDI muter ID
 			{
-				if (m.indexOf(idh.allArticulations[i]) != -1) //MIDI muter ID contains articulation name
+				if (m.indexOf(idh.getArticulationNames(null)[i]) != -1) //MIDI muter ID contains articulation name
 				{
 					muters[i] = Synth.getMidiProcessor(m); //Get muter for articulation
 					break; //Exit inner loop
@@ -63,7 +63,7 @@ namespace articulationEditor
 			//Find envelopes for each articulation - ignore those with Release or Without envelope in the ID
 			for (e in envelopeIds)
 			{
-				if (e.indexOf(idh.allArticulations[i]) != -1 && e.indexOf("nvelope") != -1 && e.indexOf("Release") == -1)
+				if (e.indexOf(idh.getArticulationNames(null)[i]) != -1 && e.indexOf("nvelope") != -1 && e.indexOf("Release") == -1)
 				{
 					if (envelopes[i] == undefined) envelopes[i] = []; //An articulation may have more than one envelope
 					envelopes[i].push(Synth.getModulator(e));
@@ -135,7 +135,7 @@ namespace articulationEditor
 			colourPlayableKeys();
 		}
 
-		for (i = 0; i < idh.allArticulations.length; i++) //Each of the instrument's articulations
+		for (i = 0; i < idh.getNumArticulations(null); i++) //Each of the instrument's articulations
 		{
 			if (number == cmbKs[i]) //Key switch
 			{
@@ -193,7 +193,7 @@ namespace articulationEditor
 	
 	inline function showArticulationControls(a)
 	{
-		for (i = 0; i < idh.allArticulations.length; i++)
+		for (i = 0; i < idh.getNumArticulations(null); i++)
 		{
 			//Hide all articulations controls
 			cmbKs[i].set("visible", false);
