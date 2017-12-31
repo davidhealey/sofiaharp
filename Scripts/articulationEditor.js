@@ -2,7 +2,7 @@ namespace articulationEditor
 {
 	inline function onInitCB()
 	{
-		const var articulationDisplayNames = instrumentData.getArticulationDisplayNames(instrumentName); //Instrument's articulations
+		const var articulationDisplayNames = idh.getArticulationDisplayNames(instrumentName); //Instrument's articulations
 		
 		const var envelopeIds = Synth.getIdList("Simple Envelope");
 		const var muterIds = Synth.getIdList("MidiMuter");
@@ -14,7 +14,7 @@ namespace articulationEditor
 		//Get articulation containers
 		for (c in containerIds) //containerIDs is in main script
 		{
-			if (instrumentData.allArticulations.indexOf(c) != -1)
+			if (idh.allArticulations.indexOf(c) != -1)
 			{
 				containers.push(Synth.getChildSynth(c));
 			}
@@ -35,7 +35,7 @@ namespace articulationEditor
 		Content.setPropertiesFromJSON("lblAtk", {fontName:Theme.H2.fontName, fontSize:Theme.H2.fontSize});
 		Content.setPropertiesFromJSON("lblRel", {fontName:Theme.H2.fontName, fontSize:Theme.H2.fontSize});
 		
-		for (i = 0; i < instrumentData.allArticulations.length; i++)
+		for (i = 0; i < idh.allArticulations.length; i++)
 		{
 			cmbKs.push(Content.getComponent("cmbKs"+i));
 			ui.comboBoxPanel("cmbKs"+i, paintRoutines.comboBox, noteNames);
@@ -53,7 +53,7 @@ namespace articulationEditor
 			//Get MIDI muter for each articulation
 			for (m in muterIds) //Each MIDI muter ID
 			{
-				if (m.indexOf(instrumentData.allArticulations[i]) != -1) //MIDI muter ID contains articulation name
+				if (m.indexOf(idh.allArticulations[i]) != -1) //MIDI muter ID contains articulation name
 				{
 					muters[i] = Synth.getMidiProcessor(m); //Get muter for articulation
 					break; //Exit inner loop
@@ -63,7 +63,7 @@ namespace articulationEditor
 			//Find envelopes for each articulation - ignore those with Release or Without envelope in the ID
 			for (e in envelopeIds)
 			{
-				if (e.indexOf(instrumentData.allArticulations[i]) != -1 && e.indexOf("nvelope") != -1 && e.indexOf("Release") == -1)
+				if (e.indexOf(idh.allArticulations[i]) != -1 && e.indexOf("nvelope") != -1 && e.indexOf("Release") == -1)
 				{
 					if (envelopes[i] == undefined) envelopes[i] = []; //An articulation may have more than one envelope
 					envelopes[i].push(Synth.getModulator(e));
@@ -74,13 +74,13 @@ namespace articulationEditor
 	
 	inline function onNoteCB()
 	{
-		local idx = instrumentData.getKeyswitchIndex(Message.getNoteNumber()); //Check for index in keyswitches array
+		local idx = idh.getKeyswitchIndex(Message.getNoteNumber()); //Check for index in keyswitches array
 
 		if (idx != -1) //Keyswitch triggered the callback
 		{
 			changeArticulation(idx);
 			asyncUpdater.setFunctionAndUpdate(showArticulationControlsAndColourKeys, idx);
-			cmbArt.setValue(instrumentData.instrumentArticulationIndexToAllArticulationIndex(idx)+1); //Change selected articulation display
+			cmbArt.setValue(idh.instrumentArticulationIndexToAllArticulationIndex(idx)+1); //Change selected articulation display
 			cmbArt.repaint(); //Async repaint	
 		}
 	}
@@ -100,13 +100,13 @@ namespace articulationEditor
 		switch (Message.getControllerNumber())
 		{		
 			case 32: //UACC
-				local idx = instrumentData.getProgramIndex(Message.getControllerValue()); //Lookup program number
+				local idx = idh.getProgramIndex(Message.getControllerValue()); //Lookup program number
 				
 				if (idx != -1) //Assigned program number triggered callback
 				{
 					changeArticulation(idx);
 					asyncUpdater.setFunctionAndUpdate(showArticulationControlsAndColourKeys, idx);
-					cmbArt.setValue(instrumentData.instrumentArticulationIndexToAllArticulationIndex(idx)+1); //Change displayed selected articulation
+					cmbArt.setValue(idh.instrumentArticulationIndexToAllArticulationIndex(idx)+1); //Change displayed selected articulation
 					cmbArt.repaint(); //Async repaint
 				}
 			break;
@@ -129,30 +129,30 @@ namespace articulationEditor
 	{
 		if (number == cmbArt)
 		{
-			local idx = instrumentData.allArticulationIndexToInstrumentArticulationIndex(value-1);
+			local idx = idh.allArticulationIndexToInstrumentArticulationIndex(value-1);
 			changeArticulation(idx);
 			showArticulationControls(idx);
 			colourPlayableKeys();
 		}
 
-		for (i = 0; i < instrumentData.allArticulations.length; i++) //Each of the instrument's articulations
+		for (i = 0; i < idh.allArticulations.length; i++) //Each of the instrument's articulations
 		{
 			if (number == cmbKs[i]) //Key switch
 			{
-				local r = instrumentData.getRange(instrumentName); //Full playable range of instrument
+				local r = idh.getRange(instrumentName); //Full playable range of instrument
 				
 				if (value <= r[0] || value >= r[1]) //Outside playable range
 				{
-					Engine.setKeyColour(instrumentData.getKeyswitch(i), Colours.withAlpha(Colours.white, 0.0)); //Reset current KS colour
-					if (instrumentData.getKeyswitch(i) != -1) //If the KS has not been disabled
+					Engine.setKeyColour(idh.getKeyswitch(i), Colours.withAlpha(Colours.white, 0.0)); //Reset current KS colour
+					if (idh.getKeyswitch(i) != -1) //If the KS has not been disabled
 					{
-						instrumentData.setKeyswitch(i, value-1); //Update KS
-						Engine.setKeyColour(instrumentData.getKeyswitch(i), Colours.withAlpha(Colours.red, 0.3)); //Update KS colour					
+						idh.setKeyswitch(i, value-1); //Update KS
+						Engine.setKeyColour(idh.getKeyswitch(i), Colours.withAlpha(Colours.red, 0.3)); //Update KS colour					
 					}
 				}
 				else 
 				{
-					cmbKs[i].setValue(instrumentData.getKeyswitch(i)+1); //Revert to previous KS
+					cmbKs[i].setValue(idh.getKeyswitch(i)+1); //Revert to previous KS
 					cmbKs[i].repaintImmediately();
 				}
 				break;
@@ -193,7 +193,7 @@ namespace articulationEditor
 	
 	inline function showArticulationControls(a)
 	{
-		for (i = 0; i < instrumentData.allArticulations.length; i++)
+		for (i = 0; i < idh.allArticulations.length; i++)
 		{
 			//Hide all articulations controls
 			cmbKs[i].set("visible", false);
@@ -225,10 +225,10 @@ namespace articulationEditor
 	
 	inline function colourPlayableKeys()
 	{
-		local instRange = instrumentData.getRange(instrumentName); //Full playable range of instrument
-		local a = instrumentData.getArticulationNameByIndex(cmbArt.getValue()-1);
-		local r = instrumentData.getArticulationRange(instrumentName, a); //Range of current articulation
-Console.print(a);
+		local instRange = idh.getRange(instrumentName); //Full playable range of instrument
+		local a = idh.getArticulationNameByIndex(cmbArt.getValue()-1);
+		local r = idh.getArticulationRange(instrumentName, a); //Range of current articulation
+
 		for (i = instRange[0]; i < instRange[1]; i++) //Each potentially playable key
 		{
 			Engine.setKeyColour(i, Colours.withAlpha(Colours.white, 0.0)); //Reset key colour
