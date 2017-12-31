@@ -1,9 +1,7 @@
 namespace articulationEditor
 {
 	inline function onInitCB()
-	{
-		const var articulationDisplayNames = idh.getArticulationDisplayNames(instrumentName); //Instrument's articulations
-		
+	{	
 		const var envelopeIds = Synth.getIdList("Simple Envelope");
 		const var muterIds = Synth.getIdList("MidiMuter");
 		
@@ -27,7 +25,7 @@ namespace articulationEditor
 		const var sliRel = [];
 				
 		const var cmbArt = Content.getComponent("cmbArt");
-		ui.comboBoxPanel("cmbArt", paintRoutines.comboBox, articulationDisplayNames);
+		ui.comboBoxPanel("cmbArt", paintRoutines.comboBox, idh.getArticulationDisplayNames(instrumentName));
 	
 		Content.setPropertiesFromJSON("lblArt", {fontName:Theme.H2.fontName, fontSize:Theme.H2.fontSize});
 		Content.setPropertiesFromJSON("lblKs", {fontName:Theme.H2.fontName, fontSize:Theme.H2.fontSize});
