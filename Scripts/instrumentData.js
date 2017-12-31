@@ -180,7 +180,7 @@ namespace instrumentData
 	//Returns the name of the articulation specified by the given index
 	inline function getArticulationNameByIndex(idx)
 	{
-		return allArticulations[articulationIndex[idx]];
+		return allArticulations[articulationIndexes[idx]];
 	}
 	
 	inline function allArticulationIndexToInstrumentArticulationIndex(idx)

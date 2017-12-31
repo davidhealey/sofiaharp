@@ -131,8 +131,8 @@ namespace articulationEditor
 		{
 			local idx = instrumentData.allArticulationIndexToInstrumentArticulationIndex(value-1);
 			changeArticulation(idx);
-			colourPlayableKeys();
 			showArticulationControls(idx);
+			colourPlayableKeys();
 		}
 
 		for (i = 0; i < instrumentData.allArticulations.length; i++) //Each of the instrument's articulations
@@ -228,7 +228,7 @@ namespace articulationEditor
 		local instRange = instrumentData.getRange(instrumentName); //Full playable range of instrument
 		local a = instrumentData.getArticulationNameByIndex(cmbArt.getValue()-1);
 		local r = instrumentData.getArticulationRange(instrumentName, a); //Range of current articulation
-
+Console.print(a);
 		for (i = instRange[0]; i < instRange[1]; i++) //Each potentially playable key
 		{
 			Engine.setKeyColour(i, Colours.withAlpha(Colours.white, 0.0)); //Reset key colour
