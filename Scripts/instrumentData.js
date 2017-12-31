@@ -2,7 +2,9 @@ namespace instrumentData
 {	
 	const var allArticulations = ["normal", "staccato", "fingernail", "table", "harmonics"];
 	const var articulationDisplayNames = ["Normal", "Staccato", "Fingernail", " Prés de la table", "Harmonics"];
-	reg articulationIndex = []; //Instrument's articulations indexed against allArticulations
+	reg keyswitches = []; //User customisable values (unused ones will be set to -1 by script)
+	reg programs = [1, 40, 9, 17, 10]; //UACC and Program Change numbers for articulations
+	reg articulationIndexes = []; //Instrument's articulations indexed against allArticulations
 
 	//Instrument database
 	const var database = {
@@ -13,7 +15,7 @@ namespace instrumentData
 			{
 				normal:{range:[26, 96]},
 				staccato:{range:[26, 96]},
-				fingernail:{range:[26, 96]},
+				//fingernail:{range:[26, 96]},
 				table:{range:[26, 96]},
 				harmonics:{range:[40, 88]}
 			}
@@ -27,8 +29,26 @@ namespace instrumentData
 		
 		Console.assertIsObjectOrArray(entry); //Error if entry not found
 		
-		articulationIndex = indexArticulations(name);
-		loadSampleMaps(name, entry);
+		//Reset all key colours
+		for (i = 0; i < 127; i++)
+		{
+			Engine.setKeyColour(i, Colours.withAlpha(Colours.white, 0.0));
+		}
+		
+		articulationIndexes = indexArticulations(name);
+		//loadSampleMaps(name, entry);
+		disableUnusedKeyswitches();
+	}
+	
+	inline function disableUnusedKeyswitches()
+	{
+		for (i = 0; i < allArticulations.length; i++)
+		{
+			if (articulationIndexes.indexOf(i) == -1) //This articulation is not used by the insturment
+			{
+				keyswitches[i] = -1; //Clear the KS
+			}
+		}
 	}
 	
 	inline function loadSampleMaps(name, entry)
@@ -165,6 +185,26 @@ namespace instrumentData
 	
 	inline function getArticulationIndex(idx)
 	{
-		return articulationIndex[idx];
+		return articulationIndexes[idx];
+	}
+
+	inline function getKeyswitch(idx)
+	{
+		return keyswitches[idx];
+	}
+	
+	inline function getKeyswitchIndex(noteNum)
+	{
+		return keyswitches.indexOf(noteNum);
+	}
+	
+	inline function getProgramIndex(progNum)
+	{
+		return programs.indexOf(progNum);
+	}
+	
+	inline function setKeyswitch(idx, noteNum)
+	{
+		keyswitches[idx] = noteNum;
 	}
 }
