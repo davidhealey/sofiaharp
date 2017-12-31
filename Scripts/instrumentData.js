@@ -150,7 +150,7 @@ namespace instrumentData
 		
 		local n = [];
 		
-		for (k in entry.articulations)
+		for (k in entry.articulations) //Each of the insturment's articulations
 		{
 			n.push(articulationDisplayNames[allArticulations.indexOf(k)]);
 		}
@@ -158,23 +158,9 @@ namespace instrumentData
 		return n;
 	}
 	
-	//Returns the name of the articulation specified by the given index - as if the articulations object is an array
-	inline function getArticulationNameByIndex(name, idx)
+	//Returns the name of the articulation specified by the given index
+	inline function getArticulationNameByIndex(idx)
 	{
-		//local entry = database[name]; //Get instrument entry from the database
-				
-		//Console.assertIsObjectOrArray(entry); //Error if entry not found		
-		
-		//Build array of articulaiton names using the keys of the entry's articulations object
-		/*local n = [];
-		
-		for (k in entry.articulations)
-		{
-			n.push(k);
-		}
-		
-		return n[idx];*/
-		Console.print(allArticulations[articulationIndex[idx]]);
 		return allArticulations[articulationIndex[idx]];
 	}
 }

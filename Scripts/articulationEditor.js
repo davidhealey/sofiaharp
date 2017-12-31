@@ -4,7 +4,7 @@ namespace articulationEditor
 	{
 		reg keyswitches = []; //User customisable values (unused ones will be set to -1 by script)
 		reg programs = [1, 40, 9, 17, 10]; //UACC and Program Change numbers for articulations
-		const var articulationNames = instrumentData.getArticulationNames(instrumentName); //Instrument's articulations
+		const var articulationDisplayNames = instrumentData.getArticulationDisplayNames(instrumentName); //Instrument's articulations
 		
 		const var envelopeIds = Synth.getIdList("Simple Envelope");
 		const var muterIds = Synth.getIdList("MidiMuter");
@@ -29,7 +29,7 @@ namespace articulationEditor
 		const var sliRel = [];
 				
 		const var cmbArt = Content.getComponent("cmbArt");
-		ui.comboBoxPanel("cmbArt", paintRoutines.comboBox, articulationNames);
+		ui.comboBoxPanel("cmbArt", paintRoutines.comboBox, articulationDisplayNames);
 	
 		Content.setPropertiesFromJSON("lblArt", {fontName:Theme.H2.fontName, fontSize:Theme.H2.fontSize});
 		Content.setPropertiesFromJSON("lblKs", {fontName:Theme.H2.fontName, fontSize:Theme.H2.fontSize});
@@ -208,9 +208,9 @@ namespace articulationEditor
 		sliRel[a].set("visible", true);		
 	}
 	
-	inline function changeArticulation(a)
+	inline function changeArticulation(idx)
 	{
-		if (a > -1) //Sanity check
+		if (idx > -1) //Sanity check
 		{
 			//Mute every articulation
 			for (m in muters) //Each Midi muter
@@ -218,14 +218,14 @@ namespace articulationEditor
 				m.setAttribute(0, 1);
 			}
 		
-			muters[a].setAttribute(0, 0); //Unmute articulation (a)	
+			muters[idx].setAttribute(0, 0); //Unmute articulation (a)	
 		}
 	}
 	
 	inline function colourPlayableKeys()
 	{
 		local instRange = instrumentData.getRange(instrumentName); //Full playable range of instrument
-		local a = articulationNames[cmbArt.getValue()-1]; //Current articulation name
+		local a = instrumentData.getArticulationNameByIndex(cmbArt.getValue()-1);
 		local r = instrumentData.getArticulationRange(instrumentName, a); //Range of current articulation
 
 		for (i = instRange[0]; i < instRange[1]; i++) //Each potentially playable key
