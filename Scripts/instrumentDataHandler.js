@@ -9,26 +9,10 @@ namespace idh
 	reg programs = [1, 40, 9, 17, 10]; //UACC and Program Change numbers for articulations
 	reg articulationIndexes = []; //Instrument's articulations indexed against allArticulations
 
-	//Instrument database
-	const var database = {
-		harp:
-		{
-			range:[26, 96], //Maximum range of instrument
-			articulations:
-			{
-				normal:{range:[26, 96]},
-				staccato:{range:[26, 96]},
-				fingernail:{range:[26, 96]},
-				table:{range:[26, 96]},
-				harmonics:{range:[40, 88]}
-			}
-		}
-	};
-
 	//Instrument loading functions
 	inline function loadInstrument(name)
 	{
-		local entry = database[name]; //Get instrument entry from the database
+		local entry = instData.database[name]; //Get instrument entry from the database
 		
 		Console.assertIsObjectOrArray(entry); //Error if entry not found
 		
@@ -79,7 +63,7 @@ namespace idh
 	//Returns the data entry for the given instrument
 	inline function getData(name)
 	{
-		local entry = database[name]; //Get instrument entry from the database
+		local entry = instData.database[name]; //Get instrument entry from the instData.database
 		
 		Console.assertIsObjectOrArray(entry); //Error if entry not found
 		
@@ -89,7 +73,7 @@ namespace idh
 	//Returns the full range of the instrument (maximum range of all articulations)
 	inline function getRange(name)
 	{
-		local entry = database[name]; //Get instrument entry from the database
+		local entry = instData.database[name]; //Get instrument entry from the instData.database
 		
 		Console.assertIsObjectOrArray(entry); //Error if entry not found
 		
@@ -99,7 +83,7 @@ namespace idh
 	//Returns the range of the specified articulation
 	inline function getArticulationRange(name, articulation)
 	{
-		local entry = database[name]; //Get instrument entry from the database
+		local entry = instData.database[name]; //Get instrument entry from the instData.database
 		
 		Console.assertIsObjectOrArray(entry); //Error if entry not found
 		
@@ -111,7 +95,7 @@ namespace idh
 	*/
 	inline function indexArticulations(name)
 	{
-		local entry = database[name]; //Get instrument entry from the database
+		local entry = instData.database[name]; //Get instrument entry from the instData.database
 		
 		Console.assertIsObjectOrArray(entry); //Error if entry not found
 		
@@ -131,7 +115,7 @@ namespace idh
 	//Returns the number of articulations the insturment uses
 	inline function getNumArticulations(name)
 	{
-		local entry = database[name]; //Get instrument entry from the database
+		local entry = instData.database[name]; //Get instrument entry from the instData.database
 		
 		Console.assertIsObjectOrArray(entry); //Error if entry not found
 		
@@ -148,7 +132,7 @@ namespace idh
 	//Returns an array containing the names of all of the insturment's articulations
 	inline function getArticulationNames(name)
 	{
-		local entry = database[name]; //Get instrument entry from the database
+		local entry = instData.database[name]; //Get instrument entry from the instData.database
 		
 		Console.assertIsObjectOrArray(entry); //Error if entry not found
 		
@@ -165,7 +149,7 @@ namespace idh
 	//Returns an array containing the names of all of the insturment's articulations display names
 	inline function getArticulationDisplayNames(name)
 	{
-		local entry = database[name]; //Get instrument entry from the database
+		local entry = instData.database[name]; //Get instrument entry from the instData.database
 		
 		Console.assertIsObjectOrArray(entry); //Error if entry not found
 		
