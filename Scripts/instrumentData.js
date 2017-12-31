@@ -28,7 +28,7 @@ namespace instrumentData
 		
 		Console.assertIsObjectOrArray(entry); //Error if entry not found
 		
-		articulationIndex = getArticulationIndex(name);
+		articulationIndex = indexArticulations(name);
 		loadSampleMaps(name, entry);
 	}
 	
@@ -88,7 +88,7 @@ namespace instrumentData
 	/**
 	* Indexes the instrument's articulations agains all available articulations.
 	*/
-	inline function getArticulationIndex(name)
+	inline function indexArticulations(name)
 	{
 		local entry = database[name]; //Get instrument entry from the database
 		
@@ -162,5 +162,10 @@ namespace instrumentData
 	inline function getArticulationNameByIndex(idx)
 	{
 		return allArticulations[articulationIndex[idx]];
+	}
+	
+	inline function getArticulationIndex(idx)
+	{
+		return articulationIndex[idx];
 	}
 }
