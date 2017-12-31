@@ -3,6 +3,7 @@ namespace instrumentData
 	const var allArticulations = ["normal", "staccato", "fingernail", "table", "harmonics"];
 	const var articulationDisplayNames = ["Normal", "Staccato", "Fingernail", " Prés de la table", "Harmonics"];
 	const var range = [26, 96]; //The range of the currently loaded instrument
+	reg articulationIndex = []; //Instrument's articulations indexed against allArticulations
 
 	//Instrument database
 	const var database = {
@@ -20,28 +21,6 @@ namespace instrumentData
 		}
 	};
 
-	/**
-	* Indexes the instrument's articulations agains all available articulations.
-	*/
-	inline function getArticulationIndex(name)
-	{
-		local entry = database[name]; //Get instrument entry from the database
-		
-		Console.assertIsObjectOrArray(entry); //Error if entry not found
-		
-		local index = [];
-
-		for (k in entry.articulations)
-		{
-			if (allArticulations.contains(k))
-			{
-				index.push(allArticulations.indexOf(k));
-			}
-		}
-		
-		return index;
-	}
-	
 	//Instrument loading functions
 	inline function loadInstrument(name)
 	{
@@ -49,6 +28,7 @@ namespace instrumentData
 		
 		Console.assertIsObjectOrArray(entry); //Error if entry not found
 		
+		articulationIndex = getArticulationIndex(name);
 		loadSampleMaps(name, entry);
 	}
 	
@@ -74,23 +54,7 @@ namespace instrumentData
 			}
 		}
 	}
-	
-	inline function hideUnusedControls(entry)
-	{
-		/*for (i = 0; i < articulations.length; i++) //Each articulation
-		{
-			//entry does not use the articulation
-			if (entry.articulations.indexOf(articulations[i]) == -1)
-			{
-				//Hide unneeded controls by moving them beyond view (don't use visible property as this is used elsewhere)
-				cmbKs[i].set("x", 1000);
-				sliVol[i].set("x", 1000);
-				sliAtk[i].set("x", 1000);
-				sliRel[i].set("x", 1000);
-			}
-		}*/
-	}
-	
+		
 	//Returns the data entry for the given instrument
 	inline function getData(name)
 	{
@@ -119,6 +83,28 @@ namespace instrumentData
 		Console.assertIsObjectOrArray(entry); //Error if entry not found
 		
 		return entry.articulations[articulation].range;
+	}
+	
+	/**
+	* Indexes the instrument's articulations agains all available articulations.
+	*/
+	inline function getArticulationIndex(name)
+	{
+		local entry = database[name]; //Get instrument entry from the database
+		
+		Console.assertIsObjectOrArray(entry); //Error if entry not found
+		
+		local index = [];
+
+		for (k in entry.articulations)
+		{
+			if (allArticulations.contains(k))
+			{
+				index.push(allArticulations.indexOf(k));
+			}
+		}
+		
+		return index;
 	}
 	
 	//Returns the number of articulations the insturment uses
@@ -175,18 +161,20 @@ namespace instrumentData
 	//Returns the name of the articulation specified by the given index - as if the articulations object is an array
 	inline function getArticulationNameByIndex(name, idx)
 	{
-		local entry = database[name]; //Get instrument entry from the database
+		//local entry = database[name]; //Get instrument entry from the database
 				
-		Console.assertIsObjectOrArray(entry); //Error if entry not found		
+		//Console.assertIsObjectOrArray(entry); //Error if entry not found		
 		
 		//Build array of articulaiton names using the keys of the entry's articulations object
-		local n = [];
+		/*local n = [];
 		
 		for (k in entry.articulations)
 		{
 			n.push(k);
 		}
 		
-		return n[idx];
+		return n[idx];*/
+		Console.print(allArticulations[articulationIndex[idx]]);
+		return allArticulations[articulationIndex[idx]];
 	}
 }
