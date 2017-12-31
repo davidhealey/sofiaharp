@@ -1,7 +1,7 @@
 namespace instrumentData
 {	
 	const var allArticulations = ["normal", "staccato", "fingernail", "table", "harmonics"];
-	const var displayNames = ["Normal", "Staccato", "Fingernail", " Prés de la table", "Harmonics"];
+	const var articulationDisplayNames = ["Normal", "Staccato", "Fingernail", " Prés de la table", "Harmonics"];
 	const var range = [26, 96]; //The range of the currently loaded instrument
 
 	//Instrument database
@@ -12,7 +12,7 @@ namespace instrumentData
 			articulations:
 			{
 				normal:{range:[26, 96]},
-				//staccato:{range:[26, 96]},
+				staccato:{range:[26, 96]},
 				fingernail:{range:[26, 96]},
 				table:{range:[26, 96]},
 				harmonics:{range:[40, 88]}
@@ -20,6 +20,9 @@ namespace instrumentData
 		}
 	};
 
+	/**
+	* Indexes the instrument's articulations agains all available articulations.
+	*/
 	inline function getArticulationIndex(name)
 	{
 		local entry = database[name]; //Get instrument entry from the database
@@ -147,6 +150,23 @@ namespace instrumentData
 		for (k in entry.articulations)
 		{
 			n.push(k);
+		}
+		
+		return n;
+	}
+	
+	//Returns an array containing the names of all of the insturment's articulations display names
+	inline function getArticulationDisplayNames(name)
+	{
+		local entry = database[name]; //Get instrument entry from the database
+		
+		Console.assertIsObjectOrArray(entry); //Error if entry not found
+		
+		local n = [];
+		
+		for (k in entry.articulations)
+		{
+			n.push(articulationDisplayNames[allArticulations.indexOf(k)]);
 		}
 		
 		return n;
