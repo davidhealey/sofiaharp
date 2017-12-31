@@ -75,16 +75,13 @@ namespace articulationEditor
 	inline function onNoteCB()
 	{
 		local idx = instrumentData.getKeyswitchIndex(Message.getNoteNumber()); //Check for index in keyswitches array
-		Console.print(idx);
+
 		if (idx != -1) //Keyswitch triggered the callback
 		{
-			/*local articulationIndex = instrumentData.getArticulationIndex(idx); //Convert KS index to articulation index
-			changeArticulation(articulationIndex);
-			asyncUpdater.setFunctionAndUpdate(showArticulationControlsAndColourKeys, articulationIndex);*/
 			changeArticulation(idx);
 			asyncUpdater.setFunctionAndUpdate(showArticulationControlsAndColourKeys, idx);
-			cmbArt.setValue(idx+1); //Change displayed selected articulation
-			cmbArt.repaint(); //Async repaint			
+			cmbArt.setValue(instrumentData.instrumentArticulationIndexToAllArticulationIndex(idx)+1); //Change selected articulation display
+			cmbArt.repaint(); //Async repaint	
 		}
 	}
 	
@@ -107,10 +104,9 @@ namespace articulationEditor
 				
 				if (idx != -1) //Assigned program number triggered callback
 				{
-					local articulationIndex = instrumentData.getArticulationIndex(idx); //Convert program index to articulation index
-					changeArticulation(articulationIndex);
-					asyncUpdater.setFunctionAndUpdate(showArticulationControlsAndColourKeys, articulationIndex);
-					cmbArt.setValue(idx+1); //Change displayed selected articulation
+					changeArticulation(idx);
+					asyncUpdater.setFunctionAndUpdate(showArticulationControlsAndColourKeys, idx);
+					cmbArt.setValue(instrumentData.instrumentArticulationIndexToAllArticulationIndex(idx)+1); //Change displayed selected articulation
 					cmbArt.repaint(); //Async repaint
 				}
 			break;
@@ -133,12 +129,13 @@ namespace articulationEditor
 	{
 		if (number == cmbArt)
 		{
-			changeArticulation(instrumentData.getArticulationIndex(value-1));
+			local idx = instrumentData.allArticulationIndexToInstrumentArticulationIndex(value-1);
+			changeArticulation(idx);
 			colourPlayableKeys();
-			showArticulationControls(instrumentData.getArticulationIndex(value-1));
+			showArticulationControls(idx);
 		}
 
-		for (i = 0; i < instrumentData.articulationIndexes.length; i++) //Each of the instrument's articulations
+		for (i = 0; i < instrumentData.allArticulations.length; i++) //Each of the instrument's articulations
 		{
 			if (number == cmbKs[i]) //Key switch
 			{
@@ -147,8 +144,11 @@ namespace articulationEditor
 				if (value <= r[0] || value >= r[1]) //Outside playable range
 				{
 					Engine.setKeyColour(instrumentData.getKeyswitch(i), Colours.withAlpha(Colours.white, 0.0)); //Reset current KS colour
-					instrumentData.setKeyswitch(i, value-1); //Update KS
-					Engine.setKeyColour(instrumentData.getKeyswitch(i), Colours.withAlpha(Colours.red, 0.3)); //Update KS colour				
+					if (instrumentData.getKeyswitch(i) != -1) //If the KS has not been disabled
+					{
+						instrumentData.setKeyswitch(i, value-1); //Update KS
+						Engine.setKeyColour(instrumentData.getKeyswitch(i), Colours.withAlpha(Colours.red, 0.3)); //Update KS colour					
+					}
 				}
 				else 
 				{

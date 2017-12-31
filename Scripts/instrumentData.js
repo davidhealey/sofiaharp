@@ -15,7 +15,7 @@ namespace instrumentData
 			{
 				normal:{range:[26, 96]},
 				staccato:{range:[26, 96]},
-				//fingernail:{range:[26, 96]},
+				fingernail:{range:[26, 96]},
 				table:{range:[26, 96]},
 				harmonics:{range:[40, 88]}
 			}
@@ -183,11 +183,16 @@ namespace instrumentData
 		return allArticulations[articulationIndex[idx]];
 	}
 	
-	inline function getArticulationIndex(idx)
+	inline function allArticulationIndexToInstrumentArticulationIndex(idx)
 	{
 		return articulationIndexes[idx];
 	}
-
+	
+	inline function instrumentArticulationIndexToAllArticulationIndex(idx)
+	{
+		return articulationIndexes.indexOf(idx);
+	}
+	
 	inline function getKeyswitch(idx)
 	{
 		return keyswitches[idx];
