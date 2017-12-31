@@ -132,7 +132,7 @@ namespace articulationEditor
 	{
 		if (number == cmbArt)
 		{
-			changeArticulation(value-1);
+			changeArticulation(instrumentData.getArticulationIndex(value-1));
 			colourPlayableKeys();
 			showArticulationControls(value-1);
 		}

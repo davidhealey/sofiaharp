@@ -2,7 +2,6 @@ namespace instrumentData
 {	
 	const var allArticulations = ["normal", "staccato", "fingernail", "table", "harmonics"];
 	const var articulationDisplayNames = ["Normal", "Staccato", "Fingernail", " Prés de la table", "Harmonics"];
-	const var range = [26, 96]; //The range of the currently loaded instrument
 	reg articulationIndex = []; //Instrument's articulations indexed against allArticulations
 
 	//Instrument database
