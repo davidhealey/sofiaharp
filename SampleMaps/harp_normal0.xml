@@ -1,641 +1,712 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<samplemap ID="harpSustains" SaveMode="1" RRGroupAmount="1" MicPositions="close;decca;hall;">
-  <sample ID="0" Root="26" HiKey="26" LoKey="26" LoVel="0" HiVel="35" RRGroup="1"
+<samplemap ID="harp_normal0" SaveMode="1" RRGroupAmount="1" MicPositions="close;decca;hall;">
+  <sample ID="0" Root="26" HiKey="26" LoKey="26" LoVel="0" HiVel="45" RRGroup="1"
           Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1725"
           SampleEnd="497590" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="21"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="0" MonolithLength="499712"
+          SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_26_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_26_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_26_dynamic1.wav"/>
   </sample>
-  <sample ID="1" Root="27" HiKey="27" LoKey="27" LoVel="0" HiVel="35" RRGroup="1"
+  <sample ID="1" Root="27" HiKey="27" LoKey="27" LoVel="0" HiVel="45" RRGroup="1"
           Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="928"
           SampleEnd="527668" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="21"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="499712" MonolithLength="528384"
+          SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_27_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_27_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_27_dynamic1.wav"/>
   </sample>
-  <sample ID="2" Root="28" HiKey="28" LoKey="28" LoVel="0" HiVel="35" RRGroup="1"
+  <sample ID="2" Root="28" HiKey="28" LoKey="28" LoVel="0" HiVel="45" RRGroup="1"
           Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2676"
           SampleEnd="510030" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="21"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="1028096"
+          MonolithLength="512000" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_28_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_28_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_28_dynamic1.wav"/>
   </sample>
-  <sample ID="3" Root="29" HiKey="29" LoKey="29" LoVel="0" HiVel="35" RRGroup="1"
+  <sample ID="3" Root="29" HiKey="29" LoKey="29" LoVel="0" HiVel="45" RRGroup="1"
           Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="519"
           SampleEnd="481051" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="21"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="1540096"
+          MonolithLength="483328" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_29_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_29_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_29_dynamic1.wav"/>
   </sample>
-  <sample ID="4" Root="30" HiKey="30" LoKey="30" LoVel="0" HiVel="35" RRGroup="1"
+  <sample ID="4" Root="30" HiKey="30" LoKey="30" LoVel="0" HiVel="45" RRGroup="1"
           Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1068"
           SampleEnd="689548" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="21"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="2023424"
+          MonolithLength="692224" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_30_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_30_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_30_dynamic1.wav"/>
   </sample>
-  <sample ID="5" Root="31" HiKey="31" LoKey="31" LoVel="0" HiVel="35" RRGroup="1"
+  <sample ID="5" Root="31" HiKey="31" LoKey="31" LoVel="0" HiVel="45" RRGroup="1"
           Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1069"
           SampleEnd="512971" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="21"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="2715648"
+          MonolithLength="516096" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_31_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_31_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_31_dynamic1.wav"/>
   </sample>
-  <sample ID="6" Root="32" HiKey="32" LoKey="32" LoVel="0" HiVel="35" RRGroup="1"
+  <sample ID="6" Root="32" HiKey="32" LoKey="32" LoVel="0" HiVel="45" RRGroup="1"
           Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2944"
           SampleEnd="689254" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="21"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="3231744"
+          MonolithLength="692224" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_32_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_32_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_32_dynamic1.wav"/>
   </sample>
-  <sample ID="7" Root="33" HiKey="33" LoKey="33" LoVel="0" HiVel="35" RRGroup="1"
+  <sample ID="7" Root="33" HiKey="33" LoKey="33" LoVel="0" HiVel="45" RRGroup="1"
           Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1062"
           SampleEnd="521671" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="21"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="3923968"
+          MonolithLength="524288" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_33_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_33_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_33_dynamic1.wav"/>
   </sample>
-  <sample ID="8" Root="34" HiKey="34" LoKey="34" LoVel="0" HiVel="35" RRGroup="1"
+  <sample ID="8" Root="34" HiKey="34" LoKey="34" LoVel="0" HiVel="45" RRGroup="1"
           Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="583"
           SampleEnd="569280" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="21"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="4448256"
+          MonolithLength="569344" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_34_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_34_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_34_dynamic1.wav"/>
   </sample>
-  <sample ID="9" Root="35" HiKey="35" LoKey="35" LoVel="0" HiVel="35" RRGroup="1"
+  <sample ID="9" Root="35" HiKey="35" LoKey="35" LoVel="0" HiVel="45" RRGroup="1"
           Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2916"
           SampleEnd="575975" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="21"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="5017600"
+          MonolithLength="577536" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_35_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_35_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_35_dynamic1.wav"/>
   </sample>
-  <sample ID="10" Root="36" HiKey="36" LoKey="36" LoVel="0" HiVel="35"
+  <sample ID="10" Root="36" HiKey="36" LoKey="36" LoVel="0" HiVel="45"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1069"
           SampleEnd="1035952" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="21"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="5595136"
+          MonolithLength="1036288" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_36_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_36_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_36_dynamic1.wav"/>
   </sample>
-  <sample ID="11" Root="37" HiKey="37" LoKey="37" LoVel="0" HiVel="35"
+  <sample ID="11" Root="37" HiKey="37" LoKey="37" LoVel="0" HiVel="45"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1169"
           SampleEnd="482205" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="21"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="6631424"
+          MonolithLength="483328" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_37_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_37_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_37_dynamic1.wav"/>
   </sample>
-  <sample ID="12" Root="38" HiKey="38" LoKey="38" LoVel="0" HiVel="35"
+  <sample ID="12" Root="38" HiKey="38" LoKey="38" LoVel="0" HiVel="45"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="704"
           SampleEnd="574231" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="21"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="7114752"
+          MonolithLength="577536" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_38_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_38_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_38_dynamic1.wav"/>
   </sample>
-  <sample ID="13" Root="39" HiKey="39" LoKey="39" LoVel="0" HiVel="35"
+  <sample ID="13" Root="39" HiKey="39" LoKey="39" LoVel="0" HiVel="45"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1167"
           SampleEnd="483495" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="21"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="7692288"
+          MonolithLength="487424" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_39_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_39_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_39_dynamic1.wav"/>
   </sample>
-  <sample ID="14" Root="40" HiKey="40" LoKey="40" LoVel="0" HiVel="35"
+  <sample ID="14" Root="40" HiKey="40" LoKey="40" LoVel="0" HiVel="45"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1265"
           SampleEnd="364695" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="21"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="8179712"
+          MonolithLength="368640" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_40_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_40_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_40_dynamic1.wav"/>
   </sample>
-  <sample ID="15" Root="41" HiKey="41" LoKey="41" LoVel="0" HiVel="35"
+  <sample ID="15" Root="41" HiKey="41" LoKey="41" LoVel="0" HiVel="45"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1591"
           SampleEnd="581383" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="21"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="8548352"
+          MonolithLength="581632" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_41_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_41_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_41_dynamic1.wav"/>
   </sample>
-  <sample ID="16" Root="42" HiKey="42" LoKey="42" LoVel="0" HiVel="35"
+  <sample ID="16" Root="42" HiKey="42" LoKey="42" LoVel="0" HiVel="45"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1166"
           SampleEnd="566287" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="21"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="9129984"
+          MonolithLength="569344" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_42_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_42_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_42_dynamic1.wav"/>
   </sample>
-  <sample ID="17" Root="43" HiKey="43" LoKey="43" LoVel="0" HiVel="35"
+  <sample ID="17" Root="43" HiKey="43" LoKey="43" LoVel="0" HiVel="45"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="631"
           SampleEnd="434018" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="21"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="9699328"
+          MonolithLength="434176" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_43_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_43_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_43_dynamic1.wav"/>
   </sample>
-  <sample ID="18" Root="44" HiKey="44" LoKey="44" LoVel="0" HiVel="35"
+  <sample ID="18" Root="44" HiKey="44" LoKey="44" LoVel="0" HiVel="45"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1264"
           SampleEnd="607236" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="21"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="10133504"
+          MonolithLength="610304" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_44_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_44_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_44_dynamic1.wav"/>
   </sample>
-  <sample ID="19" Root="45" HiKey="45" LoKey="45" LoVel="0" HiVel="35"
+  <sample ID="19" Root="45" HiKey="45" LoKey="45" LoVel="0" HiVel="45"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1026"
           SampleEnd="402359" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="21"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="10743808"
+          MonolithLength="405504" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_45_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_45_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_45_dynamic1.wav"/>
   </sample>
-  <sample ID="20" Root="46" HiKey="46" LoKey="46" LoVel="0" HiVel="35"
+  <sample ID="20" Root="46" HiKey="46" LoKey="46" LoVel="0" HiVel="45"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1153"
           SampleEnd="289487" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="21"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="11149312"
+          MonolithLength="290816" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_46_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_46_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_46_dynamic1.wav"/>
   </sample>
-  <sample ID="21" Root="47" HiKey="47" LoKey="47" LoVel="0" HiVel="35"
+  <sample ID="21" Root="47" HiKey="47" LoKey="47" LoVel="0" HiVel="45"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1136"
           SampleEnd="363866" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="21"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="11440128"
+          MonolithLength="364544" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_47_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_47_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_47_dynamic1.wav"/>
   </sample>
-  <sample ID="22" Root="48" HiKey="48" LoKey="48" LoVel="0" HiVel="35"
+  <sample ID="22" Root="48" HiKey="48" LoKey="48" LoVel="0" HiVel="45"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1265"
           SampleEnd="525132" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="21"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="11804672"
+          MonolithLength="528384" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_48_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_48_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_48_dynamic1.wav"/>
   </sample>
-  <sample ID="23" Root="49" HiKey="49" LoKey="49" LoVel="0" HiVel="35"
+  <sample ID="23" Root="49" HiKey="49" LoKey="49" LoVel="0" HiVel="45"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1103"
           SampleEnd="341398" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="21"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="12333056"
+          MonolithLength="344064" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_49_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_49_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_49_dynamic1.wav"/>
   </sample>
-  <sample ID="24" Root="50" HiKey="50" LoKey="50" LoVel="0" HiVel="35"
+  <sample ID="24" Root="50" HiKey="50" LoKey="50" LoVel="0" HiVel="45"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1080"
           SampleEnd="254808" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="21"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="12677120"
+          MonolithLength="258048" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_50_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_50_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_50_dynamic1.wav"/>
   </sample>
-  <sample ID="25" Root="51" HiKey="51" LoKey="51" LoVel="0" HiVel="35"
+  <sample ID="25" Root="51" HiKey="51" LoKey="51" LoVel="0" HiVel="45"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1445"
           SampleEnd="362405" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="21"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="12935168"
+          MonolithLength="364544" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_51_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_51_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_51_dynamic1.wav"/>
   </sample>
-  <sample ID="26" Root="52" HiKey="52" LoKey="52" LoVel="0" HiVel="35"
+  <sample ID="26" Root="52" HiKey="52" LoKey="52" LoVel="0" HiVel="45"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1151"
           SampleEnd="367388" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="21"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="13299712"
+          MonolithLength="368640" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_52_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_52_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_52_dynamic1.wav"/>
   </sample>
-  <sample ID="27" Root="53" HiKey="53" LoKey="53" LoVel="0" HiVel="35"
+  <sample ID="27" Root="53" HiKey="53" LoKey="53" LoVel="0" HiVel="45"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1007"
           SampleEnd="295906" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="21"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="13668352"
+          MonolithLength="299008" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_53_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_53_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_53_dynamic1.wav"/>
   </sample>
-  <sample ID="28" Root="54" HiKey="54" LoKey="54" LoVel="0" HiVel="35"
+  <sample ID="28" Root="54" HiKey="54" LoKey="54" LoVel="0" HiVel="45"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1302"
           SampleEnd="360076" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="21"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="13967360"
+          MonolithLength="360448" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_54_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_54_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_54_dynamic1.wav"/>
   </sample>
-  <sample ID="29" Root="55" HiKey="55" LoKey="55" LoVel="0" HiVel="35"
+  <sample ID="29" Root="55" HiKey="55" LoKey="55" LoVel="0" HiVel="45"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1012"
           SampleEnd="501906" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="21"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="14327808"
+          MonolithLength="503808" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_55_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_55_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_55_dynamic1.wav"/>
   </sample>
-  <sample ID="30" Root="56" HiKey="56" LoKey="56" LoVel="0" HiVel="35"
+  <sample ID="30" Root="56" HiKey="56" LoKey="56" LoVel="0" HiVel="45"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1018"
           SampleEnd="429973" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="21"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="14831616"
+          MonolithLength="430080" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_56_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_56_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_56_dynamic1.wav"/>
   </sample>
-  <sample ID="31" Root="57" HiKey="57" LoKey="57" LoVel="0" HiVel="35"
+  <sample ID="31" Root="57" HiKey="57" LoKey="57" LoVel="0" HiVel="45"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1038"
           SampleEnd="201128" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="21"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="15261696"
+          MonolithLength="204800" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_57_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_57_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_57_dynamic1.wav"/>
   </sample>
-  <sample ID="32" Root="58" HiKey="58" LoKey="58" LoVel="0" HiVel="35"
+  <sample ID="32" Root="58" HiKey="58" LoKey="58" LoVel="0" HiVel="45"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1168"
           SampleEnd="185626" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="21"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="15466496"
+          MonolithLength="188416" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_58_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_58_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_58_dynamic1.wav"/>
   </sample>
-  <sample ID="33" Root="59" HiKey="59" LoKey="59" LoVel="0" HiVel="35"
+  <sample ID="33" Root="59" HiKey="59" LoKey="59" LoVel="0" HiVel="45"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1103"
           SampleEnd="250987" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="21"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="15654912"
+          MonolithLength="253952" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_59_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_59_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_59_dynamic1.wav"/>
   </sample>
-  <sample ID="34" Root="60" HiKey="60" LoKey="60" LoVel="0" HiVel="35"
+  <sample ID="34" Root="60" HiKey="60" LoKey="60" LoVel="0" HiVel="45"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1142"
           SampleEnd="332590" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="21"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="15908864"
+          MonolithLength="335872" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_60_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_60_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_60_dynamic1.wav"/>
   </sample>
-  <sample ID="35" Root="61" HiKey="61" LoKey="61" LoVel="0" HiVel="35"
+  <sample ID="35" Root="61" HiKey="61" LoKey="61" LoVel="0" HiVel="45"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1066"
           SampleEnd="334920" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="21"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="16244736"
+          MonolithLength="335872" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_61_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_61_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_61_dynamic1.wav"/>
   </sample>
-  <sample ID="36" Root="62" HiKey="62" LoKey="62" LoVel="0" HiVel="35"
+  <sample ID="36" Root="62" HiKey="62" LoKey="62" LoVel="0" HiVel="45"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1018"
           SampleEnd="336403" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="21"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="16580608"
+          MonolithLength="339968" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_62_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_62_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_62_dynamic1.wav"/>
   </sample>
-  <sample ID="37" Root="63" HiKey="63" LoKey="63" LoVel="0" HiVel="35"
+  <sample ID="37" Root="63" HiKey="63" LoKey="63" LoVel="0" HiVel="45"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1109"
           SampleEnd="230078" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="21"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="16920576"
+          MonolithLength="233472" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_63_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_63_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_63_dynamic1.wav"/>
   </sample>
-  <sample ID="38" Root="64" HiKey="64" LoKey="64" LoVel="0" HiVel="35"
+  <sample ID="38" Root="64" HiKey="64" LoKey="64" LoVel="0" HiVel="45"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1073"
           SampleEnd="282334" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="21"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="17154048"
+          MonolithLength="282624" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_64_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_64_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_64_dynamic1.wav"/>
   </sample>
-  <sample ID="39" Root="65" HiKey="65" LoKey="65" LoVel="0" HiVel="35"
+  <sample ID="39" Root="65" HiKey="65" LoKey="65" LoVel="0" HiVel="45"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1177"
           SampleEnd="206912" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="21"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="17436672"
+          MonolithLength="208896" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_65_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_65_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_65_dynamic1.wav"/>
   </sample>
-  <sample ID="40" Root="66" HiKey="66" LoKey="66" LoVel="0" HiVel="35"
+  <sample ID="40" Root="66" HiKey="66" LoKey="66" LoVel="0" HiVel="45"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1169"
           SampleEnd="236138" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="21"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="17645568"
+          MonolithLength="237568" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_66_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_66_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_66_dynamic1.wav"/>
   </sample>
-  <sample ID="41" Root="67" HiKey="67" LoKey="67" LoVel="0" HiVel="35"
+  <sample ID="41" Root="67" HiKey="67" LoKey="67" LoVel="0" HiVel="45"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="713"
           SampleEnd="273544" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="21"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="17883136"
+          MonolithLength="274432" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_67_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_67_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_67_dynamic1.wav"/>
   </sample>
-  <sample ID="42" Root="68" HiKey="68" LoKey="68" LoVel="0" HiVel="35"
+  <sample ID="42" Root="68" HiKey="68" LoKey="68" LoVel="0" HiVel="45"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1124"
           SampleEnd="223295" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="21"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="18157568"
+          MonolithLength="225280" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_68_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_68_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_68_dynamic1.wav"/>
   </sample>
-  <sample ID="43" Root="69" HiKey="69" LoKey="69" LoVel="0" HiVel="35"
+  <sample ID="43" Root="69" HiKey="69" LoKey="69" LoVel="0" HiVel="45"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1041"
           SampleEnd="180832" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="21"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="18382848"
+          MonolithLength="184320" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_69_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_69_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_69_dynamic1.wav"/>
   </sample>
-  <sample ID="44" Root="70" HiKey="70" LoKey="70" LoVel="0" HiVel="35"
+  <sample ID="44" Root="70" HiKey="70" LoKey="70" LoVel="0" HiVel="45"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1199"
           SampleEnd="176940" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="21"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="18567168"
+          MonolithLength="180224" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_70_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_70_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_70_dynamic1.wav"/>
   </sample>
-  <sample ID="45" Root="71" HiKey="71" LoKey="71" LoVel="0" HiVel="35"
+  <sample ID="45" Root="71" HiKey="71" LoKey="71" LoVel="0" HiVel="45"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1145"
           SampleEnd="152106" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="21"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="18747392"
+          MonolithLength="155648" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_71_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_71_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_71_dynamic1.wav"/>
   </sample>
-  <sample ID="46" Root="72" HiKey="72" LoKey="72" LoVel="0" HiVel="35"
+  <sample ID="46" Root="72" HiKey="72" LoKey="72" LoVel="0" HiVel="45"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1179"
           SampleEnd="240036" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="21"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="18903040"
+          MonolithLength="241664" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_72_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_72_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_72_dynamic1.wav"/>
   </sample>
-  <sample ID="47" Root="73" HiKey="73" LoKey="73" LoVel="0" HiVel="35"
+  <sample ID="47" Root="73" HiKey="73" LoKey="73" LoVel="0" HiVel="45"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1125"
           SampleEnd="191312" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="21"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="19144704"
+          MonolithLength="192512" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_73_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_73_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_73_dynamic1.wav"/>
   </sample>
-  <sample ID="48" Root="74" HiKey="74" LoKey="74" LoVel="0" HiVel="35"
+  <sample ID="48" Root="74" HiKey="74" LoKey="74" LoVel="0" HiVel="45"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1160"
           SampleEnd="216641" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="19337216"
+          MonolithLength="217088" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_74_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_74_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_74_dynamic1.wav"/>
   </sample>
-  <sample ID="49" Root="75" HiKey="75" LoKey="75" LoVel="0" HiVel="35"
+  <sample ID="49" Root="75" HiKey="75" LoKey="75" LoVel="0" HiVel="45"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="927"
           SampleEnd="137510" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="19554304"
+          MonolithLength="139264" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_75_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_75_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_75_dynamic1.wav"/>
   </sample>
-  <sample ID="50" Root="76" HiKey="76" LoKey="76" LoVel="0" HiVel="35"
+  <sample ID="50" Root="76" HiKey="76" LoKey="76" LoVel="0" HiVel="45"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="309"
           SampleEnd="175227" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="19693568"
+          MonolithLength="176128" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_76_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_76_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_76_dynamic1.wav"/>
   </sample>
-  <sample ID="51" Root="77" HiKey="77" LoKey="77" LoVel="0" HiVel="35"
+  <sample ID="51" Root="77" HiKey="77" LoKey="77" LoVel="0" HiVel="45"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1163"
           SampleEnd="196131" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="19869696"
+          MonolithLength="196608" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_77_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_77_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_77_dynamic1.wav"/>
   </sample>
-  <sample ID="52" Root="78" HiKey="78" LoKey="78" LoVel="0" HiVel="35"
+  <sample ID="52" Root="78" HiKey="78" LoKey="78" LoVel="0" HiVel="45"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1163"
           SampleEnd="165336" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="20066304"
+          MonolithLength="167936" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_78_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_78_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_78_dynamic1.wav"/>
   </sample>
-  <sample ID="53" Root="79" HiKey="79" LoKey="79" LoVel="0" HiVel="35"
+  <sample ID="53" Root="79" HiKey="79" LoKey="79" LoVel="0" HiVel="45"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1073"
           SampleEnd="173499" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="20234240"
+          MonolithLength="176128" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_79_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_79_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_79_dynamic1.wav"/>
   </sample>
-  <sample ID="54" Root="80" HiKey="80" LoKey="80" LoVel="0" HiVel="35"
+  <sample ID="54" Root="80" HiKey="80" LoKey="80" LoVel="0" HiVel="45"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="409"
           SampleEnd="129177" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="20410368"
+          MonolithLength="131072" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_80_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_80_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_80_dynamic1.wav"/>
   </sample>
-  <sample ID="55" Root="81" HiKey="81" LoKey="81" LoVel="0" HiVel="35"
+  <sample ID="55" Root="81" HiKey="81" LoKey="81" LoVel="0" HiVel="45"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="488"
           SampleEnd="95739" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="20541440"
+          MonolithLength="98304" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_81_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_81_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_81_dynamic1.wav"/>
   </sample>
-  <sample ID="56" Root="82" HiKey="82" LoKey="82" LoVel="0" HiVel="35"
+  <sample ID="56" Root="82" HiKey="82" LoKey="82" LoVel="0" HiVel="45"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1151"
           SampleEnd="76623" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="20639744"
+          MonolithLength="77824" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_82_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_82_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_82_dynamic1.wav"/>
   </sample>
-  <sample ID="57" Root="83" HiKey="83" LoKey="83" LoVel="0" HiVel="35"
+  <sample ID="57" Root="83" HiKey="83" LoKey="83" LoVel="0" HiVel="45"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="434"
           SampleEnd="125100" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="20717568"
+          MonolithLength="126976" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_83_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_83_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_83_dynamic1.wav"/>
   </sample>
-  <sample ID="58" Root="84" HiKey="84" LoKey="84" LoVel="0" HiVel="35"
+  <sample ID="58" Root="84" HiKey="84" LoKey="84" LoVel="0" HiVel="45"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1154"
           SampleEnd="108690" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="20844544"
+          MonolithLength="110592" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_84_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_84_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_84_dynamic1.wav"/>
   </sample>
-  <sample ID="59" Root="85" HiKey="85" LoKey="85" LoVel="0" HiVel="35"
+  <sample ID="59" Root="85" HiKey="85" LoKey="85" LoVel="0" HiVel="45"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1163"
           SampleEnd="133326" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="20955136"
+          MonolithLength="135168" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_85_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_85_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_85_dynamic1.wav"/>
   </sample>
-  <sample ID="60" Root="86" HiKey="86" LoKey="86" LoVel="0" HiVel="35"
+  <sample ID="60" Root="86" HiKey="86" LoKey="86" LoVel="0" HiVel="45"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1181"
           SampleEnd="117749" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="21090304"
+          MonolithLength="118784" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_86_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_86_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_86_dynamic1.wav"/>
   </sample>
-  <sample ID="61" Root="87" HiKey="87" LoKey="87" LoVel="0" HiVel="35"
+  <sample ID="61" Root="87" HiKey="87" LoKey="87" LoVel="0" HiVel="45"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1134"
           SampleEnd="103164" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="21209088"
+          MonolithLength="106496" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_87_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_87_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_87_dynamic1.wav"/>
   </sample>
-  <sample ID="62" Root="88" HiKey="88" LoKey="88" LoVel="0" HiVel="35"
+  <sample ID="62" Root="88" HiKey="88" LoKey="88" LoVel="0" HiVel="45"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1182"
           SampleEnd="95814" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="21315584"
+          MonolithLength="98304" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_88_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_88_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_88_dynamic1.wav"/>
   </sample>
-  <sample ID="63" Root="89" HiKey="89" LoKey="89" LoVel="0" HiVel="35"
+  <sample ID="63" Root="89" HiKey="89" LoKey="89" LoVel="0" HiVel="45"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="555"
           SampleEnd="110536" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="21413888"
+          MonolithLength="110592" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_89_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_89_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_89_dynamic1.wav"/>
   </sample>
-  <sample ID="64" Root="90" HiKey="90" LoKey="90" LoVel="0" HiVel="35"
+  <sample ID="64" Root="90" HiKey="90" LoKey="90" LoVel="0" HiVel="45"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1199"
           SampleEnd="101184" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="21524480"
+          MonolithLength="102400" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_90_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_90_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_90_dynamic1.wav"/>
   </sample>
-  <sample ID="65" Root="91" HiKey="91" LoKey="91" LoVel="0" HiVel="35"
+  <sample ID="65" Root="91" HiKey="91" LoKey="91" LoVel="0" HiVel="45"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1182"
           SampleEnd="75645" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="21626880"
+          MonolithLength="77824" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_91_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_91_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_91_dynamic1.wav"/>
   </sample>
-  <sample ID="66" Root="92" HiKey="92" LoKey="92" LoVel="0" HiVel="35"
+  <sample ID="66" Root="92" HiKey="92" LoKey="92" LoVel="0" HiVel="45"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1162"
           SampleEnd="77741" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="21704704"
+          MonolithLength="77824" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_92_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_92_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_92_dynamic1.wav"/>
   </sample>
-  <sample ID="67" Root="93" HiKey="93" LoKey="93" LoVel="0" HiVel="35"
+  <sample ID="67" Root="93" HiKey="93" LoKey="93" LoVel="0" HiVel="45"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="433"
           SampleEnd="72210" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="21782528"
+          MonolithLength="73728" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_93_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_93_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_93_dynamic1.wav"/>
   </sample>
-  <sample ID="68" Root="94" HiKey="94" LoKey="94" LoVel="0" HiVel="35"
+  <sample ID="68" Root="94" HiKey="94" LoKey="94" LoVel="0" HiVel="45"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="421"
           SampleEnd="80761" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="21856256"
+          MonolithLength="81920" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_94_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_94_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_94_dynamic1.wav"/>
   </sample>
-  <sample ID="69" Root="95" HiKey="95" LoKey="95" LoVel="0" HiVel="35"
+  <sample ID="69" Root="95" HiKey="95" LoKey="95" LoVel="0" HiVel="45"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="675"
           SampleEnd="71235" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="21938176"
+          MonolithLength="73728" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_95_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_95_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_95_dynamic1.wav"/>
   </sample>
-  <sample ID="70" Root="96" HiKey="96" LoKey="96" LoVel="0" HiVel="35"
+  <sample ID="70" Root="96" HiKey="96" LoKey="96" LoVel="0" HiVel="45"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="424"
           SampleEnd="51232" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="22011904"
+          MonolithLength="53248" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_96_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_96_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_96_dynamic1.wav"/>
@@ -643,8 +714,9 @@
   <sample ID="71" Root="26" HiKey="26" LoKey="26" LoVel="25" HiVel="95"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="850"
           SampleEnd="534780" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="22065152"
+          MonolithLength="536576" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_26_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_26_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_26_dynamic2.wav"/>
@@ -652,8 +724,9 @@
   <sample ID="72" Root="27" HiKey="27" LoKey="27" LoVel="25" HiVel="95"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1573"
           SampleEnd="557037" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="22601728"
+          MonolithLength="557056" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_27_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_27_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_27_dynamic2.wav"/>
@@ -661,8 +734,9 @@
   <sample ID="73" Root="28" HiKey="28" LoKey="28" LoVel="25" HiVel="95"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="734"
           SampleEnd="672018" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="23158784"
+          MonolithLength="675840" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_28_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_28_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_28_dynamic2.wav"/>
@@ -670,8 +744,9 @@
   <sample ID="74" Root="29" HiKey="29" LoKey="29" LoVel="25" HiVel="95"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1029"
           SampleEnd="565702" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="23834624"
+          MonolithLength="569344" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_29_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_29_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_29_dynamic2.wav"/>
@@ -679,8 +754,9 @@
   <sample ID="75" Root="30" HiKey="30" LoKey="30" LoVel="25" HiVel="95"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="932"
           SampleEnd="692203" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="24403968"
+          MonolithLength="692224" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_30_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_30_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_30_dynamic2.wav"/>
@@ -688,8 +764,9 @@
   <sample ID="76" Root="31" HiKey="31" LoKey="31" LoVel="25" HiVel="95"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="695"
           SampleEnd="582833" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="25096192"
+          MonolithLength="585728" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_31_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_31_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_31_dynamic2.wav"/>
@@ -697,8 +774,9 @@
   <sample ID="77" Root="32" HiKey="32" LoKey="32" LoVel="25" HiVel="95"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="917"
           SampleEnd="691136" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="25681920"
+          MonolithLength="692224" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_32_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_32_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_32_dynamic2.wav"/>
@@ -706,8 +784,9 @@
   <sample ID="78" Root="33" HiKey="33" LoKey="33" LoVel="25" HiVel="95"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1026"
           SampleEnd="582721" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="26374144"
+          MonolithLength="585728" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_33_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_33_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_33_dynamic2.wav"/>
@@ -715,8 +794,9 @@
   <sample ID="79" Root="34" HiKey="34" LoKey="34" LoVel="25" HiVel="95"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="908"
           SampleEnd="571179" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="26959872"
+          MonolithLength="573440" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_34_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_34_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_34_dynamic2.wav"/>
@@ -724,8 +804,9 @@
   <sample ID="80" Root="35" HiKey="35" LoKey="35" LoVel="25" HiVel="95"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1097"
           SampleEnd="646778" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="27533312"
+          MonolithLength="647168" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_35_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_35_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_35_dynamic2.wav"/>
@@ -733,8 +814,9 @@
   <sample ID="81" Root="36" HiKey="36" LoKey="36" LoVel="25" HiVel="95"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="851"
           SampleEnd="561258" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="28180480"
+          MonolithLength="565248" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_36_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_36_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_36_dynamic2.wav"/>
@@ -742,8 +824,9 @@
   <sample ID="82" Root="37" HiKey="37" LoKey="37" LoVel="25" HiVel="95"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1013"
           SampleEnd="653997" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="28745728"
+          MonolithLength="655360" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_37_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_37_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_37_dynamic2.wav"/>
@@ -751,8 +834,9 @@
   <sample ID="83" Root="38" HiKey="38" LoKey="38" LoVel="25" HiVel="95"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="474"
           SampleEnd="608769" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="29401088"
+          MonolithLength="610304" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_38_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_38_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_38_dynamic2.wav"/>
@@ -760,8 +844,9 @@
   <sample ID="84" Root="39" HiKey="39" LoKey="39" LoVel="25" HiVel="95"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1022"
           SampleEnd="552602" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="30011392"
+          MonolithLength="552960" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_39_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_39_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_39_dynamic2.wav"/>
@@ -769,8 +854,9 @@
   <sample ID="85" Root="40" HiKey="40" LoKey="40" LoVel="25" HiVel="95"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="945"
           SampleEnd="463220" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="30564352"
+          MonolithLength="466944" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_40_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_40_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_40_dynamic2.wav"/>
@@ -778,8 +864,9 @@
   <sample ID="86" Root="41" HiKey="41" LoKey="41" LoVel="25" HiVel="95"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1025"
           SampleEnd="573838" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="31031296"
+          MonolithLength="577536" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_41_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_41_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_41_dynamic2.wav"/>
@@ -787,8 +874,9 @@
   <sample ID="87" Root="42" HiKey="42" LoKey="42" LoVel="25" HiVel="95"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="925"
           SampleEnd="827886" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="31608832"
+          MonolithLength="831488" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_42_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_42_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_42_dynamic2.wav"/>
@@ -796,8 +884,9 @@
   <sample ID="88" Root="43" HiKey="43" LoKey="43" LoVel="25" HiVel="95"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="903"
           SampleEnd="524353" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="32440320"
+          MonolithLength="528384" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_43_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_43_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_43_dynamic2.wav"/>
@@ -805,8 +894,9 @@
   <sample ID="89" Root="44" HiKey="44" LoKey="44" LoVel="25" HiVel="95"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="926"
           SampleEnd="573490" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="32968704"
+          MonolithLength="577536" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_44_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_44_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_44_dynamic2.wav"/>
@@ -814,8 +904,9 @@
   <sample ID="90" Root="45" HiKey="45" LoKey="45" LoVel="25" HiVel="95"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="972"
           SampleEnd="429119" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="33546240"
+          MonolithLength="430080" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_45_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_45_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_45_dynamic2.wav"/>
@@ -823,8 +914,9 @@
   <sample ID="91" Root="46" HiKey="46" LoKey="46" LoVel="25" HiVel="95"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="856"
           SampleEnd="301081" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="33976320"
+          MonolithLength="303104" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_46_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_46_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_46_dynamic2.wav"/>
@@ -832,8 +924,9 @@
   <sample ID="92" Root="47" HiKey="47" LoKey="47" LoVel="25" HiVel="95"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="866"
           SampleEnd="330358" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="34279424"
+          MonolithLength="331776" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_47_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_47_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_47_dynamic2.wav"/>
@@ -841,8 +934,9 @@
   <sample ID="93" Root="48" HiKey="48" LoKey="48" LoVel="25" HiVel="95"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="939"
           SampleEnd="425441" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="34611200"
+          MonolithLength="425984" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_48_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_48_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_48_dynamic2.wav"/>
@@ -850,8 +944,9 @@
   <sample ID="94" Root="49" HiKey="49" LoKey="49" LoVel="25" HiVel="95"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="879"
           SampleEnd="312469" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="35037184"
+          MonolithLength="315392" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_49_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_49_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_49_dynamic2.wav"/>
@@ -859,8 +954,9 @@
   <sample ID="95" Root="50" HiKey="50" LoKey="50" LoVel="25" HiVel="95"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="848"
           SampleEnd="230981" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="35352576"
+          MonolithLength="233472" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_50_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_50_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_50_dynamic2.wav"/>
@@ -868,8 +964,9 @@
   <sample ID="96" Root="51" HiKey="51" LoKey="51" LoVel="25" HiVel="95"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="925"
           SampleEnd="418084" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="35586048"
+          MonolithLength="421888" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_51_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_51_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_51_dynamic2.wav"/>
@@ -877,8 +974,9 @@
   <sample ID="97" Root="52" HiKey="52" LoKey="52" LoVel="25" HiVel="95"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="955"
           SampleEnd="380086" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="36007936"
+          MonolithLength="380928" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_52_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_52_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_52_dynamic2.wav"/>
@@ -886,8 +984,9 @@
   <sample ID="98" Root="53" HiKey="53" LoKey="53" LoVel="25" HiVel="95"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1019"
           SampleEnd="292405" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="36388864"
+          MonolithLength="294912" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_53_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_53_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_53_dynamic2.wav"/>
@@ -895,8 +994,9 @@
   <sample ID="99" Root="54" HiKey="54" LoKey="54" LoVel="25" HiVel="95"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="934"
           SampleEnd="414314" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="36683776"
+          MonolithLength="417792" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_54_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_54_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_54_dynamic2.wav"/>
@@ -904,8 +1004,9 @@
   <sample ID="100" Root="55" HiKey="55" LoKey="55" LoVel="25" HiVel="95"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="831"
           SampleEnd="411975" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="37101568"
+          MonolithLength="413696" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_55_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_55_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_55_dynamic2.wav"/>
@@ -913,8 +1014,9 @@
   <sample ID="101" Root="56" HiKey="56" LoKey="56" LoVel="25" HiVel="95"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="699"
           SampleEnd="369895" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="37515264"
+          MonolithLength="372736" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_56_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_56_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_56_dynamic2.wav"/>
@@ -922,8 +1024,9 @@
   <sample ID="102" Root="57" HiKey="57" LoKey="57" LoVel="25" HiVel="95"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="685"
           SampleEnd="345459" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="37888000"
+          MonolithLength="348160" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_57_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_57_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_57_dynamic2.wav"/>
@@ -931,8 +1034,9 @@
   <sample ID="103" Root="58" HiKey="58" LoKey="58" LoVel="25" HiVel="95"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="920"
           SampleEnd="271750" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="38236160"
+          MonolithLength="274432" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_58_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_58_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_58_dynamic2.wav"/>
@@ -940,8 +1044,9 @@
   <sample ID="104" Root="59" HiKey="59" LoKey="59" LoVel="25" HiVel="95"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="894"
           SampleEnd="286834" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="38510592"
+          MonolithLength="290816" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_59_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_59_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_59_dynamic2.wav"/>
@@ -949,8 +1054,9 @@
   <sample ID="105" Root="60" HiKey="60" LoKey="60" LoVel="25" HiVel="95"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1044"
           SampleEnd="355785" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="38801408"
+          MonolithLength="356352" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_60_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_60_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_60_dynamic2.wav"/>
@@ -958,8 +1064,9 @@
   <sample ID="106" Root="61" HiKey="61" LoKey="61" LoVel="25" HiVel="95"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="808"
           SampleEnd="275638" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="39157760"
+          MonolithLength="278528" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_61_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_61_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_61_dynamic2.wav"/>
@@ -967,8 +1074,9 @@
   <sample ID="107" Root="62" HiKey="62" LoKey="62" LoVel="25" HiVel="95"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="878"
           SampleEnd="290686" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="39436288"
+          MonolithLength="290816" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_62_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_62_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_62_dynamic2.wav"/>
@@ -976,8 +1084,9 @@
   <sample ID="108" Root="63" HiKey="63" LoKey="63" LoVel="25" HiVel="95"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="862"
           SampleEnd="302232" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="39727104"
+          MonolithLength="303104" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_63_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_63_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_63_dynamic2.wav"/>
@@ -985,8 +1094,9 @@
   <sample ID="109" Root="64" HiKey="64" LoKey="64" LoVel="25" HiVel="95"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="899"
           SampleEnd="317364" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="40030208"
+          MonolithLength="319488" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_64_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_64_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_64_dynamic2.wav"/>
@@ -994,8 +1104,9 @@
   <sample ID="110" Root="65" HiKey="65" LoKey="65" LoVel="25" HiVel="95"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="936"
           SampleEnd="258399" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="40349696"
+          MonolithLength="262144" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_65_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_65_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_65_dynamic2.wav"/>
@@ -1003,8 +1114,9 @@
   <sample ID="111" Root="66" HiKey="66" LoKey="66" LoVel="25" HiVel="95"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="932"
           SampleEnd="209910" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="40611840"
+          MonolithLength="212992" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_66_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_66_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_66_dynamic2.wav"/>
@@ -1012,8 +1124,9 @@
   <sample ID="112" Root="67" HiKey="67" LoKey="67" LoVel="25" HiVel="95"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="898"
           SampleEnd="288372" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="40824832"
+          MonolithLength="290816" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_67_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_67_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_67_dynamic2.wav"/>
@@ -1021,8 +1134,9 @@
   <sample ID="113" Root="68" HiKey="68" LoKey="68" LoVel="25" HiVel="95"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="942"
           SampleEnd="256377" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="41115648"
+          MonolithLength="258048" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_68_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_68_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_68_dynamic2.wav"/>
@@ -1030,8 +1144,9 @@
   <sample ID="114" Root="69" HiKey="69" LoKey="69" LoVel="25" HiVel="95"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="834"
           SampleEnd="245631" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="41373696"
+          MonolithLength="245760" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_69_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_69_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_69_dynamic2.wav"/>
@@ -1039,8 +1154,9 @@
   <sample ID="115" Root="70" HiKey="70" LoKey="70" LoVel="25" HiVel="95"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1019"
           SampleEnd="281613" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="41619456"
+          MonolithLength="282624" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_70_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_70_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_70_dynamic2.wav"/>
@@ -1048,8 +1164,9 @@
   <sample ID="116" Root="71" HiKey="71" LoKey="71" LoVel="25" HiVel="95"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="926"
           SampleEnd="287872" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="41902080"
+          MonolithLength="290816" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_71_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_71_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_71_dynamic2.wav"/>
@@ -1057,8 +1174,9 @@
   <sample ID="117" Root="72" HiKey="72" LoKey="72" LoVel="25" HiVel="95"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="931"
           SampleEnd="393606" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="42192896"
+          MonolithLength="397312" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_72_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_72_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_72_dynamic2.wav"/>
@@ -1066,8 +1184,9 @@
   <sample ID="118" Root="73" HiKey="73" LoKey="73" LoVel="25" HiVel="95"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="904"
           SampleEnd="195979" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="42590208"
+          MonolithLength="196608" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_73_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_73_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_73_dynamic2.wav"/>
@@ -1075,8 +1194,9 @@
   <sample ID="119" Root="74" HiKey="74" LoKey="74" LoVel="25" HiVel="95"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="939"
           SampleEnd="303929" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="42786816"
+          MonolithLength="307200" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_74_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_74_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_74_dynamic2.wav"/>
@@ -1084,8 +1204,9 @@
   <sample ID="120" Root="75" HiKey="75" LoKey="75" LoVel="25" HiVel="95"
           RRGroup="1" Volume="-6" Pan="0" Normalized="0" Pitch="0" SampleStart="888"
           SampleEnd="118832" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="43094016"
+          MonolithLength="122880" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_75_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_75_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_75_dynamic2.wav"/>
@@ -1093,8 +1214,9 @@
   <sample ID="121" Root="76" HiKey="76" LoKey="76" LoVel="25" HiVel="95"
           RRGroup="1" Volume="-6" Pan="0" Normalized="0" Pitch="0" SampleStart="553"
           SampleEnd="128680" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="43216896"
+          MonolithLength="131072" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_76_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_76_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_76_dynamic2.wav"/>
@@ -1102,8 +1224,9 @@
   <sample ID="122" Root="77" HiKey="77" LoKey="77" LoVel="25" HiVel="95"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="926"
           SampleEnd="291339" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="43347968"
+          MonolithLength="294912" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_77_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_77_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_77_dynamic2.wav"/>
@@ -1111,8 +1234,9 @@
   <sample ID="123" Root="78" HiKey="78" LoKey="78" LoVel="25" HiVel="95"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="749"
           SampleEnd="188147" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="43642880"
+          MonolithLength="188416" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_78_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_78_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_78_dynamic2.wav"/>
@@ -1120,8 +1244,9 @@
   <sample ID="124" Root="79" HiKey="79" LoKey="79" LoVel="25" HiVel="95"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="885"
           SampleEnd="169964" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="43831296"
+          MonolithLength="172032" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_79_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_79_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_79_dynamic2.wav"/>
@@ -1129,8 +1254,9 @@
   <sample ID="125" Root="80" HiKey="80" LoKey="80" LoVel="25" HiVel="95"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="918"
           SampleEnd="96388" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="44003328"
+          MonolithLength="98304" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_80_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_80_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_80_dynamic2.wav"/>
@@ -1138,8 +1264,9 @@
   <sample ID="126" Root="81" HiKey="81" LoKey="81" LoVel="25" HiVel="95"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="917"
           SampleEnd="93598" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="44101632"
+          MonolithLength="94208" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_81_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_81_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_81_dynamic2.wav"/>
@@ -1147,8 +1274,9 @@
   <sample ID="127" Root="82" HiKey="82" LoKey="82" LoVel="25" HiVel="95"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="903"
           SampleEnd="90645" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="44195840"
+          MonolithLength="94208" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_82_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_82_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_82_dynamic2.wav"/>
@@ -1156,8 +1284,9 @@
   <sample ID="128" Root="83" HiKey="83" LoKey="83" LoVel="25" HiVel="95"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="903"
           SampleEnd="97597" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="44290048"
+          MonolithLength="98304" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_83_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_83_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_83_dynamic2.wav"/>
@@ -1165,8 +1294,9 @@
   <sample ID="129" Root="84" HiKey="84" LoKey="84" LoVel="25" HiVel="95"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="918"
           SampleEnd="112768" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="44388352"
+          MonolithLength="114688" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_84_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_84_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_84_dynamic2.wav"/>
@@ -1174,8 +1304,9 @@
   <sample ID="130" Root="85" HiKey="85" LoKey="85" LoVel="25" HiVel="95"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="894"
           SampleEnd="149837" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="44503040"
+          MonolithLength="151552" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_85_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_85_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_85_dynamic2.wav"/>
@@ -1183,8 +1314,9 @@
   <sample ID="131" Root="86" HiKey="86" LoKey="86" LoVel="25" HiVel="95"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="933"
           SampleEnd="104411" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="44654592"
+          MonolithLength="106496" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_86_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_86_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_86_dynamic2.wav"/>
@@ -1192,8 +1324,9 @@
   <sample ID="132" Root="87" HiKey="87" LoKey="87" LoVel="25" HiVel="95"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="920"
           SampleEnd="91653" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="44761088"
+          MonolithLength="94208" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_87_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_87_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_87_dynamic2.wav"/>
@@ -1201,8 +1334,9 @@
   <sample ID="133" Root="88" HiKey="88" LoKey="88" LoVel="25" HiVel="95"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="928"
           SampleEnd="80416" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="44855296"
+          MonolithLength="81920" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_88_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_88_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_88_dynamic2.wav"/>
@@ -1210,8 +1344,9 @@
   <sample ID="134" Root="89" HiKey="89" LoKey="89" LoVel="25" HiVel="95"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="924"
           SampleEnd="76850" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="44937216"
+          MonolithLength="77824" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_89_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_89_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_89_dynamic2.wav"/>
@@ -1219,8 +1354,9 @@
   <sample ID="135" Root="90" HiKey="90" LoKey="90" LoVel="25" HiVel="95"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="921"
           SampleEnd="81232" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="45015040"
+          MonolithLength="81920" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_90_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_90_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_90_dynamic2.wav"/>
@@ -1228,8 +1364,9 @@
   <sample ID="136" Root="91" HiKey="91" LoKey="91" LoVel="25" HiVel="95"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="920"
           SampleEnd="79977" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="45096960"
+          MonolithLength="81920" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_91_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_91_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_91_dynamic2.wav"/>
@@ -1237,8 +1374,9 @@
   <sample ID="137" Root="92" HiKey="92" LoKey="92" LoVel="25" HiVel="95"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="917"
           SampleEnd="71277" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="45178880"
+          MonolithLength="73728" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_92_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_92_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_92_dynamic2.wav"/>
@@ -1246,8 +1384,9 @@
   <sample ID="138" Root="93" HiKey="93" LoKey="93" LoVel="25" HiVel="95"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="925"
           SampleEnd="76789" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="45252608"
+          MonolithLength="77824" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_93_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_93_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_93_dynamic2.wav"/>
@@ -1255,8 +1394,9 @@
   <sample ID="139" Root="94" HiKey="94" LoKey="94" LoVel="25" HiVel="95"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="927"
           SampleEnd="72433" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="45330432"
+          MonolithLength="73728" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_94_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_94_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_94_dynamic2.wav"/>
@@ -1264,8 +1404,9 @@
   <sample ID="140" Root="95" HiKey="95" LoKey="95" LoVel="25" HiVel="95"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="929"
           SampleEnd="75435" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="45404160"
+          MonolithLength="77824" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_95_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_95_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_95_dynamic2.wav"/>
@@ -1273,647 +1414,719 @@
   <sample ID="141" Root="96" HiKey="96" LoKey="96" LoVel="25" HiVel="95"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="879"
           SampleEnd="70263" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="11"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="45481984"
+          MonolithLength="73728" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_96_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_96_dynamic2.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_96_dynamic2.wav"/>
   </sample>
-  <sample ID="142" Root="26" HiKey="26" LoKey="26" LoVel="85" HiVel="127"
+  <sample ID="142" Root="26" HiKey="26" LoKey="26" LoVel="75" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1335"
           SampleEnd="557908" SampleStartMod="0" LoopStart="0" LoopEnd="0"
-          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="11" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="45555712"
+          MonolithLength="561152" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_26_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_26_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_26_dynamic3.wav"/>
   </sample>
-  <sample ID="143" Root="27" HiKey="27" LoKey="27" LoVel="85" HiVel="127"
+  <sample ID="143" Root="27" HiKey="27" LoKey="27" LoVel="75" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1801"
           SampleEnd="688336" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="46116864"
+          MonolithLength="692224" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_27_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_27_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_27_dynamic3.wav"/>
   </sample>
-  <sample ID="144" Root="28" HiKey="28" LoKey="28" LoVel="85" HiVel="127"
+  <sample ID="144" Root="28" HiKey="28" LoKey="28" LoVel="75" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2589"
           SampleEnd="786579" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="46809088"
+          MonolithLength="790528" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_28_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_28_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_28_dynamic3.wav"/>
   </sample>
-  <sample ID="145" Root="29" HiKey="29" LoKey="29" LoVel="85" HiVel="127"
+  <sample ID="145" Root="29" HiKey="29" LoKey="29" LoVel="75" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2199"
           SampleEnd="760972" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="47599616"
+          MonolithLength="761856" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_29_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_29_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_29_dynamic3.wav"/>
   </sample>
-  <sample ID="146" Root="30" HiKey="30" LoKey="30" LoVel="85" HiVel="127"
+  <sample ID="146" Root="30" HiKey="30" LoKey="30" LoVel="75" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2121"
           SampleEnd="804356" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="48361472"
+          MonolithLength="806912" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_30_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_30_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_30_dynamic3.wav"/>
   </sample>
-  <sample ID="147" Root="31" HiKey="31" LoKey="31" LoVel="85" HiVel="127"
+  <sample ID="147" Root="31" HiKey="31" LoKey="31" LoVel="75" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2440"
           SampleEnd="879031" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="49168384"
+          MonolithLength="880640" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_31_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_31_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_31_dynamic3.wav"/>
   </sample>
-  <sample ID="148" Root="32" HiKey="32" LoKey="32" LoVel="85" HiVel="127"
+  <sample ID="148" Root="32" HiKey="32" LoKey="32" LoVel="75" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3289"
           SampleEnd="904248" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="50049024"
+          MonolithLength="905216" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_32_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_32_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_32_dynamic3.wav"/>
   </sample>
-  <sample ID="149" Root="33" HiKey="33" LoKey="33" LoVel="85" HiVel="127"
+  <sample ID="149" Root="33" HiKey="33" LoKey="33" LoVel="75" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="953"
           SampleEnd="523312" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="50954240"
+          MonolithLength="524288" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_33_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_33_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_33_dynamic3.wav"/>
   </sample>
-  <sample ID="150" Root="34" HiKey="34" LoKey="34" LoVel="85" HiVel="127"
+  <sample ID="150" Root="34" HiKey="34" LoKey="34" LoVel="75" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1263"
           SampleEnd="585884" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="51478528"
+          MonolithLength="589824" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_34_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_34_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_34_dynamic3.wav"/>
   </sample>
-  <sample ID="151" Root="35" HiKey="35" LoKey="35" LoVel="85" HiVel="127"
+  <sample ID="151" Root="35" HiKey="35" LoKey="35" LoVel="75" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1656"
           SampleEnd="685184" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="52068352"
+          MonolithLength="688128" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_35_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_35_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_35_dynamic3.wav"/>
   </sample>
-  <sample ID="152" Root="36" HiKey="36" LoKey="36" LoVel="85" HiVel="127"
+  <sample ID="152" Root="36" HiKey="36" LoKey="36" LoVel="75" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1480"
           SampleEnd="901292" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="52756480"
+          MonolithLength="905216" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_36_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_36_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_36_dynamic3.wav"/>
   </sample>
-  <sample ID="153" Root="37" HiKey="37" LoKey="37" LoVel="85" HiVel="127"
+  <sample ID="153" Root="37" HiKey="37" LoKey="37" LoVel="75" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1718"
           SampleEnd="553968" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="53661696"
+          MonolithLength="557056" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_37_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_37_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_37_dynamic3.wav"/>
   </sample>
-  <sample ID="154" Root="38" HiKey="38" LoKey="38" LoVel="85" HiVel="127"
+  <sample ID="154" Root="38" HiKey="38" LoKey="38" LoVel="75" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2200"
           SampleEnd="662586" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="54218752"
+          MonolithLength="663552" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_38_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_38_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_38_dynamic3.wav"/>
   </sample>
-  <sample ID="155" Root="39" HiKey="39" LoKey="39" LoVel="85" HiVel="127"
+  <sample ID="155" Root="39" HiKey="39" LoKey="39" LoVel="75" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2066"
           SampleEnd="720496" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="54882304"
+          MonolithLength="720896" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_39_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_39_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_39_dynamic3.wav"/>
   </sample>
-  <sample ID="156" Root="40" HiKey="40" LoKey="40" LoVel="85" HiVel="127"
+  <sample ID="156" Root="40" HiKey="40" LoKey="40" LoVel="75" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3059"
           SampleEnd="798421" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="55603200"
+          MonolithLength="798720" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_40_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_40_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_40_dynamic3.wav"/>
   </sample>
-  <sample ID="157" Root="41" HiKey="41" LoKey="41" LoVel="85" HiVel="127"
+  <sample ID="157" Root="41" HiKey="41" LoKey="41" LoVel="75" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2821"
           SampleEnd="779938" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="56401920"
+          MonolithLength="782336" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_41_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_41_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_41_dynamic3.wav"/>
   </sample>
-  <sample ID="158" Root="42" HiKey="42" LoKey="42" LoVel="85" HiVel="127"
+  <sample ID="158" Root="42" HiKey="42" LoKey="42" LoVel="75" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3333"
           SampleEnd="750469" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="57184256"
+          MonolithLength="753664" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_42_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_42_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_42_dynamic3.wav"/>
   </sample>
-  <sample ID="159" Root="43" HiKey="43" LoKey="43" LoVel="85" HiVel="127"
+  <sample ID="159" Root="43" HiKey="43" LoKey="43" LoVel="75" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4022"
           SampleEnd="799511" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="57937920"
+          MonolithLength="802816" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_43_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_43_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_43_dynamic3.wav"/>
   </sample>
-  <sample ID="160" Root="44" HiKey="44" LoKey="44" LoVel="85" HiVel="127"
+  <sample ID="160" Root="44" HiKey="44" LoKey="44" LoVel="75" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2565"
           SampleEnd="749001" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="58740736"
+          MonolithLength="749568" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_44_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_44_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_44_dynamic3.wav"/>
   </sample>
-  <sample ID="161" Root="45" HiKey="45" LoKey="45" LoVel="85" HiVel="127"
+  <sample ID="161" Root="45" HiKey="45" LoKey="45" LoVel="75" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1126"
           SampleEnd="337052" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="59490304"
+          MonolithLength="339968" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_45_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_45_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_45_dynamic3.wav"/>
   </sample>
-  <sample ID="162" Root="46" HiKey="46" LoKey="46" LoVel="85" HiVel="127"
+  <sample ID="162" Root="46" HiKey="46" LoKey="46" LoVel="75" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2736"
           SampleEnd="294060" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="59830272"
+          MonolithLength="294912" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_46_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_46_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_46_dynamic3.wav"/>
   </sample>
-  <sample ID="163" Root="47" HiKey="47" LoKey="47" LoVel="85" HiVel="127"
+  <sample ID="163" Root="47" HiKey="47" LoKey="47" LoVel="75" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2158"
           SampleEnd="415387" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="60125184"
+          MonolithLength="417792" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_47_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_47_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_47_dynamic3.wav"/>
   </sample>
-  <sample ID="164" Root="48" HiKey="48" LoKey="48" LoVel="85" HiVel="127"
+  <sample ID="164" Root="48" HiKey="48" LoKey="48" LoVel="75" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2049"
           SampleEnd="428785" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="60542976"
+          MonolithLength="430080" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_48_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_48_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_48_dynamic3.wav"/>
   </sample>
-  <sample ID="165" Root="49" HiKey="49" LoKey="49" LoVel="85" HiVel="127"
+  <sample ID="165" Root="49" HiKey="49" LoKey="49" LoVel="75" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2252"
           SampleEnd="383410" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="60973056"
+          MonolithLength="385024" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_49_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_49_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_49_dynamic3.wav"/>
   </sample>
-  <sample ID="166" Root="50" HiKey="50" LoKey="50" LoVel="85" HiVel="127"
+  <sample ID="166" Root="50" HiKey="50" LoKey="50" LoVel="75" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2134"
           SampleEnd="492776" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="61358080"
+          MonolithLength="495616" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_50_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_50_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_50_dynamic3.wav"/>
   </sample>
-  <sample ID="167" Root="51" HiKey="51" LoKey="51" LoVel="85" HiVel="127"
+  <sample ID="167" Root="51" HiKey="51" LoKey="51" LoVel="75" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1938"
           SampleEnd="438857" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="61853696"
+          MonolithLength="442368" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_51_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_51_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_51_dynamic3.wav"/>
   </sample>
-  <sample ID="168" Root="52" HiKey="52" LoKey="52" LoVel="85" HiVel="127"
+  <sample ID="168" Root="52" HiKey="52" LoKey="52" LoVel="75" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1699"
           SampleEnd="468763" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="62296064"
+          MonolithLength="471040" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_52_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_52_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_52_dynamic3.wav"/>
   </sample>
-  <sample ID="169" Root="53" HiKey="53" LoKey="53" LoVel="85" HiVel="127"
+  <sample ID="169" Root="53" HiKey="53" LoKey="53" LoVel="75" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2452"
           SampleEnd="454484" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="62767104"
+          MonolithLength="454656" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_53_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_53_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_53_dynamic3.wav"/>
   </sample>
-  <sample ID="170" Root="54" HiKey="54" LoKey="54" LoVel="85" HiVel="127"
+  <sample ID="170" Root="54" HiKey="54" LoKey="54" LoVel="75" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="523107" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="63221760"
+          MonolithLength="524288" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_54_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_54_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_54_dynamic3.wav"/>
   </sample>
-  <sample ID="171" Root="55" HiKey="55" LoKey="55" LoVel="85" HiVel="127"
+  <sample ID="171" Root="55" HiKey="55" LoKey="55" LoVel="75" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="556047" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="63746048"
+          MonolithLength="557056" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_55_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_55_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_55_dynamic3.wav"/>
   </sample>
-  <sample ID="172" Root="56" HiKey="56" LoKey="56" LoVel="85" HiVel="127"
+  <sample ID="172" Root="56" HiKey="56" LoKey="56" LoVel="75" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="541146" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="64303104"
+          MonolithLength="544768" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_56_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_56_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_56_dynamic3.wav"/>
   </sample>
-  <sample ID="173" Root="57" HiKey="57" LoKey="57" LoVel="85" HiVel="127"
+  <sample ID="173" Root="57" HiKey="57" LoKey="57" LoVel="75" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="358803" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="64847872"
+          MonolithLength="360448" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_57_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_57_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_57_dynamic3.wav"/>
   </sample>
-  <sample ID="174" Root="58" HiKey="58" LoKey="58" LoVel="85" HiVel="127"
+  <sample ID="174" Root="58" HiKey="58" LoKey="58" LoVel="75" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="299558" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="65208320"
+          MonolithLength="303104" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_58_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_58_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_58_dynamic3.wav"/>
   </sample>
-  <sample ID="175" Root="59" HiKey="59" LoKey="59" LoVel="85" HiVel="127"
+  <sample ID="175" Root="59" HiKey="59" LoKey="59" LoVel="75" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="250574" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="65511424"
+          MonolithLength="253952" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_59_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_59_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_59_dynamic3.wav"/>
   </sample>
-  <sample ID="176" Root="60" HiKey="60" LoKey="60" LoVel="85" HiVel="127"
+  <sample ID="176" Root="60" HiKey="60" LoKey="60" LoVel="75" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="294493" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="65765376"
+          MonolithLength="294912" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_60_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_60_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_60_dynamic3.wav"/>
   </sample>
-  <sample ID="177" Root="61" HiKey="61" LoKey="61" LoVel="85" HiVel="127"
+  <sample ID="177" Root="61" HiKey="61" LoKey="61" LoVel="75" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="359195" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="66060288"
+          MonolithLength="360448" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_61_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_61_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_61_dynamic3.wav"/>
   </sample>
-  <sample ID="178" Root="62" HiKey="62" LoKey="62" LoVel="85" HiVel="127"
+  <sample ID="178" Root="62" HiKey="62" LoKey="62" LoVel="75" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="288611" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="66420736"
+          MonolithLength="290816" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_62_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_62_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_62_dynamic3.wav"/>
   </sample>
-  <sample ID="179" Root="63" HiKey="63" LoKey="63" LoVel="85" HiVel="127"
+  <sample ID="179" Root="63" HiKey="63" LoKey="63" LoVel="75" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="379586" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="66711552"
+          MonolithLength="380928" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_63_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_63_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_63_dynamic3.wav"/>
   </sample>
-  <sample ID="180" Root="64" HiKey="64" LoKey="64" LoVel="85" HiVel="127"
+  <sample ID="180" Root="64" HiKey="64" LoKey="64" LoVel="75" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="347039" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="67092480"
+          MonolithLength="348160" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_64_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_64_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_64_dynamic3.wav"/>
   </sample>
-  <sample ID="181" Root="65" HiKey="65" LoKey="65" LoVel="85" HiVel="127"
+  <sample ID="181" Root="65" HiKey="65" LoKey="65" LoVel="75" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="254887" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="67440640"
+          MonolithLength="258048" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_65_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_65_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_65_dynamic3.wav"/>
   </sample>
-  <sample ID="182" Root="66" HiKey="66" LoKey="66" LoVel="85" HiVel="127"
+  <sample ID="182" Root="66" HiKey="66" LoKey="66" LoVel="75" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="354490" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="67698688"
+          MonolithLength="356352" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_66_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_66_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_66_dynamic3.wav"/>
   </sample>
-  <sample ID="183" Root="67" HiKey="67" LoKey="67" LoVel="85" HiVel="127"
+  <sample ID="183" Root="67" HiKey="67" LoKey="67" LoVel="75" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="371351" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="68055040"
+          MonolithLength="372736" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_67_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_67_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_67_dynamic3.wav"/>
   </sample>
-  <sample ID="184" Root="68" HiKey="68" LoKey="68" LoVel="85" HiVel="127"
+  <sample ID="184" Root="68" HiKey="68" LoKey="68" LoVel="75" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="440367" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="68427776"
+          MonolithLength="442368" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_68_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_68_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_68_dynamic3.wav"/>
   </sample>
-  <sample ID="185" Root="69" HiKey="69" LoKey="69" LoVel="85" HiVel="127"
+  <sample ID="185" Root="69" HiKey="69" LoKey="69" LoVel="75" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="327432" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="68870144"
+          MonolithLength="327680" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_69_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_69_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_69_dynamic3.wav"/>
   </sample>
-  <sample ID="186" Root="70" HiKey="70" LoKey="70" LoVel="85" HiVel="127"
+  <sample ID="186" Root="70" HiKey="70" LoKey="70" LoVel="75" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="250182" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="69197824"
+          MonolithLength="253952" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_70_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_70_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_70_dynamic3.wav"/>
   </sample>
-  <sample ID="187" Root="71" HiKey="71" LoKey="71" LoVel="85" HiVel="127"
+  <sample ID="187" Root="71" HiKey="71" LoKey="71" LoVel="75" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="290180" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="69451776"
+          MonolithLength="290816" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_71_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_71_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_71_dynamic3.wav"/>
   </sample>
-  <sample ID="188" Root="72" HiKey="72" LoKey="72" LoVel="85" HiVel="127"
+  <sample ID="188" Root="72" HiKey="72" LoKey="72" LoVel="75" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="302880" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="69742592"
+          MonolithLength="303104" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_72_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_72_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_72_dynamic3.wav"/>
   </sample>
-  <sample ID="189" Root="73" HiKey="73" LoKey="73" LoVel="85" HiVel="127"
+  <sample ID="189" Root="73" HiKey="73" LoKey="73" LoVel="75" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="289679" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="70045696"
+          MonolithLength="290816" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_73_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_73_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_73_dynamic3.wav"/>
   </sample>
-  <sample ID="190" Root="74" HiKey="74" LoKey="74" LoVel="85" HiVel="127"
+  <sample ID="190" Root="74" HiKey="74" LoKey="74" LoVel="75" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="269470" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="70336512"
+          MonolithLength="270336" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_74_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_74_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_74_dynamic3.wav"/>
   </sample>
-  <sample ID="191" Root="75" HiKey="75" LoKey="75" LoVel="85" HiVel="127"
+  <sample ID="191" Root="75" HiKey="75" LoKey="75" LoVel="75" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="275671" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="70606848"
+          MonolithLength="278528" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_75_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_75_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_75_dynamic3.wav"/>
   </sample>
-  <sample ID="192" Root="76" HiKey="76" LoKey="76" LoVel="85" HiVel="127"
+  <sample ID="192" Root="76" HiKey="76" LoKey="76" LoVel="75" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="376584" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="70885376"
+          MonolithLength="376832" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_76_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_76_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_76_dynamic3.wav"/>
   </sample>
-  <sample ID="193" Root="77" HiKey="77" LoKey="77" LoVel="85" HiVel="127"
+  <sample ID="193" Root="77" HiKey="77" LoKey="77" LoVel="75" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="188161" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="71262208"
+          MonolithLength="188416" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_77_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_77_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_77_dynamic3.wav"/>
   </sample>
-  <sample ID="194" Root="78" HiKey="78" LoKey="78" LoVel="85" HiVel="127"
+  <sample ID="194" Root="78" HiKey="78" LoKey="78" LoVel="75" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="182989" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="71450624"
+          MonolithLength="184320" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_78_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_78_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_78_dynamic3.wav"/>
   </sample>
-  <sample ID="195" Root="79" HiKey="79" LoKey="79" LoVel="85" HiVel="127"
+  <sample ID="195" Root="79" HiKey="79" LoKey="79" LoVel="75" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="268796" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="71634944"
+          MonolithLength="270336" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_79_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_79_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_79_dynamic3.wav"/>
   </sample>
-  <sample ID="196" Root="80" HiKey="80" LoKey="80" LoVel="85" HiVel="127"
+  <sample ID="196" Root="80" HiKey="80" LoKey="80" LoVel="75" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="212772" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="71905280"
+          MonolithLength="212992" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_80_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_80_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_80_dynamic3.wav"/>
   </sample>
-  <sample ID="197" Root="81" HiKey="81" LoKey="81" LoVel="85" HiVel="127"
+  <sample ID="197" Root="81" HiKey="81" LoKey="81" LoVel="75" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="165230" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="72118272"
+          MonolithLength="167936" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_81_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_81_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_81_dynamic3.wav"/>
   </sample>
-  <sample ID="198" Root="82" HiKey="82" LoKey="82" LoVel="85" HiVel="127"
+  <sample ID="198" Root="82" HiKey="82" LoKey="82" LoVel="75" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="183283" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="72286208"
+          MonolithLength="184320" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_82_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_82_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_82_dynamic3.wav"/>
   </sample>
-  <sample ID="199" Root="83" HiKey="83" LoKey="83" LoVel="85" HiVel="127"
+  <sample ID="199" Root="83" HiKey="83" LoKey="83" LoVel="75" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="194978" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="72470528"
+          MonolithLength="196608" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_83_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_83_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_83_dynamic3.wav"/>
   </sample>
-  <sample ID="200" Root="84" HiKey="84" LoKey="84" LoVel="85" HiVel="127"
+  <sample ID="200" Root="84" HiKey="84" LoKey="84" LoVel="75" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="162876" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="72667136"
+          MonolithLength="163840" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_84_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_84_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_84_dynamic3.wav"/>
   </sample>
-  <sample ID="201" Root="85" HiKey="85" LoKey="85" LoVel="85" HiVel="127"
+  <sample ID="201" Root="85" HiKey="85" LoKey="85" LoVel="75" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="134211" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="72830976"
+          MonolithLength="135168" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_85_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_85_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_85_dynamic3.wav"/>
   </sample>
-  <sample ID="202" Root="86" HiKey="86" LoKey="86" LoVel="85" HiVel="127"
+  <sample ID="202" Root="86" HiKey="86" LoKey="86" LoVel="75" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="173133" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="72966144"
+          MonolithLength="176128" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_86_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_86_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_86_dynamic3.wav"/>
   </sample>
-  <sample ID="203" Root="87" HiKey="87" LoKey="87" LoVel="85" HiVel="127"
+  <sample ID="203" Root="87" HiKey="87" LoKey="87" LoVel="75" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="130973" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="73142272"
+          MonolithLength="131072" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_87_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_87_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_87_dynamic3.wav"/>
   </sample>
-  <sample ID="204" Root="88" HiKey="88" LoKey="88" LoVel="85" HiVel="127"
+  <sample ID="204" Root="88" HiKey="88" LoKey="88" LoVel="75" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="123130" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="73273344"
+          MonolithLength="126976" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_88_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_88_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_88_dynamic3.wav"/>
   </sample>
-  <sample ID="205" Root="89" HiKey="89" LoKey="89" LoVel="85" HiVel="127"
+  <sample ID="205" Root="89" HiKey="89" LoKey="89" LoVel="75" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="106661" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="73400320"
+          MonolithLength="110592" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_89_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_89_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_89_dynamic3.wav"/>
   </sample>
-  <sample ID="206" Root="90" HiKey="90" LoKey="90" LoVel="85" HiVel="127"
+  <sample ID="206" Root="90" HiKey="90" LoKey="90" LoVel="75" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="109058" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="73510912"
+          MonolithLength="110592" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_90_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_90_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_90_dynamic3.wav"/>
   </sample>
-  <sample ID="207" Root="91" HiKey="91" LoKey="91" LoVel="85" HiVel="127"
+  <sample ID="207" Root="91" HiKey="91" LoKey="91" LoVel="75" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="90255" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="73621504"
+          MonolithLength="94208" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_91_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_91_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_91_dynamic3.wav"/>
   </sample>
-  <sample ID="208" Root="92" HiKey="92" LoKey="92" LoVel="85" HiVel="127"
+  <sample ID="208" Root="92" HiKey="92" LoKey="92" LoVel="75" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="98766" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="73715712"
+          MonolithLength="102400" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_92_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_92_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_92_dynamic3.wav"/>
   </sample>
-  <sample ID="209" Root="93" HiKey="93" LoKey="93" LoVel="85" HiVel="127"
+  <sample ID="209" Root="93" HiKey="93" LoKey="93" LoVel="75" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="101735" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="73818112"
+          MonolithLength="102400" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_93_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_93_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_93_dynamic3.wav"/>
   </sample>
-  <sample ID="210" Root="94" HiKey="94" LoKey="94" LoVel="85" HiVel="127"
+  <sample ID="210" Root="94" HiKey="94" LoKey="94" LoVel="75" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="117249" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="73920512"
+          MonolithLength="118784" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_94_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_94_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_94_dynamic3.wav"/>
   </sample>
-  <sample ID="211" Root="95" HiKey="95" LoKey="95" LoVel="85" HiVel="127"
+  <sample ID="211" Root="95" HiKey="95" LoKey="95" LoVel="75" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="133525" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="74039296"
+          MonolithLength="135168" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_95_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_95_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_95_dynamic3.wav"/>
   </sample>
-  <sample ID="212" Root="96" HiKey="96" LoKey="96" LoVel="85" HiVel="127"
+  <sample ID="212" Root="96" HiKey="96" LoKey="96" LoVel="75" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
           SampleEnd="126868" SampleStartMod="0" LoopStart="0" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+          SampleState="0" NormalizedPeak="-1" MonolithOffset="74174464"
+          MonolithLength="126976" SampleRate="48000" Duplicate="0">
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_close_96_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_decca_96_dynamic3.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/harp_sustains_hall_96_dynamic3.wav"/>

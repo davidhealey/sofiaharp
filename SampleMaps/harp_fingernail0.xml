@@ -1,0 +1,714 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<samplemap ID="harp_fingernail0" SaveMode="2" RRGroupAmount="1" MicPositions="close;decca;hall;">
+  <sample ID="0" Root="26" HiKey="26" LoKey="26" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="662072" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="0"
+          MonolithLength="663552" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_close_26_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_decca_26_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_hall_26_dynamic1.wav"/>
+  </sample>
+  <sample ID="1" Root="27" HiKey="27" LoKey="27" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="572988" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="663552"
+          MonolithLength="573440" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_close_27_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_decca_27_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_hall_27_dynamic1.wav"/>
+  </sample>
+  <sample ID="2" Root="28" HiKey="28" LoKey="28" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="547003" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="1236992"
+          MonolithLength="548864" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_close_28_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_decca_28_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_hall_28_dynamic1.wav"/>
+  </sample>
+  <sample ID="3" Root="29" HiKey="29" LoKey="29" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="746179" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="1785856"
+          MonolithLength="749568" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_close_29_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_decca_29_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_hall_29_dynamic1.wav"/>
+  </sample>
+  <sample ID="4" Root="30" HiKey="30" LoKey="30" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="727042" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="2535424"
+          MonolithLength="729088" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_close_30_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_decca_30_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_hall_30_dynamic1.wav"/>
+  </sample>
+  <sample ID="5" Root="31" HiKey="31" LoKey="31" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="744362" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="3264512"
+          MonolithLength="745472" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_close_31_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_decca_31_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_hall_31_dynamic1.wav"/>
+  </sample>
+  <sample ID="6" Root="32" HiKey="32" LoKey="32" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="810550" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="4009984"
+          MonolithLength="811008" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_close_32_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_decca_32_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_hall_32_dynamic1.wav"/>
+  </sample>
+  <sample ID="7" Root="33" HiKey="33" LoKey="33" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="450675" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="4820992"
+          MonolithLength="454656" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_close_33_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_decca_33_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_hall_33_dynamic1.wav"/>
+  </sample>
+  <sample ID="8" Root="34" HiKey="34" LoKey="34" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="430065" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="5275648"
+          MonolithLength="430080" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_close_34_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_decca_34_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_hall_34_dynamic1.wav"/>
+  </sample>
+  <sample ID="9" Root="35" HiKey="35" LoKey="35" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="775447" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="5705728"
+          MonolithLength="778240" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_close_35_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_decca_35_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_hall_35_dynamic1.wav"/>
+  </sample>
+  <sample ID="10" Root="36" HiKey="36" LoKey="36" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="773005" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="6483968"
+          MonolithLength="774144" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_close_36_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_decca_36_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_hall_36_dynamic1.wav"/>
+  </sample>
+  <sample ID="11" Root="37" HiKey="37" LoKey="37" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="568387" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="7258112"
+          MonolithLength="569344" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_close_37_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_decca_37_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_hall_37_dynamic1.wav"/>
+  </sample>
+  <sample ID="12" Root="38" HiKey="38" LoKey="38" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="527991" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="7827456"
+          MonolithLength="528384" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_close_38_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_decca_38_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_hall_38_dynamic1.wav"/>
+  </sample>
+  <sample ID="13" Root="39" HiKey="39" LoKey="39" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="567974" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="8355840"
+          MonolithLength="569344" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_close_39_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_decca_39_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_hall_39_dynamic1.wav"/>
+  </sample>
+  <sample ID="14" Root="40" HiKey="40" LoKey="40" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="566238" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="8925184"
+          MonolithLength="569344" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_close_40_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_decca_40_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_hall_40_dynamic1.wav"/>
+  </sample>
+  <sample ID="15" Root="41" HiKey="41" LoKey="41" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="817657" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="9494528"
+          MonolithLength="819200" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_close_41_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_decca_41_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_hall_41_dynamic1.wav"/>
+  </sample>
+  <sample ID="16" Root="42" HiKey="42" LoKey="42" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="773633" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="10313728"
+          MonolithLength="774144" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_close_42_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_decca_42_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_hall_42_dynamic1.wav"/>
+  </sample>
+  <sample ID="17" Root="43" HiKey="43" LoKey="43" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="686411" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="11087872"
+          MonolithLength="688128" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_close_43_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_decca_43_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_hall_43_dynamic1.wav"/>
+  </sample>
+  <sample ID="18" Root="44" HiKey="44" LoKey="44" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="434434" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="11776000"
+          MonolithLength="438272" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_close_44_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_decca_44_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_hall_44_dynamic1.wav"/>
+  </sample>
+  <sample ID="19" Root="45" HiKey="45" LoKey="45" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="291176" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="12214272"
+          MonolithLength="294912" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_close_45_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_decca_45_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_hall_45_dynamic1.wav"/>
+  </sample>
+  <sample ID="20" Root="46" HiKey="46" LoKey="46" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="259997" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="12509184"
+          MonolithLength="262144" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_close_46_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_decca_46_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_hall_46_dynamic1.wav"/>
+  </sample>
+  <sample ID="21" Root="47" HiKey="47" LoKey="47" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="357502" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="12771328"
+          MonolithLength="360448" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_close_47_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_decca_47_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_hall_47_dynamic1.wav"/>
+  </sample>
+  <sample ID="22" Root="48" HiKey="48" LoKey="48" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="339634" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="13131776"
+          MonolithLength="339968" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_close_48_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_decca_48_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_hall_48_dynamic1.wav"/>
+  </sample>
+  <sample ID="23" Root="49" HiKey="49" LoKey="49" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="292740" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="13471744"
+          MonolithLength="294912" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_close_49_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_decca_49_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_hall_49_dynamic1.wav"/>
+  </sample>
+  <sample ID="24" Root="50" HiKey="50" LoKey="50" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="367629" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="13766656"
+          MonolithLength="368640" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_close_50_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_decca_50_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_hall_50_dynamic1.wav"/>
+  </sample>
+  <sample ID="25" Root="51" HiKey="51" LoKey="51" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="316568" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="14135296"
+          MonolithLength="319488" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_close_51_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_decca_51_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_hall_51_dynamic1.wav"/>
+  </sample>
+  <sample ID="26" Root="52" HiKey="52" LoKey="52" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="337577" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="14454784"
+          MonolithLength="339968" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_close_52_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_decca_52_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_hall_52_dynamic1.wav"/>
+  </sample>
+  <sample ID="27" Root="53" HiKey="53" LoKey="53" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="244005" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="14794752"
+          MonolithLength="245760" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_close_53_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_decca_53_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_hall_53_dynamic1.wav"/>
+  </sample>
+  <sample ID="28" Root="54" HiKey="54" LoKey="54" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="482623" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="15040512"
+          MonolithLength="483328" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_close_54_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_decca_54_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_hall_54_dynamic1.wav"/>
+  </sample>
+  <sample ID="29" Root="55" HiKey="55" LoKey="55" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="318726" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="15523840"
+          MonolithLength="319488" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_close_55_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_decca_55_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_hall_55_dynamic1.wav"/>
+  </sample>
+  <sample ID="30" Root="56" HiKey="56" LoKey="56" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="249141" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="15843328"
+          MonolithLength="249856" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_close_56_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_decca_56_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_hall_56_dynamic1.wav"/>
+  </sample>
+  <sample ID="31" Root="57" HiKey="57" LoKey="57" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="224846" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="16093184"
+          MonolithLength="225280" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_close_57_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_decca_57_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_hall_57_dynamic1.wav"/>
+  </sample>
+  <sample ID="32" Root="58" HiKey="58" LoKey="58" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="264303" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="16318464"
+          MonolithLength="266240" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_close_58_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_decca_58_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_hall_58_dynamic1.wav"/>
+  </sample>
+  <sample ID="33" Root="59" HiKey="59" LoKey="59" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="341276" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="16584704"
+          MonolithLength="344064" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_close_59_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_decca_59_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_hall_59_dynamic1.wav"/>
+  </sample>
+  <sample ID="34" Root="60" HiKey="60" LoKey="60" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="355107" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="16928768"
+          MonolithLength="356352" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_close_60_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_decca_60_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_hall_60_dynamic1.wav"/>
+  </sample>
+  <sample ID="35" Root="61" HiKey="61" LoKey="61" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="261010" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="17285120"
+          MonolithLength="262144" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_close_61_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_decca_61_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_hall_61_dynamic1.wav"/>
+  </sample>
+  <sample ID="36" Root="62" HiKey="62" LoKey="62" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="452665" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="17547264"
+          MonolithLength="454656" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_close_62_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_decca_62_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_hall_62_dynamic1.wav"/>
+  </sample>
+  <sample ID="37" Root="63" HiKey="63" LoKey="63" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="283052" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="18001920"
+          MonolithLength="286720" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_close_63_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_decca_63_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_hall_63_dynamic1.wav"/>
+  </sample>
+  <sample ID="38" Root="64" HiKey="64" LoKey="64" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="315137" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="18288640"
+          MonolithLength="315392" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_close_64_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_decca_64_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_hall_64_dynamic1.wav"/>
+  </sample>
+  <sample ID="39" Root="65" HiKey="65" LoKey="65" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="217206" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="18604032"
+          MonolithLength="221184" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_close_65_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_decca_65_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_hall_65_dynamic1.wav"/>
+  </sample>
+  <sample ID="40" Root="66" HiKey="66" LoKey="66" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="276057" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="18825216"
+          MonolithLength="278528" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_close_66_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_decca_66_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_hall_66_dynamic1.wav"/>
+  </sample>
+  <sample ID="41" Root="67" HiKey="67" LoKey="67" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="338800" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="19103744"
+          MonolithLength="339968" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_close_67_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_decca_67_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_hall_67_dynamic1.wav"/>
+  </sample>
+  <sample ID="42" Root="68" HiKey="68" LoKey="68" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="208977" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="19443712"
+          MonolithLength="212992" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_close_68_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_decca_68_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_hall_68_dynamic1.wav"/>
+  </sample>
+  <sample ID="43" Root="69" HiKey="69" LoKey="69" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="201128" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="19656704"
+          MonolithLength="204800" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_close_69_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_decca_69_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_hall_69_dynamic1.wav"/>
+  </sample>
+  <sample ID="44" Root="70" HiKey="70" LoKey="70" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="182733" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="19861504"
+          MonolithLength="184320" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_close_70_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_decca_70_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_hall_70_dynamic1.wav"/>
+  </sample>
+  <sample ID="45" Root="71" HiKey="71" LoKey="71" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="232088" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="20045824"
+          MonolithLength="233472" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_close_71_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_decca_71_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_hall_71_dynamic1.wav"/>
+  </sample>
+  <sample ID="46" Root="72" HiKey="72" LoKey="72" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="300911" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="20279296"
+          MonolithLength="303104" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_close_72_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_decca_72_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_hall_72_dynamic1.wav"/>
+  </sample>
+  <sample ID="47" Root="73" HiKey="73" LoKey="73" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="233351" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="20582400"
+          MonolithLength="233472" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_close_73_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_decca_73_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_hall_73_dynamic1.wav"/>
+  </sample>
+  <sample ID="48" Root="74" HiKey="74" LoKey="74" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="337501" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="20815872"
+          MonolithLength="339968" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_close_74_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_decca_74_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_hall_74_dynamic1.wav"/>
+  </sample>
+  <sample ID="49" Root="75" HiKey="75" LoKey="75" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="294471" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="21155840"
+          MonolithLength="294912" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_close_75_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_decca_75_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_hall_75_dynamic1.wav"/>
+  </sample>
+  <sample ID="50" Root="76" HiKey="76" LoKey="76" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="330639" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="21450752"
+          MonolithLength="331776" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_close_76_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_decca_76_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_hall_76_dynamic1.wav"/>
+  </sample>
+  <sample ID="51" Root="77" HiKey="77" LoKey="77" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="166050" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="21782528"
+          MonolithLength="167936" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_close_77_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_decca_77_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_hall_77_dynamic1.wav"/>
+  </sample>
+  <sample ID="52" Root="78" HiKey="78" LoKey="78" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="139192" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="21950464"
+          MonolithLength="139264" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_close_78_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_decca_78_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_hall_78_dynamic1.wav"/>
+  </sample>
+  <sample ID="53" Root="79" HiKey="79" LoKey="79" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="196798" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="22089728"
+          MonolithLength="200704" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_close_79_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_decca_79_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_hall_79_dynamic1.wav"/>
+  </sample>
+  <sample ID="54" Root="80" HiKey="80" LoKey="80" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="93148" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="22290432"
+          MonolithLength="94208" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_close_80_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_decca_80_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_hall_80_dynamic1.wav"/>
+  </sample>
+  <sample ID="55" Root="81" HiKey="81" LoKey="81" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="103881" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="22384640"
+          MonolithLength="106496" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_close_81_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_decca_81_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_hall_81_dynamic1.wav"/>
+  </sample>
+  <sample ID="56" Root="82" HiKey="82" LoKey="82" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="79379" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="22491136"
+          MonolithLength="81920" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_close_82_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_decca_82_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_hall_82_dynamic1.wav"/>
+  </sample>
+  <sample ID="57" Root="83" HiKey="83" LoKey="83" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="98565" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="22573056"
+          MonolithLength="102400" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_close_83_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_decca_83_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_hall_83_dynamic1.wav"/>
+  </sample>
+  <sample ID="58" Root="84" HiKey="84" LoKey="84" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="104149" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="22675456"
+          MonolithLength="106496" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_close_84_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_decca_84_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_hall_84_dynamic1.wav"/>
+  </sample>
+  <sample ID="59" Root="85" HiKey="85" LoKey="85" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="77555" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="22781952"
+          MonolithLength="77824" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_close_85_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_decca_85_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_hall_85_dynamic1.wav"/>
+  </sample>
+  <sample ID="60" Root="86" HiKey="86" LoKey="86" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="83349" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="22859776"
+          MonolithLength="86016" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_close_86_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_decca_86_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_hall_86_dynamic1.wav"/>
+  </sample>
+  <sample ID="61" Root="87" HiKey="87" LoKey="87" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="104264" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="22945792"
+          MonolithLength="106496" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_close_87_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_decca_87_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_hall_87_dynamic1.wav"/>
+  </sample>
+  <sample ID="62" Root="88" HiKey="88" LoKey="88" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="86883" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="23052288"
+          MonolithLength="90112" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_close_88_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_decca_88_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_hall_88_dynamic1.wav"/>
+  </sample>
+  <sample ID="63" Root="89" HiKey="89" LoKey="89" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="79300" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="23142400"
+          MonolithLength="81920" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_close_89_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_decca_89_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_hall_89_dynamic1.wav"/>
+  </sample>
+  <sample ID="64" Root="90" HiKey="90" LoKey="90" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="88917" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="23224320"
+          MonolithLength="90112" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_close_90_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_decca_90_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_hall_90_dynamic1.wav"/>
+  </sample>
+  <sample ID="65" Root="91" HiKey="91" LoKey="91" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="59947" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="23314432"
+          MonolithLength="61440" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_close_91_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_decca_91_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_hall_91_dynamic1.wav"/>
+  </sample>
+  <sample ID="66" Root="92" HiKey="92" LoKey="92" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="67755" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="23375872"
+          MonolithLength="69632" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_close_92_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_decca_92_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_hall_92_dynamic1.wav"/>
+  </sample>
+  <sample ID="67" Root="93" HiKey="93" LoKey="93" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="77340" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="23445504"
+          MonolithLength="77824" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_close_93_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_decca_93_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_hall_93_dynamic1.wav"/>
+  </sample>
+  <sample ID="68" Root="94" HiKey="94" LoKey="94" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="69660" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="23523328"
+          MonolithLength="73728" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_close_94_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_decca_94_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_hall_94_dynamic1.wav"/>
+  </sample>
+  <sample ID="69" Root="95" HiKey="95" LoKey="95" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="76167" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="23597056"
+          MonolithLength="77824" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_close_95_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_decca_95_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_hall_95_dynamic1.wav"/>
+  </sample>
+  <sample ID="70" Root="96" HiKey="96" LoKey="96" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="67498" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="23674880"
+          MonolithLength="69632" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_close_96_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_decca_96_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}fingerPicked/harp_fingerPicked_hall_96_dynamic1.wav"/>
+  </sample>
+</samplemap>
