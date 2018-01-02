@@ -1,7 +1,7 @@
 namespace articulationEditor
 {
 	inline function onInitCB()
-	{	
+	{
 		const var envelopeIds = Synth.getIdList("Simple Envelope");
 		const var muterIds = Synth.getIdList("MidiMuter");
 		
