@@ -54,7 +54,7 @@ namespace SettingsJson
         }
         
     ],
-    "CurrentTab": 0
+    "CurrentTab": 4
     };    
     
     if(!isPlugin)
