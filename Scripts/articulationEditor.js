@@ -249,7 +249,9 @@ namespace articulationEditor
 
 		for (i = 0; i < 128; i++)
 		{
-			Engine.setKeyColour(i, Colours.withAlpha(Colours.white, 0.0)); //Reset key colour
+		    if (idh.getKeyswitchIndex(i) != -1) continue; //Skip key switches
+		    
+            Engine.setKeyColour(i, Colours.withAlpha(Colours.white, 0.0)); //Reset key colour   
 			
 			if (i >= r[0] && i <= r[1]) //i is in articulation's range
 			{
