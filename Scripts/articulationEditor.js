@@ -247,7 +247,7 @@ namespace articulationEditor
 		local a = idh.getArticulationNameByIndex(cmbArt.getValue()-1);
 		local r = idh.getArticulationRange(instrumentName, a); //Range of current articulation
 
-		for (i = instRange[0]; i < instRange[1]; i++) //Each potentially playable key
+		for (i = 0; i < 128; i++)
 		{
 			Engine.setKeyColour(i, Colours.withAlpha(Colours.white, 0.0)); //Reset key colour
 			
