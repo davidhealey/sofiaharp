@@ -91,7 +91,7 @@ namespace articulationEditor
 	
 	inline function onNoteCB()
 	{
-		local idx = idh.getKeyswitchIndex(Message.getNoteNumber()); //Check for index in keyswitches array
+		local idx = idh.getKeyswitchIndex(instrumentName, Message.getNoteNumber()); //Check for index in keyswitches array
 
 		if (idx != -1) //Keyswitch triggered the callback
 		{
@@ -152,19 +152,19 @@ namespace articulationEditor
 			{
 				local r = idh.getRange(instrumentName); //Full playable range of instrument
 				
-				if (value <= r[0] || value >= r[1]) //Outside playable range
+				if (value < r[0] || value > r[1]) //Outside playable range
 				{
-					Engine.setKeyColour(idh.getKeyswitch(i), Colours.withAlpha(Colours.white, 0.0)); //Reset current KS colour
+					Engine.setKeyColour(idh.getKeyswitch(instrumentName, i), Colours.withAlpha(Colours.white, 0.0)); //Reset current KS colour
 					
-					if (idh.getKeyswitch(i) != -1) //If the KS has not been disabled
+					if (idh.searchArticulationIndexes(i) != -1) //If the articulation is used by the instrument
 					{
-						idh.setKeyswitch(i, value-1); //Update KS
-						Engine.setKeyColour(idh.getKeyswitch(i), Colours.withAlpha(Colours.red, 0.3)); //Update KS colour					
+						idh.setKeyswitch(instrumentName, i, value-1); //Update KS
+						Engine.setKeyColour(value-1, Colours.withAlpha(Colours.red, 0.3)); //Update KS colour					
 					}
 				}
 				else 
 				{
-					cmbKs[i].setValue(idh.getKeyswitch(i)+1); //Revert to previous KS
+					cmbKs[i].setValue(idh.getKeyswitch(instrumentName, i)+1); //Revert to previous KS
 					cmbKs[i].repaintImmediately();
 				}
 				break;
@@ -249,7 +249,7 @@ namespace articulationEditor
 
 		for (i = 0; i < 128; i++)
 		{
-		    if (idh.getKeyswitchIndex(i) != -1) continue; //Skip key switches
+		    if (idh.getKeyswitchIndex(instrumentName, i) != -1) continue; //Skip key switches
 		    
             Engine.setKeyColour(i, Colours.withAlpha(Colours.white, 0.0)); //Reset key colour   
 			
