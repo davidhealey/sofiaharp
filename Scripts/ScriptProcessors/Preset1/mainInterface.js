@@ -30,7 +30,8 @@ include("controllerEditor.js");
 
 Content.makeFrontInterface(650, 372);
 
-Engine.loadFontAs("{PROJECT_FOLDER}Fonts/OpenSans-Regular.ttf", "Open Sans");
+Engine.loadFontAs("{PROJECT_FOLDER}Fonts/Sarala-Regular.ttf", "Sarala-Regular");
+Engine.loadFontAs("{PROJECT_FOLDER}Fonts/Sarala-Bold.ttf", "Sarala-Bold");
 
 const var cmbInstrument = Content.getComponent("cmbInstrument"); //Instrument name selector (admin control)
 reg instrumentName = cmbInstrument.getItemText(); //Instrument name, accesible to every other part of script
@@ -76,6 +77,9 @@ fltKeyboard.setContentData({"Type":"Keyboard", "LowKey":24});
 
 const var pnlTitleBg = Content.getComponent("pnlTitleBg");
 pnlTitleBg.setPaintRoutine(paintRoutines.titleBG);
+
+//Title label
+Content.setPropertiesFromJSON("lblTitle", {textColour:Theme.TITLE.colour, fontName:Theme.TITLE.fontName, fontSize:Theme.TITLE.fontSize});
 
 const var btnPreset = Content.getComponent("btnPreset"); //Preset browser button, invisible, over instrument title
 
