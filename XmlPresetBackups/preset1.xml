@@ -2,7 +2,7 @@
 
 <Processor Type="SynthChain" ID="Preset1" Bypassed="0" Gain="1" Balance="0"
            VoiceLimit="64" KillFadeTime="20" IconColour="0" packageName=""
-           views="32.rk1bzA.....LaWBP..............+OSO8zLPA...." currentView="-1"
+           views="32.rk1bzA.....3jhLQ.....L0a0I2XkAxPuQVYf.kbuA." currentView="-1"
            BuildVersion="650">
   <ChildProcessors>
     <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
@@ -76,6 +76,7 @@
         <Processor Type="ScriptProcessor" ID="mainInterface" Bypassed="0">
           <ChildProcessors/>
           <Content>
+            <Control type="ScriptComboBox" id="cmbInstrument" value="1"/>
             <Control type="ScriptButton" id="btnSettings" value="1"/>
             <Control type="ScriptLabel" id="lblTitle" value="Libre Harp"/>
             <Control type="ScriptButton" id="btnPreset" value="0"/>
@@ -136,10 +137,16 @@
             <Control type="ScriptPanel" id="cmbSet0" value="2"/>
             <Control type="ScriptPanel" id="cmbSet1" value="4"/>
             <Control type="ScriptPanel" id="cmbSet2" value="1"/>
-            <Control type="ScriptComboBox" id="cmbInstrument" value="1"/>
           </Content>
           <UIData>
             <ContentProperties DeviceType="Desktop">
+              <Component type="ScriptPanel" id="pnlAdmin" x="0" y="0" width="650" height="372"
+                         bgColour="4278190080" itemColour="4278190080" itemColour2="4278190080"
+                         textColour="4294967295" borderSize="0">
+                <Component type="ScriptComboBox" id="cmbInstrument" x="10" y="10" width="128"
+                           height="32" max="2" parentComponent="pnlAdmin" text="Insturment Name"
+                           items="harp&#10;test"/>
+              </Component>
               <Component type="ScriptPanel" id="pnlBg" x="0" y="0" width="650" height="372"
                          textColour="16777215" itemColour2="0" itemColour="16777215" bgColour="16711680"
                          text="">
@@ -423,13 +430,6 @@
                            saveInPreset="1" popupMenuItems="Off&#10;Cycle RR&#10;Random RR"
                            textColour="4294967295" text="RR Mode"/>
               </Component>
-              <Component type="ScriptPanel" id="pnlAdmin" x="0" y="0" width="650" height="372"
-                         bgColour="4278190080" itemColour="4278190080" itemColour2="4278190080"
-                         textColour="4294967295" borderSize="0" visible="0">
-                <Component type="ScriptComboBox" id="cmbInstrument" x="10" y="10" width="128"
-                           height="32" max="2" parentComponent="pnlAdmin" text="Insturment Name"
-                           items="harp&#10;test"/>
-              </Component>
             </ContentProperties>
           </UIData>
         </Processor>
@@ -545,9 +545,8 @@
         <Processor Type="EffectChain" ID="FX" Bypassed="0">
           <ChildProcessors/>
         </Processor>
-        <Processor Type="SynthChain" ID="normal" Bypassed="0" Gain="0.50118720531463623047"
-                   Balance="2.0816681711721685133e-17" VoiceLimit="-11" KillFadeTime="-14.199999809265136719"
-                   IconColour="0">
+        <Processor Type="SynthChain" ID="normal" Bypassed="0" Gain="1" Balance="2.0816681711721685133e-17"
+                   VoiceLimit="-11" KillFadeTime="-14.199999809265136719" IconColour="0">
           <ChildProcessors>
             <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
               <ChildProcessors>
@@ -2587,9 +2586,8 @@
                          Channel2="2" Send2="-1" Channel3="3" Send3="-1" Channel4="4"
                          Send4="-1" Channel5="5" Send5="-1"/>
         </Processor>
-        <Processor Type="SynthChain" ID="staccato" Bypassed="0" Gain="0.50118720531463623047"
-                   Balance="2.0816681711721685133e-17" VoiceLimit="-19" KillFadeTime="-19.5"
-                   IconColour="0">
+        <Processor Type="SynthChain" ID="staccato" Bypassed="0" Gain="1" Balance="2.0816681711721685133e-17"
+                   VoiceLimit="-19" KillFadeTime="-19.5" IconColour="0">
           <ChildProcessors>
             <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
               <ChildProcessors>
@@ -11228,8 +11226,8 @@
                          Channel2="2" Send2="-1" Channel3="3" Send3="-1" Channel4="4"
                          Send4="-1" Channel5="5" Send5="-1"/>
         </Processor>
-        <Processor Type="SynthChain" ID="fingernail" Bypassed="0" Gain="0.50118720531463623047"
-                   Balance="0" VoiceLimit="0" KillFadeTime="0" IconColour="0">
+        <Processor Type="SynthChain" ID="fingernail" Bypassed="0" Gain="1" Balance="0"
+                   VoiceLimit="0" KillFadeTime="0" IconColour="0">
           <ChildProcessors>
             <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
               <ChildProcessors>
@@ -11271,7 +11269,7 @@
             <Processor Type="EffectChain" ID="FX" Bypassed="0">
               <ChildProcessors/>
             </Processor>
-            <Processor Type="StreamingSampler" ID="fingernail0" Bypassed="0" Gain="1"
+            <Processor Type="StreamingSampler" ID="fingernail0" Bypassed="1" Gain="1"
                        Balance="0" VoiceLimit="128" KillFadeTime="1500" IconColour="0"
                        PreloadSize="512" BufferSize="2048" VoiceAmount="128" SamplerRepeatMode="0"
                        RRGroupAmount="1" PitchTracking="1" OneShot="0" CrossfadeGroups="0"
@@ -11348,8 +11346,8 @@
                          Channel2="2" Send2="-1" Channel3="3" Send3="-1" Channel4="4"
                          Send4="-1" Channel5="5" Send5="-1"/>
         </Processor>
-        <Processor Type="SynthChain" ID="table" Bypassed="0" Gain="0.50118720531463623047"
-                   Balance="0" VoiceLimit="0" KillFadeTime="0" IconColour="0">
+        <Processor Type="SynthChain" ID="table" Bypassed="0" Gain="1" Balance="0"
+                   VoiceLimit="0" KillFadeTime="0" IconColour="0">
           <ChildProcessors>
             <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
               <ChildProcessors>
@@ -12159,8 +12157,8 @@
                          Channel2="2" Send2="-1" Channel3="3" Send3="-1" Channel4="4"
                          Send4="-1" Channel5="5" Send5="-1"/>
         </Processor>
-        <Processor Type="SynthChain" ID="harmonics" Bypassed="0" Gain="0.50118720531463623047"
-                   Balance="0" VoiceLimit="0" KillFadeTime="0" IconColour="0">
+        <Processor Type="SynthChain" ID="harmonics" Bypassed="0" Gain="1" Balance="0"
+                   VoiceLimit="0" KillFadeTime="0" IconColour="0">
           <ChildProcessors>
             <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
               <ChildProcessors>
