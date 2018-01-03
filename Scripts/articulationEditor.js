@@ -151,8 +151,8 @@ namespace articulationEditor
 			if (number == cmbKs[i]) //Key switch
 			{
 				local r = idh.getRange(instrumentName); //Full playable range of instrument
-				
-				if (value < r[0] || value > r[1]) //Outside playable range
+
+				if (value-1 < r[0] || value-1 > r[1]) //Outside playable range
 				{
 					Engine.setKeyColour(idh.getKeyswitch(instrumentName, i), Colours.withAlpha(Colours.white, 0.0)); //Reset current KS colour
 					
@@ -235,8 +235,7 @@ namespace articulationEditor
 			for (m in muters) //Each Midi muter
 			{
 				m.setAttribute(0, 1);
-			}
-		
+			}		
 			muters[idx].setAttribute(0, 0); //Unmute articulation (a)	
 		}
 	}

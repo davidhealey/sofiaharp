@@ -17,20 +17,6 @@ namespace instData
 				table:{range:[26, 96]},
 				harmonics:{range:[40, 88]}
 			}
-		},
-		test:
-		{
-			range:[50, 88], //Maximum range of instrument
-			keyswitches:[98, 99, -1, 101, 102], //Default keyswitches
-			articulations:
-			{
-				normal:{range:[50, 88]},
-				staccato:{range:[50, 88]},
-				//fingernail:{range:[26, 96]},
-				table:{range:[60, 88]},
-				harmonics:{range:[72, 82]}
-			}
-		}
-		
+		}		
 	};
 }
