@@ -14,7 +14,7 @@
     GNU General Public License for more details.
 
     You should have received a copy of the GNU General Public License
-    along with Libre Harp.  If not, see <http://www.gnu.org/licenses/>.
+    along with Libre Harp. If not, see <http://www.gnu.org/licenses/>.
 */
 
 include("HISE-Scripting-Framework/libraries/asyncUpdater.js");
@@ -108,13 +108,10 @@ articulationEditor.onInitCB();
 mixer.onInitCB();
 controllerEditor.onInitCB();
 
-//Preset browser tab
-
-SettingsJson.settings["Content"].push({"Type":"PresetBrowser", "Title":"Presets", "ColourData":{itemColour1:Theme.PRESET_BROWSER.itemColour1, bgColour:Theme.PRESET_BROWSER.bg}});
-
 //Settings tab
 const var fltSettings = Content.getComponent("fltSettings");
 fltSettings.setContentData(SettingsJson.settings);
+SettingsJson.settings["Content"].push({"Type":"PresetBrowser", "Title":"Presets", "ColourData":{itemColour1:Theme.PRESET_BROWSER.itemColour1, bgColour:Theme.PRESET_BROWSER.bg}});
 
 const var cmbSettings = [];
 
@@ -135,8 +132,7 @@ inline function changeBufferSettings(attribute, value)
 	{
 		s.setAttribute(attribute, bufferSizes[value]);
 	}
-}
-function onNoteOn()
+}function onNoteOn()
 {
 	articulationEditor.onNoteCB();
 	controllerEditor.onNoteCB();
