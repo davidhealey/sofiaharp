@@ -1,3 +1,22 @@
+/*
+    Copyright 2018 David Healey
+
+    This file is part of Libre Harp.
+
+    Libre Harp is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Libre Harp is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Libre Harp.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
 namespace articulationEditor
 {
 	inline function onInitCB()
@@ -82,13 +101,7 @@ namespace articulationEditor
 			cmbArt.repaint(); //Async repaint	
 		}
 	}
-	
-	inline function showArticulationControlsAndColourKeys(idx)
-	{
-		colourPlayableKeys();
-		showArticulationControls(idx); //Change displayed articulation controls
-	}
-	
+		
 	inline function onControllerCB()
 	{
 		local v; //For converting the CC value (0-127) to the correct slider value
@@ -129,8 +142,8 @@ namespace articulationEditor
 		{
 			local idx = idh.allArticulationIndexToInstrumentArticulationIndex(value-1);
 			changeArticulation(idx);
-			showArticulationControls(idx);
-			colourPlayableKeys();
+		    colourPlayableKeys();
+		    showArticulationControls(idx); //Change displayed articulation controls
 		}
 
 		for (i = 0; i < idh.getNumArticulations(null); i++) //Each of the instrument's articulations
@@ -142,6 +155,7 @@ namespace articulationEditor
 				if (value <= r[0] || value >= r[1]) //Outside playable range
 				{
 					Engine.setKeyColour(idh.getKeyswitch(i), Colours.withAlpha(Colours.white, 0.0)); //Reset current KS colour
+					
 					if (idh.getKeyswitch(i) != -1) //If the KS has not been disabled
 					{
 						idh.setKeyswitch(i, value-1); //Update KS
@@ -205,6 +219,12 @@ namespace articulationEditor
 		sliArtVol[a].set("visible", true);
 		sliAtk[a].set("visible", true);
 		sliRel[a].set("visible", true);		
+	}
+	
+	inline function showArticulationControlsAndColourKeys(idx)
+	{
+		colourPlayableKeys();
+		showArticulationControls(idx); //Change displayed articulation controls
 	}
 	
 	inline function changeArticulation(idx)
