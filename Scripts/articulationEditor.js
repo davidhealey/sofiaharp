@@ -27,6 +27,7 @@ namespace articulationEditor
 		reg containers = []; //Containers whose IDs match articulation names
 		reg muters = [];
 		reg envelopes = {};
+		reg t;
 	
 		//Get articulation containers
 		for (c in containerIds) //containerIDs is in main script
@@ -91,13 +92,13 @@ namespace articulationEditor
 	
 	inline function onNoteCB()
 	{
-		local idx = idh.getKeyswitchIndex(instrumentName, Message.getNoteNumber()); //Check for index in keyswitches array
+		t = idh.getKeyswitchIndex(instrumentName, Message.getNoteNumber()); //Check for index in keyswitches array
 
-		if (idx != -1) //Keyswitch triggered the callback
+		if (t != -1) //Keyswitch triggered the callback
 		{
-			changeArticulation(idx);
-			asyncUpdater.setFunctionAndUpdate(showArticulationControlsAndColourKeys, idx);
-			cmbArt.setValue(idh.instrumentArticulationIndexToAllArticulationIndex(idx)+1); //Change selected articulation display
+			changeArticulation(t);
+			asyncUpdater.setFunctionAndUpdate(showArticulationControlsAndColourKeys, t);
+			cmbArt.setValue(idh.instrumentArticulationIndexToAllArticulationIndex(t)+1); //Change selected articulation display
 			cmbArt.repaint(); //Async repaint	
 		}
 	}
@@ -255,9 +256,8 @@ namespace articulationEditor
 	
 	inline function colourPlayableKeys()
 	{
-		local instRange = idh.getRange(instrumentName); //Full playable range of instrument
 		local a = idh.getArticulationNameByIndex(cmbArt.getValue()-1);
-		local r = idh.getArticulationRange(instrumentName, a); //Range of current articulation
+		t = idh.getArticulationRange(instrumentName, a); //Range of current articulation
 
 		for (i = 0; i < 128; i++)
 		{
@@ -265,7 +265,7 @@ namespace articulationEditor
 		    
             Engine.setKeyColour(i, Colours.withAlpha(Colours.white, 0.0)); //Reset key colour   
 			
-			if (i >= r[0] && i <= r[1]) //i is in articulation's range
+			if (i >= t[0] && i <= t[1]) //i is in articulation's range
 			{
 				Engine.setKeyColour(i, Colours.withAlpha(Colours.blue, 0.3)); //Update KS colour	
 			}
